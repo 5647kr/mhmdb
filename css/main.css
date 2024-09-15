@@ -1,4 +1,4 @@
-/* headerContent */
+/* !headerContent */
 .headerContent {
   width: 100%;
   height: 100%;
@@ -32,8 +32,43 @@
 }
 /* /headerContent */
 
+/* !Main */
+main .wrap {
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
 
-/* mediaQuery */
+main aside {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+main aside.active {
+  display: block;
+}
+
+aside .asideWrap {
+  width: 160px;
+  height: 100%;
+  background-color: var(--sub-color);
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+main section {
+  box-shadow: inset 0 0 10px orange;
+  flex-grow: 1;
+}
+/* /Main */
+
+
+
+/* !mediaQuery */
 /* 태블릿 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /* headerContent */
@@ -45,6 +80,20 @@
     width: 24px;
   }
   /* /headerContent */
+
+  /* Main */
+  main aside {
+    display: none;
+  }
+
+  main aside.active {
+    display: block;
+  }
+
+  main aside .asideWrap {
+    width: 180px;
+  }
+/* /Main */
 }
 
 /* 노트북 */
@@ -62,6 +111,21 @@
     display: none;
   }
   /* /headerContent */
+
+  /* Main */
+  main aside {
+    width: 180px;
+    height: 100%;
+    position: relative;
+    display: block;
+  }
+
+  aside .asideWrap {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    border-top: none;
+  }
+  /* /Main */
 }
 
 /* PC */
@@ -79,4 +143,18 @@
     display: none;
   }
   /* /headerContent */
+
+    /* Main */
+    main aside {
+      width: 200px;
+      position: relative;
+      display: block;
+    }
+  
+    aside .asideWrap {
+      width: 100%;
+      border: 1px solid var(--border-color);
+      border-top: none;
+    }
+    /* /Main */
 }
