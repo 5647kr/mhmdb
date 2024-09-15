@@ -1,0 +1,82 @@
+/* headerContent */
+.headerContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.headerContent h1 {
+  font-size: 20px;
+  font-weight: var(--font-ebw);
+}
+
+.headerContent button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.headerContent button img {
+  width: 20px;
+}
+
+.headerContent .menuBtn {
+  left: 0;
+}
+
+.headerContent .searchBtn {
+  right: 0;
+}
+/* /headerContent */
+
+
+/* mediaQuery */
+/* 태블릿 */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* headerContent */
+  .headerContent h1 {
+    font-size: 30px;
+  }
+
+  .headerContent button img {
+    width: 24px;
+  }
+  /* /headerContent */
+}
+
+/* 노트북 */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* headerContent */
+  .headerContent h1 {
+    font-size: 40px;
+  }
+
+  .headerContent button img {
+    width: 26px;
+  }
+
+  .headerContent .menuBtn {
+    display: none;
+  }
+  /* /headerContent */
+}
+
+/* PC */
+@media screen and (min-width: 1200px) {
+  /* headerContent */
+  .headerContent h1 {
+    font-size: 40px;
+  }
+
+  .headerContent button img {
+    width: 28px;
+  }
+
+  .headerContent .menuBtn {
+    display: none;
+  }
+  /* /headerContent */
+}
