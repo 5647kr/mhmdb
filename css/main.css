@@ -98,6 +98,18 @@ main section {
 }
 /* /Main */
 
+/* Footer */
+footer .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyRight {
+  font-size: var(--font-sz);
+}
+/* /Footer */
+
 
 
 /* !mediaQuery */
@@ -138,7 +150,13 @@ main section {
   .asideWrap label {
     font-size: var(--font-mlz);
   }
-/* /Main */
+  /* /Main */
+
+  /* Footer */
+  .copyRight {
+    font-size: var(--font-smz);
+  }
+  /* /Footer */
 }
 
 /* 노트북 */
@@ -182,6 +200,12 @@ main section {
     font-size: var(--font-mlz);
   }
   /* /Main */
+
+  /* Footer */
+  .copyRight {
+    font-size: var(--font-mz);
+  }
+  /* /Footer */
 }
 
 /* PC */
@@ -224,4 +248,10 @@ main section {
     font-size: var(--font-lz);
   }
   /* /Main */
+
+  /* Footer */
+  .copyRight {
+    font-size: var(--font-mlz);
+  }
+  /* /Footer */
 }
