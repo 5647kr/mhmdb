@@ -57,7 +57,6 @@ aside .asideWrap {
   height: 100%;
   background-color: var(--sub-color);
   border-right: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
 }
 
 .asideWrap h3 {
@@ -168,8 +167,6 @@ main section {
 
   aside .asideWrap {
     width: 100%;
-    border: 1px solid var(--border-color);
-    border-top: none;
   }
 
   .asideWrap h3 {
@@ -212,8 +209,6 @@ main section {
 
   aside .asideWrap {
     width: 100%;
-    border: 1px solid var(--border-color);
-    border-top: none;
   }
 
   .asideWrap h3 {
