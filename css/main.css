@@ -60,6 +60,39 @@ aside .asideWrap {
   border-bottom: 1px solid var(--border-color);
 }
 
+.asideWrap h3 {
+  font-size: var(--font-mz);
+  font-weight: var(--font-ebw);
+  padding: 8px;
+  border: 1px solid var(--border-color);
+  border-right: none;
+  border-left: none;
+  text-align: center;
+}
+
+.asideWrap ul {
+  padding: 10px 20px 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 10px;
+}
+
+.asideWrap ul li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.asideWrap input {
+  width: 12px;
+  height: 12px;
+}
+
+.asideWrap label {
+  font-size: var(--font-mz);
+  font-weight: var(--font-bw);
+}
+
 main section {
   box-shadow: inset 0 0 10px orange;
   flex-grow: 1;
@@ -93,6 +126,19 @@ main section {
   main aside .asideWrap {
     width: 180px;
   }
+
+  .asideWrap h3 {
+    font-size: var(--font-mlz);
+  }
+  
+  .asideWrap input {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .asideWrap label {
+    font-size: var(--font-mlz);
+  }
 /* /Main */
 }
 
@@ -125,6 +171,19 @@ main section {
     border: 1px solid var(--border-color);
     border-top: none;
   }
+
+  .asideWrap h3 {
+    font-size: var(--font-lz);
+  }
+  
+  .asideWrap input {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .asideWrap label {
+    font-size: var(--font-mlz);
+  }
   /* /Main */
 }
 
@@ -144,17 +203,30 @@ main section {
   }
   /* /headerContent */
 
-    /* Main */
-    main aside {
-      width: 200px;
-      position: relative;
-      display: block;
-    }
+  /* Main */
+  main aside {
+    width: 200px;
+    position: relative;
+    display: block;
+  }
+
+  aside .asideWrap {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    border-top: none;
+  }
+
+  .asideWrap h3 {
+    font-size: var(--font-lz);
+  }
   
-    aside .asideWrap {
-      width: 100%;
-      border: 1px solid var(--border-color);
-      border-top: none;
-    }
-    /* /Main */
+  .asideWrap input {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .asideWrap label {
+    font-size: var(--font-lz);
+  }
+  /* /Main */
 }
