@@ -5,13 +5,8 @@ header .wrap {
   position: relative;
 }
 
-.searchWrap {
-  box-shadow: inset 0 0 10px green;
-}
-
 /* !headerContent */
 header .headerContent {
-  box-shadow: inset 0 0 10px red;
   flex-grow: 1;
   display: flex;
   justify-content: space-between;
@@ -34,8 +29,42 @@ header .searchWrap {
   position: absolute;
   top: 80px;
   left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
+header .searchWrap form {
+  padding: 30px 40px;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--sub-color);
+  position: relative;
+}
+
+header .searchWrap input {
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  font-size: var(--font-mz);
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 0;
+}
+
+header .searchWrap input:focus {
+  outline: none;
+}
+
+header .searchWrap button {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+}
+
+header .searchWrap button img {
+  width: 20px;
+  aspect-ratio: 1 / 1;
+}
 /* /searchWrap */
 /* /header */
 
@@ -133,7 +162,22 @@ footer .wrap {
   /* /headerContent */
 
   /* !searchWrap */
-/* /searchWrap */
+  header .searchWrap form {
+    padding: 30px 120px;
+  }
+
+  header .searchWrap input {
+    font-size: var(--font-mlz);
+  }
+
+  header .searchWrap button {
+    right: 130px;
+  }
+
+  header .searchWrap button img {
+    width: 20px;
+  }
+  /* /searchWrap */
 
   /* Main */
   main aside {
@@ -184,11 +228,30 @@ footer .wrap {
 
   /* !searchWrap */
   header .searchWrap {
+    height: 100px;
     position: relative;
-    height: 100%;
     top: 0;
+    background-color: transparent;
+  }
+
+  header .searchWrap form {
+    height: 100%;
+    padding: 30px 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+
+  header .searchWrap input {
+    font-size: var(--font-lz);
+  }
+
+  header .searchWrap button {
+    right: 190px;
   }
   /* /searchWrap */
+
 
   /* Main */
   main aside {
@@ -243,9 +306,27 @@ footer .wrap {
 
   /* !searchWrap */
   header .searchWrap {
+    height: 100px;
     position: relative;
-    height: 100%;
     top: 0;
+    background-color: transparent;
+  }
+
+  header .searchWrap form {
+    height: 100%;
+    padding: 30px 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+
+  header .searchWrap input {
+    font-size: var(--font-lz);
+  }
+
+  header .searchWrap button {
+    right: 370px;
   }
   /* /searchWrap */
 
