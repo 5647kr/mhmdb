@@ -1,36 +1,29 @@
 /* !header */
-
-/* !headerContent */
-.headerContent {
-  width: 100%;
-  height: 100%;
+header .wrap {
   display: flex;
-  justify-content: center;
   align-items: center;
   position: relative;
 }
 
-.headerContent h1 {
+.searchWrap {
+  box-shadow: inset 0 0 10px green;
+}
+
+/* !headerContent */
+header .headerContent {
+  box-shadow: inset 0 0 10px red;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .headerContent h1 {
   font-size: 20px;
   font-weight: var(--font-ebw);
 }
 
-.headerContent button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.headerContent button img {
+header .headerContent button img {
   width: 20px;
-}
-
-.headerContent .menuBtn {
-  left: 0;
-}
-
-.headerContent .searchBtn {
-  right: 0;
 }
 /* /headerContent */
 
@@ -39,52 +32,10 @@ header .searchWrap {
   width: 100%;
   height: calc(100vh - 160px);
   position: absolute;
+  top: 80px;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  /* display: none; */
-  z-index: 2;
 }
 
-header .searchWrap.active {
-  display: block;
-}
-
-.searchWrap form {
-  width: 100%;
-  padding: 30px 40px;
-  border-top: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
-  background-color: var(--sub-color);
-  position: fixed;
-  z-index: 1;
-}
-
-.searchWrap input {
-  width: 100%;
-  border-radius: 0;
-  border: 1px solid var(--border-color);
-  padding: 14px 40px 14px 10px;
-  background-color: transparent;
-  font-size: var(--font-mz);
-  font-weight: var(--font-ebw);
-}
-
-.searchWrap input:focus {
-  outline: none;
-}
-
-.searchWrap button {
-  position: absolute;
-  top: 50%;
-  right: 50px;
-  transform: translateY(-50%);
-}
-
-.searchWrap button img {
-  width: 20px;
-  height: 20px;
-  aspect-ratio: 1 / 1;
-}
 /* /searchWrap */
 /* /header */
 
@@ -172,35 +123,16 @@ footer .wrap {
 /* 태블릿 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /* headerContent */
-  .headerContent h1 {
+  header .headerContent h1 {
     font-size: 30px;
   }
 
-  .headerContent button img {
+  header .headerContent button img {
     width: 24px;
   }
   /* /headerContent */
 
   /* !searchWrap */
-
-  .searchWrap form {
-    padding: 30px 120px;
-  }
-
-  .searchWrap input {
-    padding: 20px 40px 20px 20px;
-    font-size: var(--font-mlz);
-  }
-
-  .searchWrap button {
-    right: 130px;
-  }
-
-  .searchWrap button img {
-    width: 24px;
-    height: 24px;
-    aspect-ratio: 1 / 1;
-  }
 /* /searchWrap */
 
   /* Main */
@@ -240,69 +172,21 @@ footer .wrap {
 /* 노트북 */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   /* headerContent */
-  .headerContent {
-    justify-content: flex-start;
-  }
-  
-  .headerContent h1 {
+  header .headerContent h1 {
     font-size: 40px;
   }
 
-  .headerContent .menuBtn,
-  .headerContent .searchBtn {
+  header .headerContent .menuBtn,
+  header .headerContent .searchBtn {
     display: none;
   }
   /* /headerContent */
 
-  /* !여기 수정해야함 */
   /* !searchWrap */
   header .searchWrap {
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: transparent;
-    display: block;
-    z-index: 2;
-  }
-
-  .searchWrap form {
-    width: 100%;
+    position: relative;
     height: 100%;
-    padding: 30px 40px;
-    border: none;
-    background-color: transparent;
-    position: fixed;
-    z-index: 1;
-  }
-
-  .searchWrap input {
-    width: 40%;
-    border-radius: 0;
-    border: 1px solid var(--border-color);
-    padding: 14px 40px 14px 10px;
-    background-color: transparent;
-    font-size: var(--font-mz);
-    font-weight: var(--font-ebw);
-  }
-
-  .searchWrap input:focus {
-    outline: none;
-  }
-
-  .searchWrap button {
-    position: absolute;
-    top: 50%;
-    right: 50px;
-    transform: translateY(-50%);
-  }
-
-  .searchWrap button img {
-    width: 20px;
-    height: 20px;
-    aspect-ratio: 1 / 1;
+    top: 0;
   }
   /* /searchWrap */
 
@@ -316,6 +200,7 @@ footer .wrap {
 
   aside .asideWrap {
     width: 100%;
+    background-color: var(--main-color);
   }
 
   .asideWrap h3 {
@@ -342,18 +227,27 @@ footer .wrap {
 /* PC */
 @media screen and (min-width: 1200px) {
   /* headerContent */
-  .headerContent h1 {
+  header .headerContent h1 {
     font-size: 40px;
   }
 
-  .headerContent button img {
+  header .headerContent button img {
     width: 28px;
   }
 
-  .headerContent .menuBtn {
+  header .headerContent .menuBtn,
+  header .headerContent .searchBtn {
     display: none;
   }
   /* /headerContent */
+
+  /* !searchWrap */
+  header .searchWrap {
+    position: relative;
+    height: 100%;
+    top: 0;
+  }
+  /* /searchWrap */
 
   /* Main */
   main aside {
@@ -364,6 +258,7 @@ footer .wrap {
 
   aside .asideWrap {
     width: 100%;
+    background-color: var(--main-color);
   }
 
   .asideWrap h3 {
