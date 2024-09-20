@@ -51,8 +51,13 @@ header, footer {
 
 main {
   width: 100%;
-  height: calc(100vh - 160px);
+  min-height: calc(100vh - 160px);
   background-color: var(--main-color);
+  margin-top: 80px;
+}
+
+main .wrap {
+  min-height: calc(100vh - 160px);
 }
 
 .wrap {
@@ -75,9 +80,13 @@ main {
   }
 
   main {
-    height: calc(100vh - 200px);
+    min-height: calc(100vh - 200px);
+    margin-top: 100px;
   }
-
+  main .wrap {
+    min-height: calc(100vh - 200px);
+  }
+  
   .wrap {
     padding: 0 80px;
   }
@@ -88,9 +97,14 @@ main {
   header, footer {
     height: 100px;
   }
-
+  
   main {
-    height: calc(100vh - 200px);
+    min-height: calc(100vh - 200px);
+    margin-top: 100px;
+  }
+  
+  main .wrap {
+    min-height: calc(100vh - 200px);
   }
 
   .wrap {

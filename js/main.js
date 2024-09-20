@@ -4,7 +4,7 @@ const menuBtn = header.querySelector(".menuBtn");
 const searchBtn = header.querySelector(".searchBtn");
 
 menuBtn.addEventListener("click", () => {
-  const aside = main.querySelector("aside");
+  const aside = main.querySelector(".asideWrap");
   const isActive = aside.classList.contains("active");
   const menuBtnImg = menuBtn.querySelector("img");
 
