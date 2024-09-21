@@ -1,11 +1,6 @@
 /* !모바일 */
 
 /* header */
-header {
-  position: fixed;
-  top: 0;
-}
-
 header .wrap {
   display: flex;
 }
@@ -71,6 +66,11 @@ header .searchWrap button img {
   aspect-ratio: 1 / 1;
 }
 
+main {
+  position: relative;
+  overflow-y: auto;
+}
+
 main .wrap {
   display: flex;
   gap: 20px;
@@ -79,10 +79,10 @@ main .wrap {
 /* !main asideWrap */
 main .asideWrap {
   width: 160px;
-  min-height: calc(100vh - 160px);
+  height: 100%;
+  position: absolute;
   margin-left: -20px;
   background-color: var(--sub-color);
-  border-right: 1px solid var(--border-color);
   display: none;
 }
 
@@ -268,6 +268,7 @@ main .cardWrap article h3 {
   /* !main asideWrap */
   main .asideWrap {
     width: 180px;
+    position: static;
     min-height: calc(100vh - 200px);
     margin-left: 0;
     background-color: var(--main-color);
@@ -339,6 +340,7 @@ main .cardWrap article h3 {
   /* !main asideWrap */
   main .asideWrap {
     width: 200px;
+    position: static;
     min-height: calc(100vh - 200px);
     margin-left: 0;
     background-color: var(--main-color);
