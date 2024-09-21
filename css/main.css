@@ -90,7 +90,7 @@ main .asideWrap.active {
   display: block;
 }
 
-main .asideWrap h3 {
+main .asideWrap h2 {
   font-size: var(--font-mz);
   font-weight: var(--font-ebw);
   text-align: center;
@@ -123,9 +123,52 @@ main .asideWrap input {
 }
 
 main section {
-  box-shadow: inset 0 0 10px red;
   flex-grow: 1;
 }
+
+main section .slideWrap {
+  box-shadow: inset 0 0 10px orange;
+  margin-bottom: 20px;
+  width: 100%;
+  min-height: 200px;
+}
+
+main section .cardWrap {
+  margin-bottom: 20px;
+}
+
+main .cardWrap ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+main .cardWrap article {
+  border: 1px solid var(--border-color);
+  padding: 10px;
+  text-align: center;
+}
+
+main .cardWrap article img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  margin: 10px 0;
+}
+
+main .cardWrap p {
+  font-size: var(--font-smz);
+  font-weight: var(--font-ebw);
+}
+
+main .cardWrap article h3 {
+  font-size: var(--font-mz);
+}
+
+
+
+
+
+
 
 
 
@@ -166,7 +209,7 @@ main section {
     margin-left: -60px;
   }
 
-  main .asideWrap h3 {
+  main .asideWrap h2 {
     font-size: var(--font-mlz);
   }
   
@@ -177,6 +220,11 @@ main section {
   main .asideWrap input {
     width: 14px;
     height: 14px;
+  }
+
+  /* !main cardWrap */
+  main .cardWrap ul {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -226,7 +274,7 @@ main section {
     display: block;
   }
 
-  main .asideWrap h3 {
+  main .asideWrap h2 {
     font-size: var(--font-lz);
     border-top: none;
   }
@@ -242,7 +290,12 @@ main section {
   main .asideWrap input {
     width: 16px;
     height: 16px;
-  } 
+  }
+
+  /* !main cardWrap */
+  main .cardWrap ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 /* PC */
@@ -292,7 +345,7 @@ main section {
     display: block;
   }
 
-  main .asideWrap h3 {
+  main .asideWrap h2 {
     font-size: var(--font-xlz);
     border-top: none;
   }
@@ -308,5 +361,10 @@ main section {
   main .asideWrap input {
     width: 18px;
     height: 18px;
-  } 
+  }
+
+  /* !main cardWrap */
+  main .cardWrap ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
