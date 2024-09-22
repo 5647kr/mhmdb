@@ -130,7 +130,7 @@ main section .slideWrap {
   box-shadow: inset 0 0 10px orange;
   margin-bottom: 20px;
   width: 100%;
-  min-height: 200px;
+  min-height: 160px;
 }
 
 main section .cardWrap {
@@ -155,7 +155,7 @@ main .cardWrap article img {
   margin: 10px 0;
 }
 
-main .cardWrap p {
+main .cardWrap article p {
   font-size: var(--font-smz);
   font-weight: var(--font-ebw);
 }
@@ -164,8 +164,12 @@ main .cardWrap article h3 {
   font-size: var(--font-mz);
 }
 
-
-
+/* !footer */
+footer p {
+  font-size: var(--font-mz);
+  text-align: center;
+  line-height: 80px;
+}
 
 
 
@@ -222,9 +226,22 @@ main .cardWrap article h3 {
     height: 14px;
   }
 
+  /* !main slideWrap */
+  main section .slideWrap {
+    min-height: 180px;
+  }
+
   /* !main cardWrap */
   main .cardWrap ul {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  main .cardWrap article p {
+    font-size: var(--font-mz);
+  }
+  
+  main .cardWrap article h3 {
+    font-size: var(--font-mlz);
   }
 }
 
@@ -293,9 +310,27 @@ main .cardWrap article h3 {
     height: 16px;
   }
 
+  /* !main slideWrap */
+  main section .slideWrap {
+    min-height: 200px;
+  }
+  
   /* !main cardWrap */
   main .cardWrap ul {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  main .cardWrap article p {
+    font-size: var(--font-mz);
+  }
+  
+  main .cardWrap article h3 {
+    font-size: var(--font-mlz);
+  }
+
+  /* !footer p */
+  footer p {
+    line-height: 100px;
   }
 }
 
@@ -365,8 +400,26 @@ main .cardWrap article h3 {
     height: 18px;
   }
 
+  /* !main slideWrap */
+  main section .slideWrap {
+    min-height: 200px;
+  }
+
   /* !main cardWrap */
   main .cardWrap ul {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  main .cardWrap article p {
+    font-size: var(--font-mlz);
+  }
+  
+  main .cardWrap article h3 {
+    font-size: var(--font-lz);
+  }
+
+  /* !footer p */
+  footer p {
+    line-height: 100px;
   }
 }
