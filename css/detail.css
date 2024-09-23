@@ -91,6 +91,28 @@ main section .monsterWrap {
   box-shadow: inset 0 0 10px yellowgreen;
 }
 
+main section .monsterWrap > div {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+main .monsterWrap .monsterImgWrap {
+  box-shadow: inset 0 0 10px red;
+  padding: 0;
+}
+
+main .monsterWrap .monsterInfoWrap {
+  box-shadow: inset 0 0 10px orange;
+}
+
+main .monsterWrap .monsterWeakWrap {
+  box-shadow: inset 0 0 10px yellowgreen;
+}
+
+main .monsterWrap .monsterEcoWrap {
+  box-shadow: inset 0 0 10px blue;
+}
+
 /* !footer */
 footer p {
   font-size: var(--font-mz);
