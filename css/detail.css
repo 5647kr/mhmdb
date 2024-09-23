@@ -87,6 +87,10 @@ main section .slideWrap {
   min-height: 160px;
 }
 
+main section .monsterWrap {
+  box-shadow: inset 0 0 10px yellowgreen;
+}
+
 /* !footer */
 footer p {
   font-size: var(--font-mz);
