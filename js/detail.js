@@ -15,14 +15,13 @@ function ActiveBtn () {
     search.classList.toggle("active");
 
     if (isActive) {
-      searchBtnImg.src = "../img/common/검색.svg";
+      searchBtnImg.src = "../img/common/search.svg";
       searchBtnImg.alt = "검색 버튼";
-      menuBtn.disabled = false;
+      backBtn.disabled = false;
     } else {
-      searchBtnImg.src = "../img/common/닫기.svg";
+      searchBtnImg.src = "../img/common/close.svg";
       searchBtnImg.alt = "닫기 버튼";
-      menuBtn.disabled = true;
-      aside.classList.remove("active");
+      backBtn.disabled = true;
     }
   });
 }
