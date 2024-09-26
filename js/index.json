@@ -4,7 +4,7 @@
       {
         "id": 1,
         "imgurl": "./img/갑각종/다이묘자자미.webp",
-        "icon": "./img/icon/갑각종/다이묘자자미.webp",
+        "icon": "./img/monsterIcon/갑각종/다이묘자자미.webp",
         "name": "다이묘자자미",
         "nickname1": "순해[盾蟹: 방패 순(盾), 게 해(蟹)]",
         "nickname2": "방패게",
@@ -80,7 +80,7 @@
       {
         "id": 2,
         "imgurl": "./img/갑각종/다이묘자자미-아종.webp",
-        "icon": "./img/icon/갑각종/다이묘자자미-아종.webp",
+        "icon": "./img/monsterIcon/갑각종/다이묘자자미-아종.webp",
         "name": "다이묘자자미 아종",
         "nickname1": "자순해[紫盾蟹: 자줏빛 자(紫), 방패 순(盾), 게 해(蟹)]",
         "nickname2": "보라방패게",
@@ -116,7 +116,7 @@
       {
         "id": 3,
         "imgurl": "./img/갑각종/다이묘자자미-이명특개.webp",
-        "icon": "./img/icon/갑각종/다이묘자자미-이명특개.webp",
+        "icon": "./img/monsterIcon/갑각종/다이묘자자미-이명특개.webp",
         "name": "모쇄 다이묘자자미",
         "nickname1": "모쇄[矛砕: 창 모(矛), 부술 쇄(砕)]",
         "nickname2": "",
@@ -152,7 +152,7 @@
       {
         "id": 4,
         "imgurl": "./img/갑각종/쇼군기자미.webp",
-        "icon": "./img/icon/갑각종/쇼군기자미.webp",
+        "icon": "./img/monsterIcon/갑각종/쇼군기자미.webp",
         "name": "쇼군기자미",
         "nickname1": "겸해[鎌蟹: 낫 겸(鎌), 게 해(蟹)]",
         "nickname2": "낫게",
@@ -220,7 +220,7 @@
       {
         "id": 5,
         "imgurl": "./img/갑각종/쇼군기자미-아종.webp",
-        "icon": "./img/icon/갑각종/쇼군기자미-아종.webp",
+        "icon": "./img/monsterIcon/갑각종/쇼군기자미-아종.webp",
         "name": "쇼군기자미 아종",
         "nickname1": "겸해[鎌蟹: 낫 겸(鎌), 게 해(蟹)]",
         "nickname2": "낫게",
@@ -248,7 +248,7 @@
       {
         "id": 6,
         "imgurl": "./img/갑각종/쇼군기자미-이명특개.webp",
-        "icon": "./img/icon/갑각종/쇼군기자미-이명특개.webp",
+        "icon": "./img/monsterIcon/갑각종/쇼군기자미-이명특개.webp",
         "name": "개열 쇼군기자미",
         "nickname1": "개열[鎧裂: 갑옷 개(鎧), 찢어질 렬(裂)]",
         "nickname2": "",
@@ -276,7 +276,7 @@
       {
         "id": 7,
         "imgurl": "./img/갑각종/센가오렌.webp",
-        "icon": "./img/icon/갑각종/센가오렌.webp",
+        "icon": "./img/monsterIcon/갑각종/센가오렌.webp",
         "name": "센가오렌",
         "nickname1": "채해[砦蟹: 목책 채(砦), 게 해(蟹)]",
         "nickname2": "성채게",
@@ -320,7 +320,7 @@
       {
         "id": 8,
         "imgurl": "./img/갑충종/게넬셀타스.webp",
-        "icon": "./img/icon/갑충종/게넬셀타스.webp",
+        "icon": "./img/monsterIcon/갑충종/게넬셀타스.webp",
         "name": "게넬-셀타스",
         "nickname1": "중갑충[重甲虫: 무거울 중(重), 갑옷 갑(甲), 벌레 충(虫)]",
         "type": "갑충종",
@@ -371,7 +371,7 @@
       {
         "id": 9,
         "imgurl": "./img/갑충종/게넬셀타스-아종.webp",
-        "icon": "./img/icon/갑충종/게넬셀타스-아종.webp",
+        "icon": "./img/monsterIcon/갑충종/게넬셀타스-아종.webp",
         "name": "게넬-셀타스 아종",
         "nickname1": "포갑충[砲甲虫: 돌 쇠뇌 포(砲), 갑옷 갑(甲), 벌레 충(虫)]",
         "type": "갑충종",
@@ -398,7 +398,7 @@
       {
         "id": 10,
         "imgurl": "./img/갑충종/아르셀타스.webp",
-        "icon": "./img/icon/갑충종/아르셀타스.webp",
+        "icon": "./img/monsterIcon/갑충종/아르셀타스.webp",
         "name": "아르셀타스",
         "nickname1": "철갑충[徹甲虫: 뚫을 철(徹), 갑옷 갑(甲), 벌레 충(虫)]",
         "type": "갑충종",
@@ -449,7 +449,7 @@
       {
         "id": 11,
         "imgurl": "./img/갑충종/아르셀타스-아종.webp",
-        "icon": "./img/icon/갑충종/아르셀타스-아종.webp",
+        "icon": "./img/monsterIcon/갑충종/아르셀타스-아종.webp",
         "name": "아르셀타스 아종",
         "nickname1": "부갑충[斧甲虫: 도끼 부(斧), 갑옷 갑(甲), 벌레 충(虫)]",
         "type": "갑충종",
@@ -476,7 +476,7 @@
       {
         "id": 12,
         "imgurl": "./img/갑충종/아트랄카.webp",
-        "icon": "./img/icon/갑충종/아트랄카.webp",
+        "icon": "./img/monsterIcon/갑충종/아트랄카.webp",
         "name": "아트랄 카",
         "nickname1": "각당랑[閣蟷螂: 누각 각(閣), 버마재비 당(螳), 사마귀 랑(螂)]",
         "type": "갑충종",
@@ -503,7 +503,7 @@
       {
         "id": 13,
         "imgurl": "./img/갑충종/퀸랑고스타.webp",
-        "icon": "./img/icon/갑충종/퀸랑고스타.webp",
+        "icon": "./img/monsterIcon/갑충종/퀸랑고스타.webp",
         "name": "퀸랑고스타",
         "nickname1": "여왕충[女王虫: 여자 녀(女), 왕 왕(王), 벌레 충(虫)]",
         "type": "갑충종",
@@ -530,7 +530,7 @@
       {
         "id": 14,
         "imgurl": "./img/비룡종/그라비모스.webp",
-        "icon": "./img/icon/비룡종/그라비모스.webp",
+        "icon": "./img/monsterIcon/비룡종/그라비모스.webp",
         "name": "그라비모스",
         "nickname1": "개룡[鎧竜: 갑옷 개(鎧), 용 룡(竜)]",
         "type": "비룡종",
@@ -621,7 +621,7 @@
       {
         "id": 15,
         "imgurl": "./img/비룡종/그라비모스-아종.webp",
-        "icon": "./img/icon/비룡종/그라비모스-아종.webp",
+        "icon": "./img/monsterIcon/비룡종/그라비모스-아종.webp",
         "name": "그라비모스 아종",
         "nickname1": "흑개룡[黒鎧竜: 검을 흑(黒), 갑옷 개(鎧), 용 룡(竜)]",
         "type": "비룡종",
@@ -696,7 +696,7 @@
       {
         "id": 16,
         "imgurl": "./img/비룡종/기기네블라.webp",
-        "icon": "./img/icon/비룡종/기기네블라.webp",
+        "icon": "./img/monsterIcon/비룡종/기기네블라.webp",
         "name": "기기네블라",
         "nickname1": "독괴룡[毒怪竜: 독 독(毒), 기괴할 괴(怪), 용 룡(竜)]",
         "type": "비룡종",
@@ -739,7 +739,7 @@
       {
         "id": 17,
         "imgurl": "./img/비룡종/기기네블라-아종.webp",
-        "icon": "./img/icon/비룡종/기기네블라-아종.webp",
+        "icon": "./img/monsterIcon/비룡종/기기네블라-아종.webp",
         "name": "기기네블라 아종",
         "nickname1": "전괴룡[電怪竜: 번개 전(電), 기괴할 괴(怪), 용 룡(竜)]",
         "type": "비룡종",
@@ -774,7 +774,7 @@
       {
         "id": 18,
         "imgurl": "./img/비룡종/나르가쿠르가.webp",
-        "icon": "./img/icon/비룡종/나르가쿠르가.webp",
+        "icon": "./img/monsterIcon/비룡종/나르가쿠르가.webp",
         "name": "나르가쿠르가",
         "nickname1": "신룡[迅竜: 빠를 신(迅), 용 룡(竜)]",
         "type": "비룡종",
@@ -857,7 +857,7 @@
       {
         "id": 19,
         "imgurl": "./img/비룡종/나르가쿠르가-아종.webp",
-        "icon": "./img/icon/비룡종/나르가쿠르가-아종.webp",
+        "icon": "./img/monsterIcon/비룡종/나르가쿠르가-아종.webp",
         "name": "나르가쿠르가 아종",
         "nickname1": "녹신룡[綠迅竜: 푸를 녹(綠), 빠를 신(迅), 용 룡(竜)]",
         "type": "비룡종",
@@ -892,7 +892,7 @@
       {
         "id": 20,
         "imgurl": "./img/비룡종/나르가쿠르가-희소종.webp",
-        "icon": "./img/icon/비룡종/나르가쿠르가-희소종.webp",
+        "icon": "./img/monsterIcon/비룡종/나르가쿠르가-희소종.webp",
         "name": "나르가쿠르가 희소종",
         "nickname1": "월신룡[月迅竜: 달 월(月), 빠를 신(迅), 용 룡(竜)]",
         "type": "비룡종",
@@ -927,7 +927,7 @@
       {
         "id": 21,
         "imgurl": "./img/비룡종/나르가쿠르가-이명특개.webp",
-        "icon": "./img/icon/비룡종/나르가쿠르가-이명특개.webp",
+        "icon": "./img/monsterIcon/비룡종/나르가쿠르가-이명특개.webp",
         "name": "백질풍 나르가쿠르가",
         "nickname1": "백질풍[白疾風: 흰 백(白), 병 질(疾), 바람 풍(風)]",
         "type": "비룡종",
@@ -962,7 +962,7 @@
       {
         "id": 22,
         "imgurl": "./img/비룡종/디아블로스.webp",
-        "icon": "./img/icon/비룡종/디아블로스.webp",
+        "icon": "./img/monsterIcon/비룡종/디아블로스.webp",
         "name": "디아블로스",
         "nickname1": "각룡[角竜: 뿔 각(角), 용 룡(竜)]",
         "type": "비룡종",
@@ -1101,7 +1101,7 @@
       {
         "id": 23,
         "imgurl": "./img/비룡종/디아블로스-아종.webp",
-        "icon": "./img/icon/비룡종/디아블로스-아종.webp",
+        "icon": "./img/monsterIcon/비룡종/디아블로스-아종.webp",
         "name": "디아블로스 아종",
         "nickname1": "흑각룡[黒角竜: 검을 흑(黒), 뿔 각(角), 용 룡(竜)]",
         "type": "비룡종",
@@ -1200,7 +1200,7 @@
       {
         "id": 24,
         "imgurl": "./img/비룡종/디아블로스-이명특개.webp",
-        "icon": "./img/icon/비룡종/디아블로스-이명특개.webp",
+        "icon": "./img/monsterIcon/비룡종/디아블로스-이명특개.webp",
         "name": "오마 디아블로스",
         "nickname1": "오마[鏖魔: 오살할 오(鏖), 마귀 마(魔)]",
         "type": "비룡종",
@@ -1227,7 +1227,7 @@
       {
         "id": 25,
         "imgurl": "./img/비룡종/디아블로스-주인.webp",
-        "icon": "./img/icon/비룡종/디아블로스-주인.webp",
+        "icon": "./img/monsterIcon/비룡종/디아블로스-주인.webp",
         "name": "주인 디아블로스",
         "nickname1": "각룡[角竜: 뿔 각(角), 용 룡(竜)]",
         "type": "비룡종",
@@ -1254,7 +1254,7 @@
       {
         "id": 26,
         "imgurl": "./img/비룡종/라이젝스.webp",
-        "icon": "./img/icon/비룡종/라이젝스.webp",
+        "icon": "./img/monsterIcon/비룡종/라이젝스.webp",
         "name": "라이젝스",
         "nickname1": "전룡[電竜: 번개 전(電), 용 룡(竜)]",
         "type": "비룡종",
@@ -1297,7 +1297,7 @@
       {
         "id": 27,
         "imgurl": "./img/비룡종/라이젝스-이명특개.webp",
-        "icon": "./img/icon/비룡종/라이젝스-이명특개.webp",
+        "icon": "./img/monsterIcon/비룡종/라이젝스-이명특개.webp",
         "name": "청전주 라이젝스",
         "nickname1": "청전주[青電主: 푸를 청(青), 전기 전(電), 주인 주(主)]",
         "type": "비룡종",
@@ -1324,7 +1324,7 @@
       {
         "id": 28,
         "imgurl": "./img/비룡종/레이기에나.webp",
-        "icon": "./img/icon/비룡종/레이기에나.webp",
+        "icon": "./img/monsterIcon/비룡종/레이기에나.webp",
         "name": "레이기에나",
         "nickname1": "풍표룡[風漂竜: 바람 풍(風), 떠돌 표(漂), 용 룡(竜)]",
         "type": "비룡종",
@@ -1359,7 +1359,7 @@
       {
         "id": 29,
         "imgurl": "./img/비룡종/레이기에나-특개.webp",
-        "icon": "./img/icon/비룡종/레이기에나-특개.webp",
+        "icon": "./img/monsterIcon/비룡종/레이기에나-특개.webp",
         "name": "얼려 찌르는 레이기에나",
         "nickname1": "풍표룡[風漂竜: 바람 풍(風), 떠돌 표(漂), 용 룡(竜)]",
         "type": "비룡종",
@@ -1386,7 +1386,7 @@
       {
         "id": 30,
         "imgurl": "./img/비룡종/리오레우스.webp",
-        "icon": "./img/icon/비룡종/리오레우스.webp",
+        "icon": "./img/monsterIcon/비룡종/리오레우스.webp",
         "name": "리오레우스",
         "nickname1": "화룡[火竜: 불 화(火) 용 룡(竜)]",
         "nickname2": "웅화룡[雄火竜: 수컷 웅(雄), 불 화(火), 용 룡(竜)]",
@@ -1542,7 +1542,7 @@
       {
         "id": 31,
         "imgurl": "./img/비룡종/리오레우스-아종.webp",
-        "icon": "./img/icon/비룡종/리오레우스-아종.webp",
+        "icon": "./img/monsterIcon/비룡종/리오레우스-아종.webp",
         "name": "리오레우스 아종",
         "nickname1": "창화룡[蒼火竜: 푸를 창(火), 불 화(火), 용 룡(竜)]",
         "type": "비룡종",
@@ -1641,7 +1641,7 @@
       {
         "id": 32,
         "imgurl": "./img/비룡종/리오레우스-희소종.webp",
-        "icon": "./img/icon/비룡종/리오레우스-희소종.webp",
+        "icon": "./img/monsterIcon/비룡종/리오레우스-희소종.webp",
         "name": "리오레우스 희소종",
         "nickname1": "은화룡[銀火竜: 은 은(銀), 불 화(火), 용 룡(竜)]",
         "type": "비룡종",
@@ -1756,7 +1756,7 @@
       {
         "id": 33,
         "imgurl": "./img/비룡종/리오레우스-이명특개.webp",
-        "icon": "./img/icon/비룡종/리오레우스-이명특개.webp",
+        "icon": "./img/monsterIcon/비룡종/리오레우스-이명특개.webp",
         "name": "흑염왕 리오레우스",
         "nickname1": "흑염왕[黒炎王: 검을 흑(黒), 불꽃 염(炎), 임금 왕(王)]",
         "type": "비룡종",
@@ -1791,7 +1791,7 @@
       {
         "id": 34,
         "imgurl": "./img/비룡종/리오레우스-주인.webp",
-        "icon": "./img/icon/비룡종/리오레우스-주인.webp",
+        "icon": "./img/monsterIcon/비룡종/리오레우스-주인.webp",
         "name": "주인 리오레우스",
         "nickname1": "화룡[火竜: 불 화(火), 용 룡(竜)]",
         "type": "비룡종",
@@ -1818,7 +1818,7 @@
       {
         "id": 35,
         "imgurl": "./img/비룡종/리오레이아.webp",
-        "icon": "./img/icon/비룡종/리오레이아.webp",
+        "icon": "./img/monsterIcon/비룡종/리오레이아.webp",
         "name": "리오레이아",
         "nickname1": "자화룡[雌火竜: 암컷 자(雌), 불 화(火), 용 룡(竜)]",
         "type": "비룡종",
@@ -1973,7 +1973,7 @@
       {
         "id": 36,
         "imgurl": "./img/비룡종/리오레이아-아종.webp",
-        "icon": "./img/icon/비룡종/리오레이아-아종.webp",
+        "icon": "./img/monsterIcon/비룡종/리오레이아-아종.webp",
         "name": "리오레이아 아종",
         "nickname1": "앵화룡[桜火竜: 앵두나무 앵(桜), 불 화(火), 용 룡(竜)]",
         "type": "비룡종",
@@ -2072,7 +2072,7 @@
       {
         "id": 37,
         "imgurl": "./img/비룡종/리오레이아-희소종.webp",
-        "icon": "./img/icon/비룡종/리오레이아-희소종.webp",
+        "icon": "./img/monsterIcon/비룡종/리오레이아-희소종.webp",
         "name": "리오레이아 희소종",
         "nickname1": "금화룡[金火竜: 금 금(金), 불 화(火), 용 룡(竜)]",
         "type": "비룡종",
@@ -2195,7 +2195,7 @@
       {
         "id": 38,
         "imgurl": "./img/비룡종/리오레이아-이명특개.webp",
-        "icon": "./img/icon/비룡종/리오레이아-이명특개.webp",
+        "icon": "./img/monsterIcon/비룡종/리오레이아-이명특개.webp",
         "name": "자독희 리오레이아",
         "nickname1": "자독희[紫毒姫: 자줏빛 자(紫), 독 독(毒), 여자 희(姫)]",
         "type": "비룡종",
@@ -2230,7 +2230,7 @@
       {
         "id": 39,
         "imgurl": "./img/비룡종/리오레이아-주인.webp",
-        "icon": "./img/icon/비룡종/리오레이아-주인.webp",
+        "icon": "./img/monsterIcon/비룡종/리오레이아-주인.webp",
         "name": "주인 리오레이아",
         "nickname1": "자화룡[雌火竜: 불 화(火), 암컷 자(雌), 용 룡(竜)]",
         "type": "비룡종",
@@ -2257,7 +2257,7 @@
       {
         "id": 40,
         "imgurl": "./img/비룡종/모노블로스.webp",
-        "icon": "./img/icon/비룡종/모노블로스.webp",
+        "icon": "./img/monsterIcon/비룡종/모노블로스.webp",
         "name": "모노블로스",
         "nickname1": "일각룡[一角竜: 하나 일(一), 뿔 각(角), 용 룡(竜)]",
         "type": "비룡종",
@@ -2332,7 +2332,7 @@
       {
         "id": 41,
         "imgurl": "./img/비룡종/모노블로스-아종.webp",
-        "icon": "./img/icon/비룡종/모노블로스-아종.webp",
+        "icon": "./img/monsterIcon/비룡종/모노블로스-아종.webp",
         "name": "모노블로스 아종",
         "nickname1": "백일각룡[白一角竜: 흰 백(一), 하나 일(一), 뿔 각(角), 용 룡(竜)]",
         "type": "비룡종",
@@ -2399,7 +2399,7 @@
       {
         "id": 42,
         "imgurl": "./img/비룡종/바살모스.webp",
-        "icon": "./img/icon/비룡종/바살모스.webp",
+        "icon": "./img/monsterIcon/비룡종/바살모스.webp",
         "name": "바살모스",
         "nickname1": "암룡[岩竜: 바위 암(岩), 용 룡(竜)]",
         "type": "비룡종",
@@ -2506,7 +2506,7 @@
       {
         "id": 43,
         "imgurl": "./img/비룡종/바살모스-아종.webp",
-        "icon": "./img/icon/비룡종/바살모스-아종.webp",
+        "icon": "./img/monsterIcon/비룡종/바살모스-아종.webp",
         "name": "바살모스 아종",
         "nickname1": "도암룡[桃岩竜: 복숭아 도(桃), 바위 암(岩), 용 룡(竜)]",
         "type": "비룡종",
@@ -2541,7 +2541,7 @@
       {
         "id": 44,
         "imgurl": "./img/비룡종/바젤기우스.webp",
-        "icon": "./img/icon/비룡종/바젤기우스.webp",
+        "icon": "./img/monsterIcon/비룡종/바젤기우스.webp",
         "name": "바젤기우스",
         "nickname1": "폭린룡[爆鱗竜: 불터질 폭(爆), 비늘 린(鱗), 용 룡(竜)]",
         "type": "비룡종",
@@ -2592,7 +2592,7 @@
       {
         "id": 45,
         "imgurl": "./img/비룡종/바젤기우스-특개.webp",
-        "icon": "./img/icon/비룡종/바젤기우스-특개.webp",
+        "icon": "./img/monsterIcon/비룡종/바젤기우스-특개.webp",
         "name": "홍련에 솟구치는 바젤기우스",
         "nickname1": "폭린룡[爆鱗竜: 불터질 폭(爆), 비늘 린(鱗), 용 룡(竜)]",
         "type": "비룡종",
@@ -2627,7 +2627,7 @@
       {
         "id": 46,
         "imgurl": "./img/비룡종/벨리오로스.webp",
-        "icon": "./img/icon/비룡종/벨리오로스.webp",
+        "icon": "./img/monsterIcon/비룡종/벨리오로스.webp",
         "name": "벨리오로스",
         "nickname1": "빙아룡[氷牙竜: 얼음 빙(氷), 어금니 아(牙), 용 룡(竜)]",
         "type": "비룡종",
@@ -2702,7 +2702,7 @@
       {
         "id": 47,
         "imgurl": "./img/비룡종/벨리오로스-아종.webp",
-        "icon": "./img/icon/비룡종/벨리오로스-아종.webp",
+        "icon": "./img/monsterIcon/비룡종/벨리오로스-아종.webp",
         "name": "벨리오로스 아종",
         "nickname1": "풍아룡[風牙竜: 바람 풍(風), 어금니 아(牙), 용 룡(竜)]",
         "type": "비룡종",
@@ -2737,7 +2737,7 @@
       {
         "id": 48,
         "imgurl": "./img/비룡종/벨리오로스-특개.webp",
-        "icon": "./img/icon/비룡종/벨리오로스-특개.webp",
+        "icon": "./img/monsterIcon/비룡종/벨리오로스-특개.webp",
         "name": "얼음 칼날을 찬 벨리오로스",
         "nickname1": "빙아룡[氷牙竜: 얼음 빙(氷), 어금니 아(牙), 용 룡(竜)]",
         "type": "비룡종",
@@ -2764,7 +2764,7 @@
       {
         "id": 49,
         "imgurl": "./img/비룡종/셀레기오스.webp",
-        "icon": "./img/icon/비룡종/셀레기오스.webp",
+        "icon": "./img/monsterIcon/비룡종/셀레기오스.webp",
         "name": "셀레기오스",
         "nickname1": "천인룡[千刃竜: 일천 천(千), 칼날 인(刃), 용 룡(竜)]",
         "type": "비룡종",
@@ -2815,7 +2815,7 @@
       {
         "id": 50,
         "imgurl": "./img/비룡종/아캄토름.webp",
-        "icon": "./img/icon/비룡종/아캄토름.webp",
+        "icon": "./img/monsterIcon/비룡종/아캄토름.webp",
         "name": "아캄토름",
         "nickname1": "패룡[覇竜: 으뜸 패(覇), 용 룡(轟)]",
         "type": "비룡종",
@@ -2890,7 +2890,7 @@
       {
         "id": 51,
         "imgurl": "./img/비룡종/에스피나스.webp",
-        "icon": "./img/icon/비룡종/에스피나스.webp",
+        "icon": "./img/monsterIcon/비룡종/에스피나스.webp",
         "name": "에스피나스",
         "nickname1": "극룡[棘茶竜: 가시 극(棘), 용 룡(竜)]",
         "type": "비룡종",
@@ -2917,7 +2917,7 @@
       {
         "id": 52,
         "imgurl": "./img/비룡종/에스피나스-아종.webp",
-        "icon": "./img/icon/비룡종/에스피나스-아종.webp",
+        "icon": "./img/monsterIcon/비룡종/에스피나스-아종.webp",
         "name": "에스피나스 아종",
         "nickname1": "극다룡[棘茶竜: 가시 극(棘), 차 다(茶), 용 룡(竜)]",
         "type": "비룡종",
@@ -2944,7 +2944,7 @@
       {
         "id": 53,
         "imgurl": "./img/비룡종/우캄루바스.webp",
-        "icon": "./img/icon/비룡종/우캄루바스.webp",
+        "icon": "./img/monsterIcon/비룡종/우캄루바스.webp",
         "name": "우캄루바스",
         "nickname1": "붕룡[崩竜: 무너질 붕(崩), 용 룡(竜)]",
         "type": "비룡종",
@@ -3003,7 +3003,7 @@
       {
         "id": 54,
         "imgurl": "./img/비룡종/티가렉스.webp",
-        "icon": "./img/icon/비룡종/티가렉스.webp",
+        "icon": "./img/monsterIcon/비룡종/티가렉스.webp",
         "name": "티가렉스",
         "nickname1": "굉룡[轟竜: 울릴 굉(轟), 용 룡(轟)]",
         "type": "비룡종",
@@ -3102,7 +3102,7 @@
       {
         "id": 55,
         "imgurl": "./img/비룡종/티가렉스-아종.webp",
-        "icon": "./img/icon/비룡종/티가렉스-아종.webp",
+        "icon": "./img/monsterIcon/비룡종/티가렉스-아종.webp",
         "name": "티가렉스 아종",
         "nickname1": "흑굉룡[黑轟竜: 검을 흑(黑), 울릴 굉(轟), 용 룡(竜)]",
         "type": "비룡종",
@@ -3153,7 +3153,7 @@
       {
         "id": 56,
         "imgurl": "./img/비룡종/티가렉스-희소종.webp",
-        "icon": "./img/icon/비룡종/티가렉스-희소종.webp",
+        "icon": "./img/monsterIcon/비룡종/티가렉스-희소종.webp",
         "name": "티가렉스 희소종",
         "nickname1": "대굉룡[大轟竜: 클 대(大), 울릴 굉(轟), 용 룡(竜)]",
         "type": "비룡종",
@@ -3188,7 +3188,7 @@
       {
         "id": 57,
         "imgurl": "./img/비룡종/티가렉스-이명특개.webp",
-        "icon": "./img/icon/비룡종/티가렉스-이명특개.webp",
+        "icon": "./img/monsterIcon/비룡종/티가렉스-이명특개.webp",
         "name": "황구조 티가렉스",
         "nickname1": "황구조[荒鉤爪: 거칠 황(荒), 갈고리 구(鉤), 손톱 조(爪)]",
         "type": "비룡종",
@@ -3223,7 +3223,7 @@
       {
         "id": 58,
         "imgurl": "./img/비룡종/파오우르무.webp",
-        "icon": "./img/icon/비룡종/파오우르무.webp",
+        "icon": "./img/monsterIcon/비룡종/파오우르무.webp",
         "name": "파오우르무",
         "nickname1": "부공룡[浮空竜: 뜰 부(浮), 빌 공(空), 용 룡(竜)]",
         "type": "비룡종",
@@ -3258,7 +3258,7 @@
       {
         "id": 59,
         "imgurl": "./img/비룡종/파오우르무-아종.webp",
-        "icon": "./img/icon/비룡종/파오우르무-아종.webp",
+        "icon": "./img/monsterIcon/비룡종/파오우르무-아종.webp",
         "name": "파오우르무 아종",
         "nickname1": "부면룡[浮眠竜: 뜰 부(浮), 잘 면(眠), 용 룡(竜)]",
         "type": "비룡종",
@@ -3285,7 +3285,7 @@
       {
         "id": 60,
         "imgurl": "./img/비룡종/푸루푸루.webp",
-        "icon": "./img/icon/비룡종/푸루푸루.webp",
+        "icon": "./img/monsterIcon/비룡종/푸루푸루.webp",
         "name": "푸루푸루",
         "nickname1": "기괴룡[奇怪竜: 기이할 기(奇), 괴이할 괴(怪), 용 룡(竜)]",
         "type": "비룡종",
@@ -3400,7 +3400,7 @@
       {
         "id": 61,
         "imgurl": "./img/비룡종/푸루푸루-아종.webp",
-        "icon": "./img/icon/비룡종/푸루푸루-아종.webp",
+        "icon": "./img/monsterIcon/비룡종/푸루푸루-아종.webp",
         "name": "푸루푸루 아종",
         "nickname1": "적괴룡[赤怪竜: 붉을 적(赤), 괴이할 괴(怪), 용 룡(竜)]",
         "nickname2": "염괴룡",
@@ -3476,7 +3476,7 @@
       {
         "id": 62,
         "imgurl": "./img/사룡종/가라라아자라.webp",
-        "icon": "./img/icon/사룡종/가라라아자라.webp",
+        "icon": "./img/monsterIcon/사룡종/가라라아자라.webp",
         "name": "가라라아자라",
         "nickname1": "교사룡[絞蛇竜: 목맬 교(絞), 뱀 사(蛇), 용 룡(竜)]",
         "type": "사룡종",
@@ -3527,7 +3527,7 @@
       {
         "id": 63,
         "imgurl": "./img/사룡종/가라라아자라-아종.webp",
-        "icon": "./img/icon/사룡종/가라라아자라-아종.webp",
+        "icon": "./img/monsterIcon/사룡종/가라라아자라-아종.webp",
         "name": "가라라아자라 아종",
         "nickname1": "수사룡[絞蛇竜: 물 수(水), 뱀 사(蛇), 용 룡(竜)]",
         "type": "사룡종",
@@ -3554,7 +3554,7 @@
       {
         "id": 64,
         "imgurl": "./img/수룡종/도볼베르크.webp",
-        "icon": "./img/icon/수룡종/도볼베르크.webp",
+        "icon": "./img/monsterIcon/수룡종/도볼베르크.webp",
         "name": "도볼베르크",
         "nickname1": "미추룡[尾槌竜: 꼬리 미(尾), 망치 추(槌), 용 룡(竜)]",
         "type": "수룡종",
@@ -3605,7 +3605,7 @@
       {
         "id": 65,
         "imgurl": "./img/수룡종/도볼베르크-아종.webp",
-        "icon": "./img/icon/수룡종/도볼베르크-아종.webp",
+        "icon": "./img/monsterIcon/수룡종/도볼베르크-아종.webp",
         "name": "도볼베르크 아종",
         "nickname1": "미부룡[尾斧竜: 꼬리 미(尾), 도끼 부(斧), 용 룡(竜)]",
         "type": "수룡종",
@@ -3632,7 +3632,7 @@
       {
         "id": 66,
         "imgurl": "./img/수룡종/디노발드.webp",
-        "icon": "./img/icon/수룡종/디노발드.webp",
+        "icon": "./img/monsterIcon/수룡종/디노발드.webp",
         "name": "디노발드",
         "nickname1": "참룡[斬竜: 벨 참(斬), 용 룡(竜)]",
         "type": "수룡종",
@@ -3675,7 +3675,7 @@
       {
         "id": 67,
         "imgurl": "./img/수룡종/디노발드-아종.webp",
-        "icon": "./img/icon/수룡종/디노발드-아종.webp",
+        "icon": "./img/monsterIcon/수룡종/디노발드-아종.webp",
         "name": "디노발드 아종",
         "nickname1": "류참룡[硫斬竜: 유황 류(硫), 벨 참(斬), 용 룡(竜)]",
         "type": "수룡종",
@@ -3702,7 +3702,7 @@
       {
         "id": 68,
         "imgurl": "./img/수룡종/디노발드-이명특개.webp",
-        "icon": "./img/icon/수룡종/디노발드-이명특개.webp",
+        "icon": "./img/monsterIcon/수룡종/디노발드-이명특개.webp",
         "name": "신멸인 디노발드",
         "nickname1": "신멸인[燼滅刃: 불탄 끝 신(燼), 멸할 멸(滅), 칼날 인(刃)]",
         "type": "수룡종",
@@ -3737,7 +3737,7 @@
       {
         "id": 69,
         "imgurl": "./img/수룡종/라도발킨.webp",
-        "icon": "./img/icon/수룡종/라도발킨.webp",
+        "icon": "./img/monsterIcon/수룡종/라도발킨.webp",
         "name": "라도발킨",
         "nickname1": "골추룡[骨鎚竜: 뼈 골(骨), 쇠망치 추(鎚), 용 룡(竜)]",
         "type": "수룡종",
@@ -3772,7 +3772,7 @@
       {
         "id": 70,
         "imgurl": "./img/수룡종/버프바로.webp",
-        "icon": "./img/icon/수룡종/버프바로.webp",
+        "icon": "./img/monsterIcon/수룡종/버프바로.webp",
         "name": "버프바로",
         "nickname1": "맹우룡[猛牛竜: 사나울 맹(猛), 소 우(牛), 용 룡(竜)]",
         "type": "수룡종",
@@ -3799,7 +3799,7 @@
       {
         "id": 71,
         "imgurl": "./img/수룡종/볼보로스.webp",
-        "icon": "./img/icon/수룡종/볼보로스.webp",
+        "icon": "./img/monsterIcon/수룡종/볼보로스.webp",
         "name": "볼보로스",
         "nickname1": "토사룡[土沙竜: 흙 토(土), 모래 사(沙), 용 룡(竜)]",
         "type": "수룡종",
@@ -3882,7 +3882,7 @@
       {
         "id": 72,
         "imgurl": "./img/수룡종/볼보로스-아종.webp",
-        "icon": "./img/icon/수룡종/볼보로스-아종.webp",
+        "icon": "./img/monsterIcon/수룡종/볼보로스-아종.webp",
         "name": "볼보로스 아종",
         "nickname1": "빙쇄룡[氷砕竜: 얼음 빙(氷), 부술 쇄(砕), 용 룡(竜)]",
         "type": "수룡종",
@@ -3917,7 +3917,7 @@
       {
         "id": 73,
         "imgurl": "./img/수룡종/브라키디오스.webp",
-        "icon": "./img/icon/수룡종/브라키디오스.webp",
+        "icon": "./img/monsterIcon/수룡종/브라키디오스.webp",
         "name": "브라키디오스",
         "nickname1": "쇄룡[砕竜: 부술 쇄(砕), 용 룡(竜)]",
         "type": "수룡종",
@@ -3984,7 +3984,7 @@
       {
         "id": 74,
         "imgurl": "./img/수룡종/브라키디오스-특개.webp",
-        "icon": "./img/icon/수룡종/브라키디오스-특개.webp",
+        "icon": "./img/monsterIcon/수룡종/브라키디오스-특개.webp",
         "name": "사납게 터지는 브라키디오스",
         "nickname1": "쇄룡[砕竜: 부술 쇄(砕), 용 룡(竜)]",
         "type": "수룡종",
@@ -4027,7 +4027,7 @@
       {
         "id": 75,
         "imgurl": "./img/수룡종/안쟈나프.webp",
-        "icon": "./img/icon/수룡종/안쟈나프.webp",
+        "icon": "./img/monsterIcon/수룡종/안쟈나프.webp",
         "name": "안쟈나프",
         "nickname1": "만악룡[蛮顎竜: 오랑캐 만(蛮), 턱 악(顎), 용 룡(竜)]",
         "type": "수룡종",
@@ -4078,7 +4078,7 @@
       {
         "id": 76,
         "imgurl": "./img/수룡종/안쟈나프-아종.webp",
-        "icon": "./img/icon/수룡종/안쟈나프-아종.webp",
+        "icon": "./img/monsterIcon/수룡종/안쟈나프-아종.webp",
         "name": "안쟈나프 아종",
         "nickname1": "뇌악룡[雷顎竜: 우레 뇌(雷), 턱 악(顎), 용 룡(竜)]",
         "type": "수룡종",
@@ -4105,7 +4105,7 @@
       {
         "id": 77,
         "imgurl": "./img/수룡종/우라간킨.webp",
-        "icon": "./img/icon/수룡종/우라간킨.webp",
+        "icon": "./img/monsterIcon/수룡종/우라간킨.webp",
         "name": "우라간킨",
         "nickname1": "폭추룡[爆鎚竜: 터질 폭(爆), 쇠망치 추(鎚), 용 룡(竜)]",
         "type": "수룡종",
@@ -4180,7 +4180,7 @@
       {
         "id": 78,
         "imgurl": "./img/수룡종/우라간킨-아종.webp",
-        "icon": "./img/icon/수룡종/우라간킨-아종.webp",
+        "icon": "./img/monsterIcon/수룡종/우라간킨-아종.webp",
         "name": "우라간킨 아종",
         "nickname1": "강추룡[鋼鎚竜: 강철 강(爆), 쇠망치 추(鎚), 용 룡(竜)]",
         "type": "수룡종",
@@ -4215,7 +4215,7 @@
       {
         "id": 79,
         "imgurl": "./img/수룡종/우라간킨-이명특개.webp",
-        "icon": "./img/icon/수룡종/우라간킨-이명특개.webp",
+        "icon": "./img/monsterIcon/수룡종/우라간킨-이명특개.webp",
         "name": "보전 우라간킨",
         "nickname1": "보전[宝纏: 보배 보(宝), 얽을 전(纏)]",
         "type": "수룡종",
@@ -4250,7 +4250,7 @@
       {
         "id": 80,
         "imgurl": "./img/수룡종/이블조.webp",
-        "icon": "./img/icon/수룡종/이블조.webp",
+        "icon": "./img/monsterIcon/수룡종/이블조.webp",
         "name": "이블조",
         "nickname1": "공폭룡[恐暴竜: 두려울 공(恐), 사나울 폭(暴), 용 룡(竜)]",
         "type": "수룡종",
@@ -4341,7 +4341,7 @@
       {
         "id": 81,
         "imgurl": "./img/수룡종/이블조-특개.webp",
-        "icon": "./img/icon/수룡종/이블조-특개.webp",
+        "icon": "./img/monsterIcon/수룡종/이블조-특개.webp",
         "name": "미친 이블조",
         "nickname1": "공폭룡[恐暴竜: 두려울 공(恐), 사나울 폭(暴), 용 룡(竜)]",
         "type": "수룡종",
@@ -4408,7 +4408,7 @@
       {
         "id": 82,
         "imgurl": "./img/아룡종/도도가마루.webp",
-        "icon": "./img/icon/아룡종/도도가마루.webp",
+        "icon": "./img/monsterIcon/아룡종/도도가마루.webp",
         "name": "도도가마루",
         "nickname1": "암적룡[岩賊竜: 바위 암(岩), 도둑 적(賊), 용 룡(竜)]",
         "type": "아룡종",
@@ -4443,7 +4443,7 @@
       {
         "id": 83,
         "imgurl": "./img/아룡종/도스기르오스.webp",
-        "icon": "./img/icon/아룡종/도스기르오스.webp",
+        "icon": "./img/monsterIcon/아룡종/도스기르오스.webp",
         "name": "도스기르오스",
         "nickname1": "비적룡[痺賊竜: 저릴 비(痺), 도둑 적(賊), 용 룡(竜)]",
         "type": "아룡종",
@@ -4478,7 +4478,7 @@
       {
         "id": 84,
         "imgurl": "./img/아룡종/도스쟈그라스.webp",
-        "icon": "./img/icon/아룡종/도스쟈그라스.webp",
+        "icon": "./img/monsterIcon/아룡종/도스쟈그라스.webp",
         "name": "도스쟈그라스",
         "nickname1": "적룡[賊竜: 도둑 적(賊), 용 룡(竜)]",
         "type": "아룡종",
@@ -4513,7 +4513,7 @@
       {
         "id": 85,
         "imgurl": "./img/아룡종/루나가론.webp",
-        "icon": "./img/icon/아룡종/루나가론.webp",
+        "icon": "./img/monsterIcon/아룡종/루나가론.webp",
         "name": "루나가론",
         "nickname1": "빙랑룡[氷狼竜: 얼음 빙(氷), 늑대 랑(狼), 용 룡(竜)]",
         "type": "아룡종",
@@ -4540,7 +4540,7 @@
       {
         "id": 86,
         "imgurl": "./img/아룡종/마가이마가도.webp",
-        "icon": "./img/icon/아룡종/마가이마가도.webp",
+        "icon": "./img/monsterIcon/아룡종/마가이마가도.webp",
         "name": "마가이마가도",
         "nickname1": "원호룡[怨虎竜: 원한 원(怨), 범 호(虎), 용 룡(竜)]",
         "type": "아룡종",
@@ -4575,7 +4575,7 @@
       {
         "id": 87,
         "imgurl": "./img/아룡종/마가이마가도-특개.webp",
-        "icon": "./img/icon/아룡종/마가이마가도-특개.webp",
+        "icon": "./img/monsterIcon/아룡종/마가이마가도-특개.webp",
         "name": "원망 서린 마가이마가도",
         "nickname1": "원호룡[怨虎竜: 원한 원(怨), 범 호(虎), 용 룡(竜)]",
         "type": "아룡종",
@@ -4602,7 +4602,7 @@
       {
         "id": 88,
         "imgurl": "./img/아룡종/오도가론.webp",
-        "icon": "./img/icon/아룡종/오도가론.webp",
+        "icon": "./img/monsterIcon/아룡종/오도가론.webp",
         "name": "오도가론",
         "nickname1": "참조룡[惨爪竜: 참혹할 참(惨), 손톱 조(爪), 용 룡(竜)]",
         "type": "아룡종",
@@ -4637,7 +4637,7 @@
       {
         "id": 89,
         "imgurl": "./img/아룡종/오도가론-아종.webp",
-        "icon": "./img/icon/아룡종/오도가론-아종.webp",
+        "icon": "./img/monsterIcon/아룡종/오도가론-아종.webp",
         "name": "오도가론 아종",
         "nickname1": "흉조룡[兇爪竜: 흉악할 흉(兇), 손톱 조(爪), 용 룡(竜)]",
         "type": "아룡종",
@@ -4664,7 +4664,7 @@
       {
         "id": 90,
         "imgurl": "./img/아룡종/진오우거.webp",
-        "icon": "./img/icon/아룡종/진오우거.webp",
+        "icon": "./img/monsterIcon/아룡종/진오우거.webp",
         "name": "진오우거",
         "nickname1": "뇌랑룡[雷狼竜: 우레 뇌(雷), 늑대 랑(狼), 용 룡(竜)]",
         "type": "아룡종",
@@ -4755,7 +4755,7 @@
       {
         "id": 91,
         "imgurl": "./img/아룡종/진오우거-아종.webp",
-        "icon": "./img/icon/아룡종/진오우거-아종.webp",
+        "icon": "./img/monsterIcon/아룡종/진오우거-아종.webp",
         "name": "진오우거 아종",
         "nickname1": "옥랑룡[獄狼竜: 감옥 옥(獄), 늑대 랑(狼), 용 룡(竜)]",
         "type": "아룡종",
@@ -4806,7 +4806,7 @@
       {
         "id": 92,
         "imgurl": "./img/아룡종/진오우거-이명특개.webp",
-        "icon": "./img/icon/아룡종/진오우거-이명특개.webp",
+        "icon": "./img/monsterIcon/아룡종/진오우거-이명특개.webp",
         "name": "금뢰공 진오우거",
         "nickname1": "금뢰공[金雷公: 금 금(金), 우레 뇌(雷), 공평할 공(公)]",
         "type": "아룡종",
@@ -4841,7 +4841,7 @@
       {
         "id": 93,
         "imgurl": "./img/아룡종/진오우거-주인.webp",
-        "icon": "./img/icon/아룡종/진오우거-주인.webp",
+        "icon": "./img/monsterIcon/아룡종/진오우거-주인.webp",
         "name": "주인 진오우거",
         "nickname1": "뇌랑룡[雷狼竜: 우레 뇌(雷), 늑대 랑(狼), 용 룡(竜)]",
         "type": "아룡종",
@@ -4868,7 +4868,7 @@
       {
         "id": 94,
         "imgurl": "./img/아룡종/토비카가치.webp",
-        "icon": "./img/icon/아룡종/토비카가치.webp",
+        "icon": "./img/monsterIcon/아룡종/토비카가치.webp",
         "name": "토비카가치",
         "nickname1": "비뢰룡[飛雷竜: 날 비(飛), 우레 뢰(雷), 용 룡(竜)]",
         "type": "아룡종",
@@ -4919,7 +4919,7 @@
       {
         "id": 95,
         "imgurl": "./img/아룡종/토비카가치-아종.webp",
-        "icon": "./img/icon/아룡종/토비카가치-아종.webp",
+        "icon": "./img/monsterIcon/아룡종/토비카가치-아종.webp",
         "name": "토비카가치 아종",
         "nickname1": "비독룡[飛毒竜: 날 비(飛), 독 독(毒), 용 룡(竜)]",
         "type": "아룡종",
@@ -4946,7 +4946,7 @@
       {
         "id": 96,
         "imgurl": "./img/아수종/가란고르무.webp",
-        "icon": "./img/icon/아수종/가란고르무.webp",
+        "icon": "./img/monsterIcon/아수종/가란고르무.webp",
         "name": "가란고르무",
         "nickname1": "강전수[剛纏獣: 굳셀 강(剛), 얽을 전(纏), 짐승 수(獣)]",
         "type": "아수종",
@@ -4973,7 +4973,7 @@
       {
         "id": 97,
         "imgurl": "./img/아수종/가무토.webp",
-        "icon": "./img/icon/아수종/가무토.webp",
+        "icon": "./img/monsterIcon/아수종/가무토.webp",
         "name": "가무토",
         "nickname1": "거수[巨獣: 클 거(巨), 짐승 수(獣)]",
         "type": "아수종",
@@ -5008,7 +5008,7 @@
       {
         "id": 98,
         "imgurl": "./img/아수종/가무토-이명특개.webp",
-        "icon": "./img/icon/아수종/가무토-이명특개.webp",
+        "icon": "./img/monsterIcon/아수종/가무토-이명특개.webp",
         "name": "은령 가무토",
         "nickname1": "은령[銀嶺: 은 은(銀), 고개 령(嶺)]",
         "type": "아수종",
@@ -5035,7 +5035,7 @@
       {
         "id": 99,
         "imgurl": "./img/아수종/고샤하기.webp",
-        "icon": "./img/icon/아수종/고샤하기.webp",
+        "icon": "./img/monsterIcon/아수종/고샤하기.webp",
         "name": "고샤하기",
         "nickname1": "설귀수[雪鬼獣: 눈 설(雪), 귀신 귀(鬼), 짐승 수(獣)]",
         "type": "아수종",
@@ -5070,7 +5070,7 @@
       {
         "id": 100,
         "imgurl": "./img/아수종/도도블랑고.webp",
-        "icon": "./img/icon/아수종/도도블랑고.webp",
+        "icon": "./img/monsterIcon/아수종/도도블랑고.webp",
         "name": "도도블랑고",
         "nickname1": "설사자[雪獅子: 눈 설(雪), 사자 사(獅), 아들 자(子)]",
         "nickname2": "눈사자",
@@ -5130,7 +5130,7 @@
       {
         "id": 101,
         "imgurl": "./img/아수종/도도블랑고-아종.webp",
-        "icon": "./img/icon/아수종/도도블랑고-아종.webp",
+        "icon": "./img/monsterIcon/아수종/도도블랑고-아종.webp",
         "name": "도도블랑고 아종",
         "nickname1": "사사자[砂獅子: 모래 사(砂), 사자 사(獅), 아들 자(子)]",
         "type": "아수종",
@@ -5157,7 +5157,7 @@
       {
         "id": 102,
         "imgurl": "./img/아수종/도스팽고.webp",
-        "icon": "./img/icon/아수종/도스팽고.webp",
+        "icon": "./img/monsterIcon/아수종/도스팽고.webp",
         "name": "도스팽고",
         "nickname1": "대저[大猪: 클 대(大), 돼지 저(猪)]",
         "type": "아수종",
@@ -5216,7 +5216,7 @@
       {
         "id": 103,
         "imgurl": "./img/아수종/라잔.webp",
-        "icon": "./img/icon/아수종/라잔.webp",
+        "icon": "./img/monsterIcon/아수종/라잔.webp",
         "name": "라잔",
         "nickname1": "금사자[金獅子: 금 금(金), 사자 사(獅), 아들 자(子)]",
         "type": "아수종",
@@ -5307,7 +5307,7 @@
       {
         "id": 104,
         "imgurl": "./img/아수종/라잔-특개.webp",
-        "icon": "./img/icon/아수종/라잔-특개.webp",
+        "icon": "./img/monsterIcon/아수종/라잔-특개.webp",
         "name": "격앙 라잔",
         "nickname1": "금사자[金獅子: 금 금(金), 사자 사(獅), 아들 자(子)]",
         "type": "아수종",
@@ -5382,7 +5382,7 @@
       {
         "id": 105,
         "imgurl": "./img/아수종/랑그로토라.webp",
-        "icon": "./img/icon/아수종/랑그로토라.webp",
+        "icon": "./img/monsterIcon/아수종/랑그로토라.webp",
         "name": "랑그로토라",
         "nickname1": "적갑수[赤甲獣: 붉을 적(赤), 갑옷 갑(甲), 짐승 수(獣)]",
         "type": "아수종",
@@ -5449,7 +5449,7 @@
       {
         "id": 106,
         "imgurl": "./img/아수종/바바콩가.webp",
-        "icon": "./img/icon/아수종/바바콩가.webp",
+        "icon": "./img/monsterIcon/아수종/바바콩가.webp",
         "name": "바바콩가",
         "nickname1": "도모수[桃毛獣: 복숭아 도(桃), 털 모(毛), 짐승 수(獣)]",
         "type": "아수종",
@@ -5508,7 +5508,7 @@
       {
         "id": 107,
         "imgurl": "./img/아수종/바바콩가-아종.webp",
-        "icon": "./img/icon/아수종/바바콩가-아종.webp",
+        "icon": "./img/monsterIcon/아수종/바바콩가-아종.webp",
         "name": "바바콩가 아종",
         "nickname1": "녹모수[綠毛獸: 푸를 녹(綠), 털 모(毛), 짐승 수(獣)]",
         "type": "아수종",
@@ -5551,7 +5551,7 @@
       {
         "id": 108,
         "imgurl": "./img/아수종/비슈텐고.webp",
-        "icon": "./img/icon/아수종/비슈텐고.webp",
+        "icon": "./img/monsterIcon/아수종/비슈텐고.webp",
         "name": "비슈텐고",
         "nickname1": "천구수[天狗獣: 하늘 천(天), 개 구(狗), 짐승 수(獣)]",
         "type": "아수종",
@@ -5586,7 +5586,7 @@
       {
         "id": 109,
         "imgurl": "./img/아수종/비슈텐고-아종.webp",
-        "icon": "./img/icon/아수종/비슈텐고-아종.webp",
+        "icon": "./img/monsterIcon/아수종/비슈텐고-아종.webp",
         "name": "비슈텐고 아종",
         "nickname1": "비천구수[緋天狗獣: 비단 비(緋), 하늘 천(天), 개 구(狗), 짐승 수(獣)]",
         "type": "아수종",
@@ -5613,7 +5613,7 @@
       {
         "id": 110,
         "imgurl": "./img/아수종/아오아시라.webp",
-        "icon": "./img/icon/아수종/아오아시라.webp",
+        "icon": "./img/monsterIcon/아수종/아오아시라.webp",
         "name": "아오아시라",
         "nickname1": "청웅수[青熊獣: 푸를 청(青), 곰 웅(熊), 짐승 수(獣)]",
         "type": "아수종",
@@ -5680,7 +5680,7 @@
       {
         "id": 111,
         "imgurl": "./img/아수종/아오아시라-이명특개.webp",
-        "icon": "./img/icon/아수종/아오아시라-이명특개.webp",
+        "icon": "./img/monsterIcon/아수종/아오아시라-이명특개.webp",
         "name": "홍두 아오아시라",
         "nickname1": "홍두[紅兜: 붉을 홍(紅), 투구 두(兜)]",
         "type": "아수종",
@@ -5715,7 +5715,7 @@
       {
         "id": 112,
         "imgurl": "./img/아수종/아오아시라-주인.webp",
-        "icon": "./img/icon/아수종/아오아시라-주인.webp",
+        "icon": "./img/monsterIcon/아수종/아오아시라-주인.webp",
         "name": "주인 아오아시라",
         "nickname1": "청웅수[青熊獣: 푸를 청(青), 곰 웅(熊), 용 룡(竜)]",
         "type": "아수종",
@@ -5742,7 +5742,7 @@
       {
         "id": 113,
         "imgurl": "./img/아수종/울크스스.webp",
-        "icon": "./img/icon/아수종/울크스스.webp",
+        "icon": "./img/monsterIcon/아수종/울크스스.webp",
         "name": "울크스스",
         "nickname1": "백토수[白兎獣: 흰 백(白), 토끼 토(兎), 짐승 수(獣)]",
         "type": "아수종",
@@ -5825,7 +5825,7 @@
       {
         "id": 114,
         "imgurl": "./img/아수종/울크스스-이명특개.webp",
-        "icon": "./img/icon/아수종/울크스스-이명특개.webp",
+        "icon": "./img/monsterIcon/아수종/울크스스-이명특개.webp",
         "name": "대설주 울크스스",
         "nickname1": "대설주[大雪主: 클 대(大), 눈 설(雪), 주인 주(主)]",
         "type": "아수종",
@@ -5860,7 +5860,7 @@
       {
         "id": 115,
         "imgurl": "./img/아수종/케차와차.webp",
-        "icon": "./img/icon/아수종/케차와차.webp",
+        "icon": "./img/monsterIcon/아수종/케차와차.webp",
         "name": "케차와차",
         "nickname1": "기원호[奇猿狐: 기이할 기(奇), 원숭이 원(猿), 여우 호(狐)]",
         "type": "아수종",
@@ -5911,7 +5911,7 @@
       {
         "id": 116,
         "imgurl": "./img/아수종/케차와차-아종.webp",
-        "icon": "./img/icon/아수종/케차와차-아종.webp",
+        "icon": "./img/monsterIcon/아수종/케차와차-아종.webp",
         "name": "케차와차 아종",
         "nickname1": "백원호[白猿狐: 흰 백(白), 원숭이 원(猿), 여우 호(狐)]",
         "type": "아수종",
@@ -5938,7 +5938,7 @@
       {
         "id": 117,
         "imgurl": "./img/양서종/요츠미와두.webp",
-        "icon": "./img/icon/양서종/요츠미와두.webp",
+        "icon": "./img/monsterIcon/양서종/요츠미와두.webp",
         "name": "요츠미와두",
         "nickname1": "하동와[河童蛙: 강 하(河), 개구쟁이 동(童), 개구리 와(蛙)]",
         "type": "양서종",
@@ -5973,7 +5973,7 @@
       {
         "id": 118,
         "imgurl": "./img/양서종/자보아자길.webp",
-        "icon": "./img/icon/양서종/자보아자길.webp",
+        "icon": "./img/monsterIcon/양서종/자보아자길.webp",
         "name": "자보아자길",
         "nickname1": "괴상어[化け鮫]",
         "type": "양서종",
@@ -6024,7 +6024,7 @@
       {
         "id": 119,
         "imgurl": "./img/양서종/자보아자길-아종.webp",
-        "icon": "./img/icon/양서종/자보아자길-아종.webp",
+        "icon": "./img/monsterIcon/양서종/자보아자길-아종.webp",
         "name": "자보아자길 아종",
         "nickname1": "호교[虎鮫: 범 호(虎), 상어 교(鮫)]",
         "nickname2": "호상어",
@@ -6052,7 +6052,7 @@
       {
         "id": 120,
         "imgurl": "./img/양서종/테츠카브라.webp",
-        "icon": "./img/icon/양서종/테츠카브라.webp",
+        "icon": "./img/monsterIcon/양서종/테츠카브라.webp",
         "name": "테츠카브라",
         "nickname1": "귀와[鬼蛙: 귀신 귀(鬼), 개구리 와(蛙)]",
         "type": "양서종",
@@ -6103,7 +6103,7 @@
       {
         "id": 121,
         "imgurl": "./img/양서종/테츠카브라-아종.webp",
-        "icon": "./img/icon/양서종/테츠카브라-아종.webp",
+        "icon": "./img/monsterIcon/양서종/테츠카브라-아종.webp",
         "name": "테츠카브라 아종",
         "nickname1": "황귀와[荒鬼蛙: 거칠 황(荒), 귀신 귀(鬼), 개구리 와(蛙)]",
         "type": "양서종",
@@ -6130,7 +6130,7 @@
       {
         "id": 122,
         "imgurl": "./img/양서종/테츠카브라-이명특개.webp",
-        "icon": "./img/icon/양서종/테츠카브라-이명특개.webp",
+        "icon": "./img/monsterIcon/양서종/테츠카브라-이명특개.webp",
         "name": "암천 테츠카브라",
         "nickname1": "암천[岩穿: 바위 암(岩), 뚫을 천(穿)]",
         "type": "양서종",
@@ -6165,7 +6165,7 @@
       {
         "id": 123,
         "imgurl": "./img/어룡종/가노토토스.webp",
-        "icon": "./img/icon/어룡종/가노토토스.webp",
+        "icon": "./img/monsterIcon/어룡종/가노토토스.webp",
         "name": "가노토토스",
         "nickname1": "수룡[水竜: 물 수(水), 용 룡(竜)]",
         "type": "어룡종",
@@ -6224,7 +6224,7 @@
       {
         "id": 124,
         "imgurl": "./img/어룡종/가노토토스-아종.webp",
-        "icon": "./img/icon/어룡종/가노토토스-아종.webp",
+        "icon": "./img/monsterIcon/어룡종/가노토토스-아종.webp",
         "name": "가노토토스 아종",
         "nickname1": "취수룡[翠水竜: 푸를 취(翠), 물 수(水), 용 룡(竜)]",
         "type": "어룡종",
@@ -6291,7 +6291,7 @@
       {
         "id": 125,
         "imgurl": "./img/어룡종/도스가레오스.webp",
-        "icon": "./img/icon/어룡종/도스가레오스.webp",
+        "icon": "./img/monsterIcon/어룡종/도스가레오스.webp",
         "name": "도스가레오스",
         "nickname1": "사룡[沙竜: 모래 사(沙), 용 룡(竜)]",
         "nickname2": "사토룡",
@@ -6359,7 +6359,7 @@
       {
         "id": 126,
         "imgurl": "./img/어룡종/볼가노스.webp",
-        "icon": "./img/icon/어룡종/볼가노스.webp",
+        "icon": "./img/monsterIcon/어룡종/볼가노스.webp",
         "name": "볼가노스",
         "nickname1": "용암룡[溶岩竜: 녹을 용(溶), 바위 암(岩), 용 룡(竜)]",
         "type": "어룡종",
@@ -6418,7 +6418,7 @@
       {
         "id": 127,
         "imgurl": "./img/어룡종/브란토도스.webp",
-        "icon": "./img/icon/어룡종/브란토도스.webp",
+        "icon": "./img/monsterIcon/어룡종/브란토도스.webp",
         "name": "브란토도스",
         "nickname1": "동어룡[凍魚竜: 얼 동(凍), 물고기 어(魚), 용 룡(竜)]",
         "type": "어룡종",
@@ -6445,7 +6445,7 @@
       {
         "id": 128,
         "imgurl": "./img/어룡종/쥬라토도스.webp",
-        "icon": "./img/icon/어룡종/쥬라토도스.webp",
+        "icon": "./img/monsterIcon/어룡종/쥬라토도스.webp",
         "name": "쥬라토도스",
         "nickname1": "이어룡[泥魚竜: 진흙 이(泥), 물고기 어(魚), 용 룡(竜)]",
         "type": "어룡종",
@@ -6496,7 +6496,7 @@
       {
         "id": 129,
         "imgurl": "./img/조룡종/게리오스.webp",
-        "icon": "./img/icon/조룡종/게리오스.webp",
+        "icon": "./img/monsterIcon/조룡종/게리오스.webp",
         "name": "게리오스",
         "nickname1": "독괴조[毒怪鳥: 독 독(毒), 괴이할 괴(怪), 새 조(鳥)]",
         "type": "조룡종",
@@ -6571,7 +6571,7 @@
       {
         "id": 130,
         "imgurl": "./img/조룡종/게리오스-아종.webp",
-        "icon": "./img/icon/조룡종/게리오스-아종.webp",
+        "icon": "./img/monsterIcon/조룡종/게리오스-아종.webp",
         "name": "게리오스 아종",
         "nickname1": "자독조[紫毒鳥: 자줏빛 자(紫), 독 독(毒), 새 조(鳥)]",
         "type": "조룡종",
@@ -6630,7 +6630,7 @@
       {
         "id": 131,
         "imgurl": "./img/조룡종/도스게네포스.webp",
-        "icon": "./img/icon/조룡종/도스게네포스.webp",
+        "icon": "./img/monsterIcon/조룡종/도스게네포스.webp",
         "name": "도스게네포스",
         "nickname1": "",
         "type": "조룡종",
@@ -6729,7 +6729,7 @@
       {
         "id": 132,
         "imgurl": "./img/조룡종/도스기아노스.webp",
-        "icon": "./img/icon/조룡종/도스기아노스.webp",
+        "icon": "./img/monsterIcon/조룡종/도스기아노스.webp",
         "name": "도스기아노스",
         "nickname1": "",
         "type": "조룡종",
@@ -6772,7 +6772,7 @@
       {
         "id": 133,
         "imgurl": "./img/조룡종/도스람포스.webp",
-        "icon": "./img/icon/조룡종/도스람포스.webp",
+        "icon": "./img/monsterIcon/조룡종/도스람포스.webp",
         "name": "도스람포스",
         "nickname1": "",
         "type": "조룡종",
@@ -6871,7 +6871,7 @@
       {
         "id": 134,
         "imgurl": "./img/조룡종/도스마카오.webp",
-        "icon": "./img/icon/조룡종/도스마카오.webp",
+        "icon": "./img/monsterIcon/조룡종/도스마카오.webp",
         "name": "도스마카오",
         "nickname1": "도구룡[跳狗竜: 뛸 도(跳), 개 구(狗), 용 룡(竜)]",
         "type": "조룡종",
@@ -6906,7 +6906,7 @@
       {
         "id": 135,
         "imgurl": "./img/조룡종/도스바기.webp",
-        "icon": "./img/icon/조룡종/도스바기.webp",
+        "icon": "./img/monsterIcon/조룡종/도스바기.webp",
         "name": "도스바기",
         "nickname1": "면구룡[眠狗竜: 잘 면(眠), 개 구(狗), 용 룡(竜)]",
         "type": "조룡종",
@@ -6965,7 +6965,7 @@
       {
         "id": 136,
         "imgurl": "./img/조룡종/도스이오스.webp",
-        "icon": "./img/icon/조룡종/도스이오스.webp",
+        "icon": "./img/monsterIcon/조룡종/도스이오스.webp",
         "name": "도스이오스",
         "nickname1": "",
         "type": "조룡종",
@@ -7064,7 +7064,7 @@
       {
         "id": 137,
         "imgurl": "./img/조룡종/도스재기.webp",
-        "icon": "./img/icon/조룡종/도스재기.webp",
+        "icon": "./img/monsterIcon/조룡종/도스재기.webp",
         "name": "도스재기",
         "nickname1": "구룡[狗竜: 개 구(狗), 용 룡(竜)]",
         "type": "조룡종",
@@ -7123,7 +7123,7 @@
       {
         "id": 138,
         "imgurl": "./img/조룡종/도스프로기.webp",
-        "icon": "./img/icon/조룡종/도스프로기.webp",
+        "icon": "./img/monsterIcon/조룡종/도스프로기.webp",
         "name": "도스프로기",
         "nickname1": "독구룡[毒狗竜: 독 독(毒), 개 구(狗), 용 룡(竜)]",
         "type": "조룡종",
@@ -7174,7 +7174,7 @@
       {
         "id": 139,
         "imgurl": "./img/조룡종/아케노시름.webp",
-        "icon": "./img/icon/조룡종/아케노시름.webp",
+        "icon": "./img/monsterIcon/조룡종/아케노시름.webp",
         "name": "아케노시름",
         "nickname1": "산조[傘鳥: 우산 산(傘), 새 조(鳥)]",
         "type": "조룡종",
@@ -7209,7 +7209,7 @@
       {
         "id": 140,
         "imgurl": "./img/조룡종/얀가루루가.webp",
-        "icon": "./img/icon/조룡종/얀가루루가.webp",
+        "icon": "./img/monsterIcon/조룡종/얀가루루가.webp",
         "name": "얀가루루가",
         "nickname1": "흑랑조[黒狼鳥: 검을 흑(黒), 늑대 랑(狼), 새 조(鳥)]",
         "type": "조룡종",
@@ -7300,7 +7300,7 @@
       {
         "id": 141,
         "imgurl": "./img/조룡종/얀가루루가-특개.webp",
-        "icon": "./img/icon/조룡종/얀가루루가-특개.webp",
+        "icon": "./img/monsterIcon/조룡종/얀가루루가-특개.webp",
         "name": "상처 입은 얀가루루가",
         "nickname1": "흑랑조[黒狼鳥: 검을 흑(黒), 늑대 랑(狼), 새 조(鳥)]",
         "type": "조룡종",
@@ -7336,7 +7336,7 @@
       {
         "id": 142,
         "imgurl": "./img/조룡종/얀가루루가-이명특개.webp",
-        "icon": "./img/icon/조룡종/얀가루루가-이명특개.webp",
+        "icon": "./img/monsterIcon/조룡종/얀가루루가-이명특개.webp",
         "name": "척안 얀가루루가",
         "nickname1": "척안[隻眼: 외짝 척(隻), 눈 안(眼)]",
         "type": "조룡종",
@@ -7371,7 +7371,7 @@
       {
         "id": 143,
         "imgurl": "./img/조룡종/얀쿡크.webp",
-        "icon": "./img/icon/조룡종/얀쿡크.webp",
+        "icon": "./img/monsterIcon/조룡종/얀쿡크.webp",
         "name": "얀쿡크",
         "nickname1": "괴조[怪鳥: 괴이할 괴(怪), 새 조(鳥)]",
         "type": "조룡종",
@@ -7446,7 +7446,7 @@
       {
         "id": 144,
         "imgurl": "./img/조룡종/얀쿡크-아종.webp",
-        "icon": "./img/icon/조룡종/얀쿡크-아종.webp",
+        "icon": "./img/monsterIcon/조룡종/얀쿡크-아종.webp",
         "name": "얀쿡크 아종",
         "nickname1": "청괴조[青怪鳥: 푸를 청(青), 괴이할 괴(怪), 새 조(鳥)]",
         "type": "조룡종",
@@ -7505,7 +7505,7 @@
       {
         "id": 145,
         "imgurl": "./img/조룡종/오사이즈치.webp",
-        "icon": "./img/icon/조룡종/오사이즈치.webp",
+        "icon": "./img/monsterIcon/조룡종/오사이즈치.webp",
         "name": "오사이즈치",
         "nickname1": "겸유룡[鎌鼬竜: 낫 겸(鎌), 족제비 유(鼬), 용 룡(竜)]",
         "type": "조룡종",
@@ -7540,7 +7540,7 @@
       {
         "id": 146,
         "imgurl": "./img/조룡종/치치야크.webp",
-        "icon": "./img/icon/조룡종/치치야크.webp",
+        "icon": "./img/monsterIcon/조룡종/치치야크.webp",
         "name": "치치야크",
         "nickname1": "현조[眩鳥: 어지러울 현(眩), 새 조(鳥)]",
         "type": "조룡종",
@@ -7575,7 +7575,7 @@
       {
         "id": 147,
         "imgurl": "./img/조룡종/쿠루루야크.webp",
-        "icon": "./img/icon/조룡종/쿠루루야크.webp",
+        "icon": "./img/monsterIcon/조룡종/쿠루루야크.webp",
         "name": "쿠루루야크",
         "nickname1": "소조[掻鳥: 긁을 소(掻), 새 조(鳥)]",
         "type": "조룡종",
@@ -7626,7 +7626,7 @@
       {
         "id": 148,
         "imgurl": "./img/조룡종/쿠르페코.webp",
-        "icon": "./img/icon/조룡종/쿠르페코.webp",
+        "icon": "./img/monsterIcon/조룡종/쿠르페코.webp",
         "name": "쿠르페코",
         "nickname1": "채조[彩鳥: 채색 채(彩), 새 조(鳥)]",
         "type": "조룡종",
@@ -7669,7 +7669,7 @@
       {
         "id": 149,
         "imgurl": "./img/조룡종/쿠르페코-아종.webp",
-        "icon": "./img/icon/조룡종/쿠르페코-아종.webp",
+        "icon": "./img/monsterIcon/조룡종/쿠르페코-아종.webp",
         "name": "쿠르페코 아종",
         "nickname1": "홍채조[紅彩鳥: 붉을 홍(紅), 채색 채(彩), 새 조(鳥)]",
         "type": "조룡종",
@@ -7704,7 +7704,7 @@
       {
         "id": 150,
         "imgurl": "./img/조룡종/푸케푸케.webp",
-        "icon": "./img/icon/조룡종/푸케푸케.webp",
+        "icon": "./img/monsterIcon/조룡종/푸케푸케.webp",
         "name": "푸케푸케",
         "nickname1": "독요조[毒妖鳥: 독 독(毒), 요사할 요(妖), 새 조(鳥)]",
         "type": "조룡종",
@@ -7755,7 +7755,7 @@
       {
         "id": 151,
         "imgurl": "./img/조룡종/푸케푸케-아종.webp",
-        "icon": "./img/icon/조룡종/푸케푸케-아종.webp",
+        "icon": "./img/monsterIcon/조룡종/푸케푸케-아종.webp",
         "name": "푸케푸케 아종",
         "nickname1": "수요조[水妖鳥: 물 수(水), 요사할 요(妖), 새 조(鳥)]",
         "type": "조룡종",
@@ -7782,7 +7782,7 @@
       {
         "id": 152,
         "imgurl": "./img/조룡종/호로로호루루.webp",
-        "icon": "./img/icon/조룡종/호로로호루루.webp",
+        "icon": "./img/monsterIcon/조룡종/호로로호루루.webp",
         "name": "호로로호루루",
         "nickname1": "야조[夜鳥: 밤 야(夜), 새 조(鳥)]",
         "type": "조룡종",
@@ -7817,7 +7817,7 @@
       {
         "id": 153,
         "imgurl": "./img/조룡종/호로로호루루-이명특개.webp",
-        "icon": "./img/icon/조룡종/호로로호루루-이명특개.webp",
+        "icon": "./img/monsterIcon/조룡종/호로로호루루-이명특개.webp",
         "name": "농은 호로로호루루",
         "nickname1": "농은[朧隠: 흐릿할 농(朧), 숨을 은(隠)]",
         "type": "조룡종",
@@ -7844,7 +7844,7 @@
       {
         "id": 154,
         "imgurl": "./img/조룡종/히프노크.webp",
-        "icon": "./img/icon/조룡종/히프노크.webp",
+        "icon": "./img/monsterIcon/조룡종/히프노크.webp",
         "name": "히프노크",
         "nickname1": "면조[眠鳥:  잘 면(眠), 새 조(鳥)]",
         "type": "조룡종",
@@ -7871,7 +7871,7 @@
       {
         "id": 155,
         "imgurl": "./img/해룡종/라기아크루스.webp",
-        "icon": "./img/icon/해룡종/라기아크루스.webp",
+        "icon": "./img/monsterIcon/해룡종/라기아크루스.webp",
         "name": "라기아크루스",
         "nickname1": "해룡[海竜: 바다 해(海), 용 룡(竜)]",
         "type": "해룡종",
@@ -7922,7 +7922,7 @@
       {
         "id": 156,
         "imgurl": "./img/해룡종/라기아크루스-아종.webp",
-        "icon": "./img/icon/해룡종/라기아크루스-아종.webp",
+        "icon": "./img/monsterIcon/해룡종/라기아크루스-아종.webp",
         "name": "라기아크루스 아종",
         "nickname1": "백해룡[白海竜: 흰 백(白), 바다 해(海), 용 룡(竜)]",
         "type": "해룡종",
@@ -7949,7 +7949,7 @@
       {
         "id": 157,
         "imgurl": "./img/해룡종/라기아크루스-희소종.webp",
-        "icon": "./img/icon/해룡종/라기아크루스-희소종.webp",
+        "icon": "./img/monsterIcon/해룡종/라기아크루스-희소종.webp",
         "name": "라기아크루스 희소종",
         "nickname1": "명해룡[冥海竜: 어두울 명(冥), 바다 해(海), 용 룡(竜)]",
         "type": "해룡종",
@@ -7976,7 +7976,7 @@
       {
         "id": 158,
         "imgurl": "./img/해룡종/로아루드로스.webp",
-        "icon": "./img/icon/해룡종/로아루드로스.webp",
+        "icon": "./img/monsterIcon/해룡종/로아루드로스.webp",
         "name": "로아루드로스",
         "nickname1": "수수[水獣: 물 수(水), 짐승 수(獣)] / 수괴수",
         "type": "해룡종",
@@ -8051,7 +8051,7 @@
       {
         "id": 159,
         "imgurl": "./img/해룡종/로아루드로스-아종.webp",
-        "icon": "./img/icon/해룡종/로아루드로스-아종.webp",
+        "icon": "./img/monsterIcon/해룡종/로아루드로스-아종.webp",
         "name": "로아루드로스 아종",
         "nickname1": "자수수[紫水獣: 자줏빛 자(紫), 물 수(水), 짐승 수(獣)]",
         "nickname2": "자수괴수",
@@ -8087,7 +8087,7 @@
       {
         "id": 160,
         "imgurl": "./img/해룡종/아그나코트르.webp",
-        "icon": "./img/icon/해룡종/아그나코트르.webp",
+        "icon": "./img/monsterIcon/해룡종/아그나코트르.webp",
         "name": "아그나코트르",
         "nickname1": "염과룡[炎戈竜: 불꽃 염(炎), 창 과(戈), 용 룡(竜)]",
         "type": "해룡종",
@@ -8146,7 +8146,7 @@
       {
         "id": 161,
         "imgurl": "./img/해룡종/아그나코트르-아종.webp",
-        "icon": "./img/icon/해룡종/아그나코트르-아종.webp",
+        "icon": "./img/monsterIcon/해룡종/아그나코트르-아종.webp",
         "name": "아그나코트르 아종",
         "nickname1": "동과룡[凍戈竜: 얼 동(凍), 창 과(戈), 용 룡(竜)]",
         "type": "해룡종",
@@ -8181,7 +8181,7 @@
       {
         "id": 162,
         "imgurl": "./img/해룡종/오로미도로.webp",
-        "icon": "./img/icon/해룡종/오로미도로.webp",
+        "icon": "./img/monsterIcon/해룡종/오로미도로.webp",
         "name": "오로미도로",
         "nickname1": "이옹룡[泥翁竜: 진흙 이(泥), 늙은이 옹(翁), 용 룡(竜)]",
         "type": "해룡종",
@@ -8216,7 +8216,7 @@
       {
         "id": 163,
         "imgurl": "./img/해룡종/오로미도로-아종.webp",
-        "icon": "./img/icon/해룡종/오로미도로-아종.webp",
+        "icon": "./img/monsterIcon/해룡종/오로미도로-아종.webp",
         "name": "오로미도로 아종",
         "nickname1": "용옹룡[溶翁竜: 녹을 용(溶), 늙은이 옹(翁), 용 룡(竜)]",
         "type": "해룡종",
@@ -8243,7 +8243,7 @@
       {
         "id": 164,
         "imgurl": "./img/해룡종/이소네미쿠니.webp",
-        "icon": "./img/icon/해룡종/이소네미쿠니.webp",
+        "icon": "./img/monsterIcon/해룡종/이소네미쿠니.webp",
         "name": "이소네미쿠니",
         "nickname1": "인어룡[人魚竜: 사람 인(人), 물고기 어(魚), 용 룡(竜)]",
         "type": "해룡종",
@@ -8278,7 +8278,7 @@
       {
         "id": 165,
         "imgurl": "./img/해룡종/이소네미쿠니-아종.webp",
-        "icon": "./img/icon/해룡종/이소네미쿠니-아종.webp",
+        "icon": "./img/monsterIcon/해룡종/이소네미쿠니-아종.webp",
         "name": "이소네미쿠니 아종",
         "nickname1": "빙인어룡[氷人魚竜: 얼음 빙(氷), 사람 인(人), 물고기 어(魚), 용 룡(竜)]",
         "type": "해룡종",
@@ -8305,7 +8305,7 @@
       {
         "id": 166,
         "imgurl": "./img/해룡종/차나가블.webp",
-        "icon": "./img/icon/해룡종/차나가블.webp",
+        "icon": "./img/monsterIcon/해룡종/차나가블.webp",
         "name": "차나가블",
         "nickname1": "등어룡[灯魚竜: 등 등(灯), 물고기 어(魚), 용 룡(竜)]",
         "type": "해룡종",
@@ -8340,7 +8340,7 @@
       {
         "id": 167,
         "imgurl": "./img/해룡종/타마미츠네.webp",
-        "icon": "./img/icon/해룡종/타마미츠네.webp",
+        "icon": "./img/monsterIcon/해룡종/타마미츠네.webp",
         "name": "타마미츠네",
         "nickname1": "포호룡[泡狐竜: 거품 포(泡), 여우 호(狐), 용 룡(竜)]",
         "type": "해룡종",
@@ -8391,7 +8391,7 @@
       {
         "id": 168,
         "imgurl": "./img/해룡종/타마미츠네-희소종.webp",
-        "icon": "./img/icon/해룡종/타마미츠네-희소종.webp",
+        "icon": "./img/monsterIcon/해룡종/타마미츠네-희소종.webp",
         "name": "타마미츠네 희소종",
         "nickname1": "염호룡[焔狐竜: 불꽃 염(焔), 여우 호(狐), 용 룡(竜)]",
         "type": "해룡종",
@@ -8418,7 +8418,7 @@
       {
         "id": 169,
         "imgurl": "./img/해룡종/타마미츠네-이명특개.webp",
-        "icon": "./img/icon/해룡종/타마미츠네-이명특개.webp",
+        "icon": "./img/monsterIcon/해룡종/타마미츠네-이명특개.webp",
         "name": "천안 타마미츠네",
         "nickname1": "천안[天眼: 하늘 천(天), 눈 안(眼)]",
         "type": "해룡종",
@@ -8445,7 +8445,7 @@
       {
         "id": 170,
         "imgurl": "./img/해룡종/타마미츠네-주인.webp",
-        "icon": "./img/icon/해룡종/타마미츠네-주인.webp",
+        "icon": "./img/monsterIcon/해룡종/타마미츠네-주인.webp",
         "name": "주인 타마미츠네",
         "nickname1": "포호룡[泡狐竜: 거품 포(泡), 여우 호(狐), 용 룡(竜)]",
         "type": "해룡종",
@@ -8472,7 +8472,7 @@
       {
         "id": 171,
         "imgurl": "./img/해룡종/하플보카.webp",
-        "icon": "./img/icon/해룡종/하플보카.webp",
+        "icon": "./img/monsterIcon/해룡종/하플보카.webp",
         "name": "하플보카",
         "nickname1": "잠구룡[潜口竜: 잠길 잠(潜), 입 구(口), 용 룡(竜)]",
         "type": "해룡종",
@@ -8523,7 +8523,7 @@
       {
         "id": 172,
         "imgurl": "./img/협각종/네르스큐라.webp",
-        "icon": "./img/icon/협각종/네르스큐라.webp",
+        "icon": "./img/monsterIcon/협각종/네르스큐라.webp",
         "name": "네르스큐라",
         "nickname1": "영지주[影蜘蛛: 그림자 영(影), 거미 지(蜘), 거미 주(蛛)]",
         "type": "협각종",
@@ -8566,7 +8566,7 @@
       {
         "id": 173,
         "imgurl": "./img/협각종/네르스큐라-아종.webp",
-        "icon": "./img/icon/협각종/네르스큐라-아종.webp",
+        "icon": "./img/monsterIcon/협각종/네르스큐라-아종.webp",
         "name": "네르스큐라 아종",
         "nickname1": "해지주[骸蜘蛛: 뼈 해(骸), 거미 지(蜘), 거미 주(蛛)]",
         "type": "협각종",
@@ -8593,7 +8593,7 @@
       {
         "id": 174,
         "imgurl": "./img/협각종/야츠카다키.webp",
-        "icon": "./img/icon/협각종/야츠카다키.webp",
+        "icon": "./img/monsterIcon/협각종/야츠카다키.webp",
         "name": "야츠카다키",
         "nickname1": "비지주[妃蜘蛛: 왕비 비(妃), 거미 지(蜘), 거미 주(蛛)]",
         "type": "협각종",
@@ -8628,7 +8628,7 @@
       {
         "id": 175,
         "imgurl": "./img/협각종/야츠카다키-아종.webp",
-        "icon": "./img/icon/협각종/야츠카다키-아종.webp",
+        "icon": "./img/monsterIcon/협각종/야츠카다키-아종.webp",
         "name": "야츠카다키 아종",
         "nickname1": "치비지주[熾妃蜘蛛: 성할 치(熾), 왕비 비(妃), 거미 지(蜘), 거미 주(蛛)]",
         "type": "협각종",
@@ -8655,7 +8655,7 @@
       {
         "id": 176,
         "imgurl": "./img/고룡종/가이아델름.webp",
-        "icon": "./img/icon/고룡종/가이아델름.webp",
+        "icon": "./img/monsterIcon/고룡종/가이아델름.webp",
         "name": "가이아델름",
         "nickname1": "명연룡[冥淵龍: 어두울 명(冥), 못 연(淵), 용 룡(龍)]",
         "type": "고룡종",
@@ -8682,7 +8682,7 @@
       {
         "id": 177,
         "imgurl": "./img/고룡종/고그마지오스.webp",
-        "icon": "./img/icon/고룡종/고그마지오스.webp",
+        "icon": "./img/monsterIcon/고룡종/고그마지오스.webp",
         "name": "고그마지오스",
         "nickname1": "거극룡[巨戟龍: 클 거(巨), 창 극(戟), 용 룡(龍)]",
         "type": "고룡종",
@@ -8709,7 +8709,7 @@
       {
         "id": 178,
         "imgurl": "./img/고룡종/고어마가라.webp",
-        "icon": "./img/icon/고룡종/고어마가라.webp",
+        "icon": "./img/monsterIcon/고룡종/고어마가라.webp",
         "name": "고어-마가라",
         "nickname1": "흑식룡[黒蝕竜: 검을 흑(黒), 좀먹을 식(蝕), 용 룡(竜)]",
         "type": "고룡종",
@@ -8768,7 +8768,7 @@
       {
         "id": 179,
         "imgurl": "./img/고룡종/고어마가라-특개.webp",
-        "icon": "./img/icon/고룡종/고어마가라-특개.webp",
+        "icon": "./img/monsterIcon/고룡종/고어마가라-특개.webp",
         "name": "혼돈에 신음하는 고어-마가라",
         "nickname1": "흑식룡[黒蝕竜: 검을 흑(黒), 좀먹을 식(蝕), 용 룡(竜)]",
         "type": "고룡종",
@@ -8811,7 +8811,7 @@
       {
         "id": 180,
         "imgurl": "./img/고룡종/그란밀라오스.webp",
-        "icon": "./img/icon/고룡종/그란밀라오스.webp",
+        "icon": "./img/monsterIcon/고룡종/그란밀라오스.webp",
         "name": "그란 밀라오스",
         "nickname1": "연흑룡[煉黒龍: 달굴 련(煉), 검을 흑(黒), 용 룡(龍)]",
         "type": "고룡종",
@@ -8838,7 +8838,7 @@
       {
         "id": 181,
         "imgurl": "./img/고룡종/나나테스카토리.webp",
-        "icon": "./img/icon/고룡종/나나테스카토리.webp",
+        "icon": "./img/monsterIcon/고룡종/나나테스카토리.webp",
         "name": "나나-테스카토리",
         "nickname1": "염비룡[炎妃龍: 불꽃 염(炎), 왕비 비(妃), 용 룡(龍)]",
         "type": "고룡종",
@@ -8897,7 +8897,7 @@
       {
         "id": 182,
         "imgurl": "./img/고룡종/나루하타타히메.webp",
-        "icon": "./img/icon/고룡종/나루하타타히메.webp",
+        "icon": "./img/monsterIcon/고룡종/나루하타타히메.webp",
         "name": "나루하타타히메",
         "nickname1": "뇌신룡[雷神龍: 우레 뢰(雷), 신 신(神), 용 룡(龍)]",
         "type": "고룡종",
@@ -8924,7 +8924,7 @@
       {
         "id": 183,
         "imgurl": "./img/고룡종/나루하타타히메-특개.webp",
-        "icon": "./img/icon/고룡종/나루하타타히메-특개.webp",
+        "icon": "./img/monsterIcon/고룡종/나루하타타히메-특개.webp",
         "name": "백룡 연원 나루하타타히메",
         "nickname1": "뇌신룡[雷神龍: 우레 뢰(雷), 신 신(神), 용 룡(龍)]",
         "type": "고룡종",
@@ -8959,7 +8959,7 @@
       {
         "id": 184,
         "imgurl": "./img/고룡종/나발데우스.webp",
-        "icon": "./img/icon/고룡종/나발데우스.webp",
+        "icon": "./img/monsterIcon/고룡종/나발데우스.webp",
         "name": "나발데우스",
         "nickname1": "대해룡[大海龍: 클 대(大), 바다 해(海), 용 룡(竜)]",
         "type": "고룡종",
@@ -8994,7 +8994,7 @@
       {
         "id": 185,
         "imgurl": "./img/고룡종/나발데우스-아종.webp",
-        "icon": "./img/icon/고룡종/나발데우스-아종.webp",
+        "icon": "./img/monsterIcon/고룡종/나발데우스-아종.webp",
         "name": "나발데우스 아종",
         "nickname1": "황해룡[皇海龍: 임금 황(皇), 바다 해(海), 용 룡(龍)]",
         "type": "고룡종",
@@ -9021,7 +9021,7 @@
       {
         "id": 186,
         "imgurl": "./img/고룡종/네로미에르.webp",
-        "icon": "./img/icon/고룡종/네로미에르.webp",
+        "icon": "./img/monsterIcon/고룡종/네로미에르.webp",
         "name": "네로미에르",
         "nickname1": "명룡[溟龍: 바다 명(溟), 용 룡(龍)]",
         "type": "고룡종",
@@ -9048,7 +9048,7 @@
       {
         "id": 187,
         "imgurl": "./img/고룡종/네르기간테.webp",
-        "icon": "./img/icon/고룡종/네르기간테.webp",
+        "icon": "./img/monsterIcon/고룡종/네르기간테.webp",
         "name": "네르기간테",
         "nickname1": "멸진룡[滅尽龍: 멸할 멸(滅), 다할 진(尽), 용 룡(龍)]",
         "type": "고룡종",
@@ -9083,7 +9083,7 @@
       {
         "id": 188,
         "imgurl": "./img/고룡종/네르기간테-특개.webp",
-        "icon": "./img/icon/고룡종/네르기간테-특개.webp",
+        "icon": "./img/monsterIcon/고룡종/네르기간테-특개.webp",
         "name": "모두를 멸하는 네르기간테",
         "nickname1": "멸진룡[滅尽龍: 멸할 멸(滅), 다할 진(尽), 용 룡(龍)]",
         "type": "고룡종",
@@ -9110,7 +9110,7 @@
       {
         "id": 189,
         "imgurl": "./img/고룡종/다라아마듈라.webp",
-        "icon": "./img/icon/고룡종/다라아마듈라.webp",
+        "icon": "./img/monsterIcon/고룡종/다라아마듈라.webp",
         "name": "다라 아마듈라",
         "nickname1": "사왕룡[蛇王龍: 뱀 사(蛇), 임금 왕(王), 용 룡(龍)]",
         "type": "고룡종",
@@ -9145,7 +9145,7 @@
       {
         "id": 190,
         "imgurl": "./img/고룡종/다라아마듈라-아종.webp",
-        "icon": "./img/icon/고룡종/다라아마듈라-아종.webp",
+        "icon": "./img/monsterIcon/고룡종/다라아마듈라-아종.webp",
         "name": "다라 아마듈라 아종",
         "nickname1": "사제룡[蛇帝龍: 뱀 사(蛇), 임금 제(帝), 용 룡(龍)]",
         "nickname2": "사황룡",
@@ -9173,7 +9173,7 @@
       {
         "id": 191,
         "imgurl": "./img/고룡종/다렌모란.webp",
-        "icon": "./img/icon/고룡종/다렌모란.webp",
+        "icon": "./img/monsterIcon/고룡종/다렌모란.webp",
         "name": "다렌 모란",
         "nickname1": "호산룡[豪山龍: 호탕할 호(豪), 뫼 산(山), 용 룡(龍)]",
         "type": "고룡종",
@@ -9208,7 +9208,7 @@
       {
         "id": 192,
         "imgurl": "./img/고룡종/라오샨룽.webp",
-        "icon": "./img/icon/고룡종/라오샨룽.webp",
+        "icon": "./img/monsterIcon/고룡종/라오샨룽.webp",
         "name": "라오샨룽",
         "nickname1": "노산룡[老山龍: 늙을 노(老), 뫼 산(山), 용 룡(龍)]",
         "type": "고룡종",
@@ -9283,7 +9283,7 @@
       {
         "id": 193,
         "imgurl": "./img/고룡종/라오샨룽-아종.webp",
-        "icon": "./img/icon/고룡종/라오샨룽-아종.webp",
+        "icon": "./img/monsterIcon/고룡종/라오샨룽-아종.webp",
         "name": "라오샨룽 아종",
         "nickname1": "암산룡[岩山龍: 바위 암(岩), 뫼 산(山), 용 룡(龍)]",
         "type": "고룡종",
@@ -9342,7 +9342,7 @@
       {
         "id": 194,
         "imgurl": "./img/고룡종/맘타로트.webp",
-        "icon": "./img/icon/고룡종/맘타로트.webp",
+        "icon": "./img/monsterIcon/고룡종/맘타로트.webp",
         "name": "맘-타로트",
         "nickname1": "난휘룡[爛輝龍: 빛날 난(爛), 빛날 휘(輝), 용 룡(龍)]",
         "type": "고룡종",
@@ -9377,7 +9377,7 @@
       {
         "id": 195,
         "imgurl": "./img/고룡종/멜제나.webp",
-        "icon": "./img/icon/고룡종/멜제나.webp",
+        "icon": "./img/monsterIcon/고룡종/멜제나.webp",
         "name": "멜-제나",
         "nickname1": "작은룡[爵銀龍: 벼슬 작(爵), 은빛 은(銀), 용 룡(龍)]",
         "nickname2": "은작룡",
@@ -9405,7 +9405,7 @@
       {
         "id": 196,
         "imgurl": "./img/고룡종/멜제나-특개.webp",
-        "icon": "./img/icon/고룡종/멜제나-특개.webp",
+        "icon": "./img/monsterIcon/고룡종/멜제나-특개.webp",
         "name": "원초를 새기는 멜-제나",
         "nickname1": "작은룡[爵銀龍: 벼슬 작(爵), 은빛 은(銀), 용 룡(龍)]",
         "nickname2": "은작룡",
@@ -9433,7 +9433,7 @@
       {
         "id": 197,
         "imgurl": "./img/고룡종/무페토지바.webp",
-        "icon": "./img/icon/고룡종/무페토지바.webp",
+        "icon": "./img/monsterIcon/고룡종/무페토지바.webp",
         "name": "무페토-지바",
         "nickname1": "적룡[赤龍: 붉을 적(赤), 용 룡(龍)]",
         "nickname2": "명적룡",
@@ -9461,7 +9461,7 @@
       {
         "id": 198,
         "imgurl": "./img/고룡종/밀라보레아스.webp",
-        "icon": "./img/icon/고룡종/밀라보레아스.webp",
+        "icon": "./img/monsterIcon/고룡종/밀라보레아스.webp",
         "name": "밀라보레아스",
         "nickname1": "흑룡[黑龍: 검을 흑(黑), 용 룡(龍)]",
         "type": "고룡종",
@@ -9560,7 +9560,7 @@
       {
         "id": 199,
         "imgurl": "./img/고룡종/밀라보레아스-아종.webp",
-        "icon": "./img/icon/고룡종/밀라보레아스-아종.webp",
+        "icon": "./img/monsterIcon/고룡종/밀라보레아스-아종.webp",
         "name": "홍룡 밀라보레아스",
         "nickname1": "홍룡[紅龍: 붉을 홍(紅), 용 룡(龍)]",
         "type": "고룡종",
@@ -9643,7 +9643,7 @@
       {
         "id": 200,
         "imgurl": "./img/고룡종/밀라보레아스-선조룡.webp",
-        "icon": "./img/icon/고룡종/밀라보레아스-선조룡.webp",
+        "icon": "./img/monsterIcon/고룡종/밀라보레아스-선조룡.webp",
         "name": "선조룡 밀라보레아스",
         "nickname1": "조룡[祖龍: 할아비 조(祖), 용 룡(龍)]",
         "nickname2": "선조룡",
@@ -9703,7 +9703,7 @@
       {
         "id": 201,
         "imgurl": "./img/고룡종/발파루크.webp",
-        "icon": "./img/icon/고룡종/발파루크.webp",
+        "icon": "./img/monsterIcon/고룡종/발파루크.webp",
         "name": "발파루크",
         "nickname1": "천혜룡[天彗龍: 하늘 천(天), 살별 혜(彗), 용 룡(龍)]",
         "type": "고룡종",
@@ -9730,7 +9730,7 @@
       {
         "id": 202,
         "imgurl": "./img/고룡종/발파루크-특개.webp",
-        "icon": "./img/icon/고룡종/발파루크-특개.webp",
+        "icon": "./img/monsterIcon/고룡종/발파루크-특개.webp",
         "name": "영묘한 광채의 발파루크",
         "nickname1": "천혜룡[天彗龍: 하늘 천(天), 살별 혜(彗), 용 룡(龍)]",
         "type": "고룡종",
@@ -9765,7 +9765,7 @@
       {
         "id": 203,
         "imgurl": "./img/고룡종/발파루크-괴극.webp",
-        "icon": "./img/icon/고룡종/발파루크-괴극.webp",
+        "icon": "./img/monsterIcon/고룡종/발파루크-괴극.webp",
         "name": "괴이 극복 발파루크",
         "nickname1": "천혜룡[天彗龍: 하늘 천(天), 살별 혜(彗), 용 룡(龍)]",
         "type": "고룡종",
@@ -9792,7 +9792,7 @@
       {
         "id": 204,
         "imgurl": "./img/고룡종/발하자크.webp",
-        "icon": "./img/icon/고룡종/발하자크.webp",
+        "icon": "./img/monsterIcon/고룡종/발하자크.webp",
         "name": "발하자크",
         "nickname1": "시투룡[屍套龍: 주검 시(屍), 덮개 투(套), 용 룡(龍)]",
         "type": "고룡종",
@@ -9827,7 +9827,7 @@
       {
         "id": 205,
         "imgurl": "./img/고룡종/발하자크-특개.webp",
-        "icon": "./img/icon/고룡종/발하자크-특개.webp",
+        "icon": "./img/monsterIcon/고룡종/발하자크-특개.webp",
         "name": "죽음을 두른 발하자크",
         "nickname1": "시투룡[屍套龍: 주검 시(屍), 덮개 투(套), 용 룡(龍)]",
         "type": "고룡종",
@@ -9854,7 +9854,7 @@
       {
         "id": 206,
         "imgurl": "./img/고룡종/샤가르마가라.webp",
-        "icon": "./img/icon/고룡종/샤가르마가라.webp",
+        "icon": "./img/monsterIcon/고룡종/샤가르마가라.webp",
         "name": "샤가르마가라",
         "nickname1": "천회룡[天廻龍: 하늘 천(天), 돌 회(廻), 용 룡(龍)]",
         "type": "고룡종",
@@ -9913,7 +9913,7 @@
       {
         "id": 207,
         "imgurl": "./img/고룡종/샤가르마가라-괴극.webp",
-        "icon": "./img/icon/고룡종/샤가르마가라-괴극.webp",
+        "icon": "./img/monsterIcon/고룡종/샤가르마가라-괴극.webp",
         "name": "괴이 극복 샤가르마가라",
         "nickname1": "천회룡[天廻龍: 하늘 천(天), 돌 회(廻), 용 룡(龍)]",
         "type": "고룡종",
@@ -9940,7 +9940,7 @@
       {
         "id": 208,
         "imgurl": "./img/고룡종/아마츠마가츠치.webp",
-        "icon": "./img/icon/고룡종/아마츠마가츠치.webp",
+        "icon": "./img/monsterIcon/고룡종/아마츠마가츠치.webp",
         "name": "아마츠마가츠치",
         "nickname1": "남룡[嵐龍: 남기 남(風), 용 룡(龍)]",
         "nickname2": "폭풍룡",
@@ -9992,7 +9992,7 @@
       {
         "id": 209,
         "imgurl": "./img/고룡종/안이슈왈다.webp",
-        "icon": "./img/icon/고룡종/안이슈왈다.webp",
+        "icon": "./img/monsterIcon/고룡종/안이슈왈다.webp",
         "name": "안-이슈왈다",
         "nickname1": "지제룡[地啼龍: 땅 지(地), 울 제(啼), 용 룡(龍)]",
         "type": "고룡종",
@@ -10019,7 +10019,7 @@
       {
         "id": 210,
         "imgurl": "./img/고룡종/알바트리온.webp",
-        "icon": "./img/icon/고룡종/알바트리온.webp",
+        "icon": "./img/monsterIcon/고룡종/알바트리온.webp",
         "name": "알바트리온",
         "nickname1": "황흑룡[煌黒龍: 빛날 황(煌), 검을 흑(黒), 용 룡(竜)]",
         "type": "고룡종",
@@ -10086,7 +10086,7 @@
       {
         "id": 211,
         "imgurl": "./img/고룡종/야마츠카미.webp",
-        "icon": "./img/icon/고룡종/야마츠카미.webp",
+        "icon": "./img/monsterIcon/고룡종/야마츠카미.webp",
         "name": "야마츠카미",
         "nickname1": "부악룡[浮岳龍: 뜰 부(浮), 큰산 악(岳), 용 룡(龍)]",
         "nickname2": "비악룡",
@@ -10122,7 +10122,7 @@
       {
         "id": 212,
         "imgurl": "./img/고룡종/오나즈치.webp",
-        "icon": "./img/icon/고룡종/오나즈치.webp",
+        "icon": "./img/monsterIcon/고룡종/오나즈치.webp",
         "name": "오나즈치",
         "nickname1": "하룡[霞龍: 노을/무지개 하(霞), 용 룡(龍)]",
         "type": "고룡종",
@@ -10205,7 +10205,7 @@
       {
         "id": 213,
         "imgurl": "./img/고룡종/오나즈치-괴극.webp",
-        "icon": "./img/icon/고룡종/오나즈치-괴극.webp",
+        "icon": "./img/monsterIcon/고룡종/오나즈치-괴극.webp",
         "name": "괴이 극복 오나즈치",
         "nickname1": "하룡[霞龍: 노을/무지개 하(霞), 용 룡(龍)]",
         "type": "고룡종",
@@ -10232,7 +10232,7 @@
       {
         "id": 214,
         "imgurl": "./img/고룡종/오스트가로아.webp",
-        "icon": "./img/icon/고룡종/오스트가로아.webp",
+        "icon": "./img/monsterIcon/고룡종/오스트가로아.webp",
         "name": "오스트가로아",
         "nickname1": "해룡[骸龍: 뼈 해(骸), 용 룡(龍)]",
         "type": "고룡종",
@@ -10267,7 +10267,7 @@
       {
         "id": 215,
         "imgurl": "./img/고룡종/이베르카나.webp",
-        "icon": "./img/icon/고룡종/이베르카나.webp",
+        "icon": "./img/monsterIcon/고룡종/이베르카나.webp",
         "name": "이베르카나",
         "nickname1": "빙룡[冰龍: 얼음 빙(冰), 용 룡(龍)]",
         "type": "고룡종",
@@ -10302,7 +10302,7 @@
       {
         "id": 216,
         "imgurl": "./img/고룡종/이부시마키히코.webp",
-        "icon": "./img/icon/고룡종/이부시마키히코.webp",
+        "icon": "./img/monsterIcon/고룡종/이부시마키히코.webp",
         "name": "이부시마키히코",
         "nickname1": "풍신룡[風神龍: 바람 풍(風), 신 신(神), 용 룡(龍)]",
         "type": "고룡종",
@@ -10337,7 +10337,7 @@
       {
         "id": 217,
         "imgurl": "./img/고룡종/제노지바.webp",
-        "icon": "./img/icon/고룡종/제노지바.webp",
+        "icon": "./img/monsterIcon/고룡종/제노지바.webp",
         "name": "제노-지바",
         "nickname1": "명등룡[冥灯龍: 저승 명(冥), 등불 등(灯), 용 룡(龍)]",
         "type": "고룡종",
@@ -10372,7 +10372,7 @@
       {
         "id": 218,
         "imgurl": "./img/고룡종/조라마그다라오스.webp",
-        "icon": "./img/icon/고룡종/조라마그다라오스.webp",
+        "icon": "./img/monsterIcon/고룡종/조라마그다라오스.webp",
         "name": "조라-마그다라오스",
         "nickname1": "용산룡[熔山龍: 녹일 용(熔), 뫼 산(山), 용 룡(龍)]",
         "type": "고룡종",
@@ -10399,7 +10399,7 @@
       {
         "id": 219,
         "imgurl": "./img/고룡종/지엔모란.webp",
-        "icon": "./img/icon/고룡종/지엔모란.webp",
+        "icon": "./img/monsterIcon/고룡종/지엔모란.webp",
         "name": "지엔 모란",
         "nickname1": "봉산룡[峯山龍: 봉우리 봉(峯), 뫼 산(山), 용 룡(竜)]",
         "type": "고룡종",
@@ -10442,7 +10442,7 @@
       {
         "id": 220,
         "imgurl": "./img/고룡종/지엔모란-아종.webp",
-        "icon": "./img/icon/고룡종/지엔모란-아종.webp",
+        "icon": "./img/monsterIcon/고룡종/지엔모란-아종.webp",
         "name": "지엔 모란 아종",
         "nickname1": "영산룡[霊山龍: 신령 령(峯), 뫼 산(山), 용 룡(龍)]",
         "type": "고룡종",
@@ -10469,7 +10469,7 @@
       {
         "id": 221,
         "imgurl": "./img/고룡종/크샬다오라.webp",
-        "icon": "./img/icon/고룡종/크샬다오라.webp",
+        "icon": "./img/monsterIcon/고룡종/크샬다오라.webp",
         "name": "크샬다오라",
         "nickname1": "강룡[鋼龍: 강철 강(鋼), 용 룡(龍)]",
         "nickname2": "풍상룡[風翔龍: 바람 풍(風), 날 상(翔), 용 룡(龍)]",
@@ -10577,7 +10577,7 @@
       {
         "id": 222,
         "imgurl": "./img/고룡종/크샬다오라-특개.webp",
-        "icon": "./img/icon/고룡종/크샬다오라-특개.webp",
+        "icon": "./img/monsterIcon/고룡종/크샬다오라-특개.webp",
         "name": "녹슨 크샬다오라",
         "nickname1": "창강룡[錆鋼龍: 녹 창(錆), 강철 강(鋼), 용 룡(龍)]",
         "type": "고룡종",
@@ -10628,7 +10628,7 @@
       {
         "id": 223,
         "imgurl": "./img/고룡종/크샬다오라-괴극.webp",
-        "icon": "./img/icon/고룡종/크샬다오라-괴극.webp",
+        "icon": "./img/monsterIcon/고룡종/크샬다오라-괴극.webp",
         "name": "괴이 극복 크샬다오라",
         "nickname1": "강룡[鋼龍: 강철 강(鋼), 용 룡(龍)]",
         "type": "고룡종",
@@ -10655,7 +10655,7 @@
       {
         "id": 224,
         "imgurl": "./img/고룡종/키린.webp",
-        "icon": "./img/icon/고룡종/키린.webp",
+        "icon": "./img/monsterIcon/고룡종/키린.webp",
         "name": "키린",
         "nickname1": "환수[幻獣: 헛보일 환(幻), 짐승 수(獣)]",
         "type": "고룡종",
@@ -10770,7 +10770,7 @@
       {
         "id": 225,
         "imgurl": "./img/고룡종/키린-아종.webp",
-        "icon": "./img/icon/고룡종/키린-아종.webp",
+        "icon": "./img/monsterIcon/고룡종/키린-아종.webp",
         "name": "키린 아종",
         "nickname1": "환수[幻獣: 헛보일 환(幻), 짐승 수(獣)]",
         "type": "고룡종",
@@ -10805,7 +10805,7 @@
       {
         "id": 226,
         "imgurl": "./img/고룡종/테오테스카토르.webp",
-        "icon": "./img/icon/고룡종/테오테스카토르.webp",
+        "icon": "./img/monsterIcon/고룡종/테오테스카토르.webp",
         "name": "테오-테스카토르",
         "nickname1": "염왕룡[炎王龍: 불꽃 염(炎), 임금 왕(王), 용 룡(龍)]",
         "type": "고룡종",
@@ -10912,7 +10912,7 @@
       {
         "id": 227,
         "imgurl": "./img/고룡종/테오테스카토르-괴극.webp",
-        "icon": "./img/icon/고룡종/테오테스카토르-괴극.webp",
+        "icon": "./img/monsterIcon/고룡종/테오테스카토르-괴극.webp",
         "name": "괴이 극복 테오-테스카토르",
         "nickname1": "염왕룡[炎王龍: 불꽃 염(炎), 임금 왕(王), 용 룡(龍)]",
         "type": "고룡종",
