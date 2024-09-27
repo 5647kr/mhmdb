@@ -1,11 +1,12 @@
 import DataJson from "./data.js";
-import MainPageEvent from "./main.js";
+import MainPage from "./main.js";
 
 const dataJson = new DataJson();
-const mainPageEvent = new MainPageEvent();
+const mainPage = new MainPage();
 
 
 (async function() {
   const data = await dataJson.data();
-  await mainPageEvent.dataSet(data);
+  await mainPage.dataSet(data);
+  mainPage.MainPageEvent();
 })();
