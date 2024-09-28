@@ -71,9 +71,8 @@ main .wrap {
 }
 
 footer {
-  bottom: 0;
+  position: relative;
 }
-
 
 .wrap {
   width: 100%;
