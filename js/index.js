@@ -9,4 +9,5 @@ const mainPage = new MainPage();
   const data = await dataJson.data();
   await mainPage.dataSet(data);
   mainPage.ToggleBtnEvent();
+  mainPage.ClickCheckBoxEvent();
 })();
