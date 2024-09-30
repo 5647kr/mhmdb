@@ -8,5 +8,5 @@ const mainPage = new MainPage();
 (async function() {
   const data = await dataJson.data();
   await mainPage.dataSet(data);
-  mainPage.MainPageEvent();
+  mainPage.ToggleBtnEvent();
 })();

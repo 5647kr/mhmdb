@@ -46,7 +46,7 @@ class MainPage {
     data.map((type) => {
       const typeItem = document.createElement("li");
       const typeContents = `
-        <input type="checkbox" id="${type.type}">
+        <input type="checkbox" id="${type.type}" value="${type.type}">
         <label for="${type.type}">${type.type}</label>
       `;
       typeItem.innerHTML = typeContents;
@@ -60,7 +60,7 @@ class MainPage {
     data.map((series) => {
       const seriesItem = document.createElement("li");
       const seriesContents = `
-        <input type="checkbox" id="${series.id}">
+        <input type="checkbox" id="${series.id}" value="${series.id}">
         <label for="${series.id}">
           <abbr title="${series.fullName}">
             ${series.series}
@@ -75,7 +75,7 @@ class MainPage {
 
 
   // 모바일 태블릿 버튼 기능
-  MainPageEvent () {
+  ToggleBtnEvent() {
     // 버튼 클릭시 메뉴창 & 검색창 여닫기 기능
     this.menuBtn.addEventListener("click", () => {
       const isActive = this.aside.classList.contains("active");
@@ -115,6 +115,11 @@ class MainPage {
 
     // checkbox 클릭시 필터링 기능
     
+  }
+
+  // 필터링 기능
+  FilterCardEvent() {
+
   }
 }
 
