@@ -79,8 +79,8 @@ main .wrap {
 /* !main asideWrap */
 main .asideWrap {
   width: 160px;
-  height: 100%;
-  position: absolute;
+  height: calc(100vh - 80px);
+  position: fixed;
   margin-left: -20px;
   background-color: var(--sub-color);
   display: none;
@@ -104,6 +104,10 @@ main .asideWrap ul {
   grid-template-columns: repeat(2, 1fr);
   padding: 10px 20px 20px;
   row-gap: 10px;
+}
+
+main .asideWrap ul:last-child {
+  padding-bottom: 100px;
 }
 
 main .asideWrap ul li {
@@ -168,6 +172,7 @@ main .cardWrap ul {
 
 main .cardWrap article {
   border: 1px solid var(--border-color);
+  background-color: var(--border-color);
   padding: 10px;
   text-align: center;
 }
@@ -194,11 +199,15 @@ footer p {
   line-height: 80px;
 }
 
-
-
-
-
-
+/* 가로 모드 */
+@media screen and (min-width: 700px) {
+  main .asideWrap {
+    position: fixed;
+    min-height: calc(100vh - 80px);
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+  }
+}
 
 /* !mediaQuery */
 /* 태블릿 */
@@ -297,7 +306,7 @@ footer p {
   /* !header searchWrap */
   header .searchWrap {
     flex-grow: 1;
-    padding: 30px 200px;
+    padding: 20px 200px;
     display: block;
     position: relative;
     top: 0;
@@ -316,14 +325,22 @@ footer p {
     width: 22px;
   }
 
+  /* !main section */
+  main section {
+    width: calc(100% - 220px);
+    margin-left: 220px;
+  }
+
   /* !main asideWrap */
   main .asideWrap {
     width: 180px;
-    position: static;
+    position: fixed;
     min-height: calc(100vh - 200px);
     margin-left: 0;
     background-color: var(--main-color);
     display: block;
+    z-index: 0;
+    overflow-y: initial;
   }
 
   main .asideWrap h2 {
@@ -374,7 +391,7 @@ footer p {
 
   /* !footer p */
   footer p {
-    line-height: 100px;
+    line-height: 80px;
   }
 }
 
@@ -416,14 +433,22 @@ footer p {
     width: 22px;
   }
 
+  /* !main section */
+  main section {
+    width: calc(100% - 220px);
+    margin-left: 220px;
+  }
+
   /* !main asideWrap */
   main .asideWrap {
     width: 200px;
-    position: static;
+    position: fixed;
     min-height: calc(100vh - 200px);
     margin-left: 0;
     background-color: var(--main-color);
     display: block;
+    overflow-y: initial;
+    z-index: 0;
   }
 
   main .asideWrap h2 {
