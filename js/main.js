@@ -15,8 +15,8 @@ class MainPage {
   // 데이터 받는 함수
   async dataSet(data) {
     this.monsterData(data[0].monsterList);
-    // this.typeData(data[1].typeList);
-    // this.seriesData(data[2].seriesList);
+    this.typeData(data[1].typeList);
+    this.seriesData(data[2].seriesList);
   }
 
   // 카드 생성 함수
@@ -24,7 +24,7 @@ class MainPage {
     const docFrag = document.createDocumentFragment();
     data.map((monster) => {
       const monsterItem = document.createElement("li");
-      const monsterCard = `
+      const monsterContents = `
         <a href="/monster?='${monster.name}'" data-name="${monster.name}" data-type="${monster.type}" data-img="${monster.img}" data-weak="${monster.weak}" data-element="${monster.element}" data-alignment="${monster.alignment}">
           <article>
             <p>${monster.type}</p>
@@ -34,13 +34,45 @@ class MainPage {
           </article>
         </a>
       `;
-
-      monsterItem.innerHTML = monsterCard;
+      monsterItem.innerHTML = monsterContents;
       docFrag.append(monsterItem);
     })
     this.cardList.append(docFrag);
-
   }
+
+  // type & series checkbox 생성 함수
+  typeData(data) {
+    const docFrag = document.createDocumentFragment();
+    data.map((type) => {
+      const typeItem = document.createElement("li");
+      const typeContents = `
+        <input type="checkbox" id="${type.type}">
+        <label for="${type.type}">${type.type}</label>
+      `;
+      typeItem.innerHTML = typeContents;
+      docFrag.append(typeItem);
+    })
+    this.typeList.append(docFrag)
+  }
+
+  seriesData(data) {
+    const docFrag = document.createDocumentFragment();
+    data.map((series) => {
+      const seriesItem = document.createElement("li");
+      const seriesContents = `
+        <input type="checkbox" id="${series.id}">
+        <label for="${series.id}">
+          <abbr title="${series.fullName}">
+            ${series.series}
+          </abbr>
+        </label>
+      `;
+      seriesItem.innerHTML = seriesContents;
+      docFrag.append(seriesItem);
+    })
+    this.seriesList.append(docFrag)
+  }
+
 
   // 모바일 태블릿 버튼 기능
   MainPageEvent () {
@@ -81,6 +113,8 @@ class MainPage {
       }
     });
 
+    // checkbox 클릭시 필터링 기능
+    
   }
 }
 
