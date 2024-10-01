@@ -14,7 +14,12 @@ class MainPage {
     this.typeCheckId = new Set();
     this.seriesCheckId = new Set();
     this.monsterDataList = [];
+
+    this.loadCheckList(this.typeList.querySelectorAll("li input[type='checkbox'"), "typeCheckId");
+    this.loadCheckList(this.seriesList.querySelectorAll("li input[type='checkbox'"), "seriesCheckId");
+
   }
+
 
   // 데이터 받는 함수
   async dataSet(data) {
@@ -24,27 +29,6 @@ class MainPage {
 
     this.FilterCardEvent();
   }
-
-  // 카드 생성 함수
-  // monsterData(data) {
-  //   const docFrag = document.createDocumentFragment();
-  //   data.map((monster) => {
-  //     const monsterItem = document.createElement("li");
-  //     const monsterContents = `
-  //       <a href="/monster?='${monster.name}'" data-name="${monster.name}" data-type="${monster.type}" data-img="${monster.img}" data-weak="${monster.weak}" data-element="${monster.element}" data-alignment="${monster.alignment}">
-  //         <article>
-  //           <p>${monster.type}</p>
-  //           <img src="${monster.icon}" alt="${monster.name}">
-  //           <h3>${monster.name}</h3>
-  //           <p class="a11y-hidden">${monster.seriesId}</p>
-  //         </article>
-  //       </a>
-  //     `;
-  //     monsterItem.innerHTML = monsterContents;
-  //     docFrag.append(monsterItem);
-  //   })
-  //   this.cardList.append(docFrag);
-  // }
 
   // type & series checkbox 생성 함수
   typeData(data) {
@@ -84,6 +68,7 @@ class MainPage {
   ToggleBtnEvent() {
     // 버튼 클릭시 메뉴창 & 검색창 여닫기 기능
     this.menuBtn.addEventListener("click", () => {
+      console.log(this.aside, this.searchWrap);
       const isActive = this.aside.classList.contains("active");
       const menuBtnImg = this.menuBtn.querySelector("img");
 
@@ -118,33 +103,37 @@ class MainPage {
         this.aside.classList.remove("active");
       }
     });
-
-    // checkbox 클릭시 필터링 기능
-    
   }
 
   // checkbox 클릭시 set에 저장
   ClickCheckBoxEvent() {
-    const typeCheck = this.typeList.querySelectorAll("li");
-    const seriesCheck = this.seriesList.querySelectorAll("li");
+    const typeCheck = this.typeList.querySelectorAll("li input[type='checkbox']");
+    const seriesCheck = this.seriesList.querySelectorAll("li input[type='checkbox']");
 
+    this.loadCheckList(typeCheck, "typeCheckId");
+    this.loadCheckList(seriesCheck, "seriesCheckId");
+    
+    this.FilterCardEvent();
+    
     typeCheck.forEach((type) => {
       type.addEventListener("change", (e) => {
         const checked = e.target.checked;
 
         checked ? this.typeCheckId.add(e.target.value) : this.typeCheckId.delete(e.target.value);
 
+        this.saveCheckList(typeCheck, "typeCheckId");
         this.FilterCardEvent();
       })
     })
-
+    
     seriesCheck.forEach((series) => {
       series.addEventListener("change", (e) => {
         const checked = e.target.checked;
-
+        
         checked ? this.seriesCheckId.add(e.target.value) : this.seriesCheckId.delete(e.target.value);
-
+        
         this.FilterCardEvent();
+        this.saveCheckList(seriesCheck, "seriesCheckId");
       })
     })
   }
@@ -168,7 +157,7 @@ class MainPage {
       const noCardMatch = document.createElement("strong");
       noCardMatch.textContent = "검색 결과가 없습니다.";
       noCardMatch.classList.add("warnMatch");
-      this.cardList.parentNode.appendChild(noCardMatch);
+      this.cardList.appendChild(noCardMatch);
 
     } else {
       const docFrag = document.createDocumentFragment();
@@ -191,6 +180,29 @@ class MainPage {
       this.cardList.append(docFrag);
     }
   }
+
+  saveCheckList(checkboxList, key) {
+    const saveList = Array.from(checkboxList).filter(checkbox => checkbox.checked).map(checkbox => checkbox.value);
+
+    localStorage.setItem(key, JSON.stringify(saveList));
+  }
+
+  loadCheckList(checkboxList, key) {
+    const loadList = JSON.parse(localStorage.getItem(key)) || [];
+
+    checkboxList.forEach((checkbox) => {
+      if(loadList.includes(checkbox.value)) {
+        checkbox.checked = true;
+
+        if(key === "typeCheckId") {
+          this.typeCheckId.add(checkbox.value);
+        } else {
+          this.seriesCheckId.add(checkbox.value);
+        }
+      }
+    })
+  }
+
 }
 
 export default MainPage;
