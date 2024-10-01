@@ -164,6 +164,18 @@ main section .cardWrap {
   margin-bottom: 20px;
 }
 
+main .cardWrap .warnResult {
+  display: block;
+  text-align: center;
+  display: none;
+  font-size: var(--font-mz);
+  font-weight: var(--font-bw);
+}
+
+main .cardWrap .warnResult.active {
+  display: block;
+}
+
 main .cardWrap ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -275,6 +287,10 @@ footer p {
   }
 
   /* !main cardWrap */
+  main .cardWrap .warnResult {
+    font-size: var(--font-mlz);
+  }
+
   main .cardWrap ul {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -377,6 +393,10 @@ footer p {
   }
   
   /* !main cardWrap */
+  main .cardWrap .warnResult {
+    font-size: var(--font-lz);
+  }
+
   main .cardWrap ul {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -485,6 +505,10 @@ footer p {
   }
 
   /* !main cardWrap */
+  main .cardWrap .warnResult {
+    font-size: var(--font-xlz);
+  }
+
   main .cardWrap ul {
     grid-template-columns: repeat(4, 1fr);
   }

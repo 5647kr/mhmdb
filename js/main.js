@@ -10,6 +10,7 @@ class MainPage {
     this.typeList = main.querySelector(".typeList");
     this.seriesList = main.querySelector(".seriesList");
     this.cardList = main.querySelector(".cardWrap ul");
+    this.warnResult = main.querySelector(".warnResult");
 
     this.typeCheckId = new Set();
     this.seriesCheckId = new Set();
@@ -154,12 +155,10 @@ class MainPage {
 
     // 필터링된 몬스터가 없으면 경고 메시지 표시
     if (filterCard.length === 0) {
-      const noCardMatch = document.createElement("strong");
-      noCardMatch.textContent = "검색 결과가 없습니다.";
-      noCardMatch.classList.add("warnMatch");
-      this.cardList.appendChild(noCardMatch);
-
+      this.warnResult.classList.add("active");
     } else {
+      this.warnResult.classList.remove("active");
+      
       const docFrag = document.createDocumentFragment();
 
       filterCard.forEach(monster => {
