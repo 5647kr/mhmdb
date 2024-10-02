@@ -4,6 +4,8 @@ class MainPage {
     this.menuBtn = header.querySelector(".menuBtn");
     this.searchBtn = header.querySelector(".searchBtn");
     this.searchWrap = header.querySelector(".searchWrap");
+    this.searchInput = this.searchWrap.querySelector(".searchForm input");
+    this.searchList = header.querySelector(".searchList");
 
     const main = document.querySelector("main");
     this.aside = main.querySelector("aside");
@@ -20,7 +22,6 @@ class MainPage {
     this.loadCheckList(this.seriesList.querySelectorAll("li input[type='checkbox'"), "seriesCheckId");
 
   }
-
 
   // 데이터 받는 함수
   async dataSet(data) {
@@ -133,7 +134,15 @@ class MainPage {
         this.saveCheckList(seriesCheck, "seriesCheckId");
       })
     })
+  
+    // 검색 이벤트
+    this.searchInput.addEventListener("input", (e) => {
+      const searchInputValue = e.target.value;
+    
+      this.SearchMonster(searchInputValue);
+    })
   }
+  
 
   // CheckId에 저장된 값을 이용한 필터 기능
   FilterCardEvent() {
@@ -176,12 +185,14 @@ class MainPage {
     }
   }
 
+  // checkbox 로컬스토리지에 저장
   saveCheckList(checkboxList, key) {
     const saveList = Array.from(checkboxList).filter(checkbox => checkbox.checked).map(checkbox => checkbox.value);
 
     localStorage.setItem(key, JSON.stringify(saveList));
   }
 
+  // checkbox 로컬스토리지에서 로드
   loadCheckList(checkboxList, key) {
     const loadList = JSON.parse(localStorage.getItem(key)) || [];
 
@@ -196,6 +207,38 @@ class MainPage {
         }
       }
     })
+  }
+
+  SearchMonster(searchInputValue) {
+    this.searchList.innerHTML = "";
+
+    const searchMonster = this.monsterDataList.filter(monster => {
+
+      const monsterName = monster.name;
+      const searchMonsterList = searchInputValue;
+
+      return monsterName.startsWith(searchMonsterList) || monsterName.includes(searchMonsterList);
+    });
+
+    if(this.searchInput.value === "") {
+      this.searchList.innerHTML = "";
+    } else {
+      const docFrag = document.createDocumentFragment();
+  
+      searchMonster.forEach(search => {
+        const searchItem = document.createElement("li");
+  
+        const searchContents = `
+          <a href="#">
+            <img src="${search.icon}" alt="${search.name}">
+            <p>${search.name}</p>
+          </a>
+        `
+        searchItem.innerHTML = searchContents;
+        docFrag.append(searchItem);
+      })
+      this.searchList.append(docFrag)
+    }
   }
 
 }
