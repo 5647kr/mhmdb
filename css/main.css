@@ -398,7 +398,7 @@ footer p {
   }
 
   main .cardWrap ul {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   main .cardWrap article p {
@@ -510,7 +510,7 @@ footer p {
   }
 
   main .cardWrap ul {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 
   main .cardWrap article p {
