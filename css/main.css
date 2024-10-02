@@ -66,11 +66,16 @@ header .searchWrap .searchForm button img {
   aspect-ratio: 1 / 1;
 }
 
+header .searchListWrap {
+  position: relative;
+}
+
 header .searchList {
   position: absolute;
   width: 100%;
+  max-height: 320px;
   left: 0;
-  padding: 0 40px;
+  overflow-y: auto;
 }
 
 header .searchList li {
@@ -87,7 +92,7 @@ header .searchList li a {
 }
 
 header .searchList img {
-  width: 40px;
+  width: 30px;
   aspect-ratio: 1 / 1;
 }
 
@@ -278,7 +283,7 @@ footer p {
   }
 
   header .searchList {
-    padding: 0 120px;
+    max-height: 340px;
   }
 
   header .searchList li {
@@ -289,7 +294,7 @@ footer p {
   }
 
   header .searchList img {
-    width: 60px;
+    width: 40px;
   }
 
   header .searchList p {
@@ -387,11 +392,11 @@ footer p {
 
   /* header searhcList */
   header .searchList {
-    padding: 0 200px;
+    max-height: 360px;
   }
 
   header .searchList img {
-    width: 60px;
+    width: 50px;
   }
 
   header .searchList p {
@@ -511,7 +516,7 @@ footer p {
 
   /* header searhcList */
   header .searchList {
-    padding: 0 300px;
+    max-height: 380px;
   }
 
   header .searchList img {
