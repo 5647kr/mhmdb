@@ -64,17 +64,15 @@ class MainPage {
     this.seriesList.append(docFrag)
   }
 
-
-  // 모바일 태블릿 버튼 기능
-  ToggleBtnEvent() {
+  MainPageEvent() {
     // 버튼 클릭시 메뉴창 & 검색창 여닫기 기능
     this.menuBtn.addEventListener("click", () => {
-      console.log(this.aside, this.searchWrap);
+      // 모바일 태블릿 버튼 기능
       const isActive = this.aside.classList.contains("active");
       const menuBtnImg = this.menuBtn.querySelector("img");
-
+  
       this.aside.classList.toggle("active");
-
+  
       if (isActive) {
         menuBtnImg.src = "./img/common/menu.svg";
         menuBtnImg.alt = "메뉴 버튼";
@@ -86,13 +84,13 @@ class MainPage {
         this.searchWrap.classList.remove("active");
       }
     });
-
+  
     this.searchBtn.addEventListener("click", () => {
       const isActive = this.searchWrap.classList.contains("active");
       const searchBtnImg = this.searchBtn.querySelector("img");
-
+  
       this.searchWrap.classList.toggle("active");
-
+  
       if (isActive) {
         searchBtnImg.src = "../img/common/search.svg";
         searchBtnImg.alt = "검색 버튼";
@@ -104,13 +102,11 @@ class MainPage {
         this.aside.classList.remove("active");
       }
     });
-  }
-
-  // checkbox 클릭시 set에 저장
-  ClickCheckBoxEvent() {
+    
+    // checkbox 클릭 이벤트
     const typeCheck = this.typeList.querySelectorAll("li input[type='checkbox']");
     const seriesCheck = this.seriesList.querySelectorAll("li input[type='checkbox']");
-
+  
     this.loadCheckList(typeCheck, "typeCheckId");
     this.loadCheckList(seriesCheck, "seriesCheckId");
     
@@ -119,9 +115,9 @@ class MainPage {
     typeCheck.forEach((type) => {
       type.addEventListener("change", (e) => {
         const checked = e.target.checked;
-
+  
         checked ? this.typeCheckId.add(e.target.value) : this.typeCheckId.delete(e.target.value);
-
+  
         this.saveCheckList(typeCheck, "typeCheckId");
         this.FilterCardEvent();
       })
