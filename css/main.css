@@ -106,10 +106,6 @@ main .asideWrap ul {
   row-gap: 10px;
 }
 
-main .asideWrap ul:last-child {
-  padding-bottom: 100px;
-}
-
 main .asideWrap ul li {
   display: flex;
   gap: 4px;
@@ -481,7 +477,7 @@ footer p {
   }
   
   main .asideWrap label {
-    font-size: var(--font-xlz);
+    font-size: var(--font-lz);
   }
   
   main .asideWrap input {
