@@ -146,7 +146,6 @@ class MainPage {
   
 
   // CheckId에 저장된 값을 이용한 필터 기능
-// CheckId에 저장된 값을 이용한 필터 기능
   FilterCardEvent() {
     this.cardList.innerHTML = "";
 
@@ -174,8 +173,12 @@ class MainPage {
       filterCard.forEach(monster => {
         const monsterItem = document.createElement("li");
 
-        // 시리즈 체크박스가 선택되지 않았을 경우 모든 타이틀 표시
-        const hasTitle = monster.title && (this.seriesCheckId.size === 0 || monster.seriesId.split(",").some(id => this.seriesCheckId.has(id)));
+        const monsterTitleId = monster.titleId.split(",").map(id => id.trim());
+
+        const hasTitle = monster.title && (
+          this.seriesCheckId.size === 0 || 
+          monsterTitleId.some(id => this.seriesCheckId.has(id))
+        );
 
         const isTitle = hasTitle ? `
           <div class="title" id="${monster.titleId}">
