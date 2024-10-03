@@ -637,13 +637,13 @@ footer p {
   }
 
   main .cardWrap article .title span {
-    font-size: var(--font-mz);
+    font-size: var(--font-smz);
   }
   
   main .cardWrap article .title span::before,
   main .cardWrap article .title span::after {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
   }
 
   main .cardWrap article p {
