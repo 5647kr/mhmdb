@@ -186,8 +186,9 @@ class MainPage {
           </div>
         ` : "";
 
+
         const monsterContents = `
-          <a href="#" target="_blank">
+          <a href="/detail.html?monster=${monster.name}">
             <article class="${hasTitle ? "hasTitle" : ""}">
               ${isTitle}
               <p>${monster.type}</p>
