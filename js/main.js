@@ -13,6 +13,7 @@ class MainPage {
     this.seriesList = main.querySelector(".seriesList");
     this.cardList = main.querySelector(".cardWrap ul");
     this.warnResult = main.querySelector(".warnResult");
+    this.monsterTitle = main.querySelector(".title span");
 
     this.typeCheckId = new Set();
     this.seriesCheckId = new Set();
@@ -145,14 +146,18 @@ class MainPage {
   
 
   // CheckId에 저장된 값을 이용한 필터 기능
+// CheckId에 저장된 값을 이용한 필터 기능
   FilterCardEvent() {
     this.cardList.innerHTML = "";
-    
+
     // 선택된 타입과 시리즈에 따라 몬스터 필터링
     const filterCard = this.monsterDataList.filter(monster => {
       const typeFilter = this.typeCheckId.size === 0 || this.typeCheckId.has(monster.type);
 
+      // monster.seriesId를 처리
       const monsterSeriesIds = monster.seriesId.split(',').map(id => id.trim());
+
+      // 시리즈 체크박스가 선택되지 않았을 경우
       const seriesFilter = this.seriesCheckId.size === 0 || monsterSeriesIds.some(id => this.seriesCheckId.has(id));
 
       return typeFilter && seriesFilter;
@@ -168,9 +173,20 @@ class MainPage {
 
       filterCard.forEach(monster => {
         const monsterItem = document.createElement("li");
+
+        // 시리즈 체크박스가 선택되지 않았을 경우 모든 타이틀 표시
+        const hasTitle = monster.title && (this.seriesCheckId.size === 0 || monster.seriesId.split(",").some(id => this.seriesCheckId.has(id)));
+
+        const isTitle = hasTitle ? `
+          <div class="title" id="${monster.titleId}">
+            <span>${monster.title}</span>
+          </div>
+        ` : "";
+
         const monsterContents = `
           <a href="#" target="_blank">
-            <article>
+            <article class="${hasTitle ? "hasTitle" : ""}">
+              ${isTitle}
               <p>${monster.type}</p>
               <img src="${monster.icon}" alt="${monster.name}">
               <h3>${monster.name}</h3>
@@ -178,8 +194,8 @@ class MainPage {
             </article>
           </a>
         `;
-        monsterItem.innerHTML = monsterContents;
-        docFrag.append(monsterItem);
+          monsterItem.innerHTML = monsterContents;
+          docFrag.append(monsterItem);
       });
       this.cardList.append(docFrag);
     }
