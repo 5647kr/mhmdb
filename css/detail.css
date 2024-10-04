@@ -17,6 +17,7 @@ header .headerWrap h1 {
   font-weight: var(--font-ebw);
 }
 
+header .headerWrap .backLink img,
 header .headerWrap button img {
   width: 20px;
   aspect-ratio: 1 / 1;
@@ -202,6 +203,7 @@ footer p {
     font-size: 30px;
   }
   
+  header .headerWrap .backLink img,
   header .headerWrap button img {
     width: 24px;
   }
@@ -276,6 +278,10 @@ footer p {
 
   header .headerWrap h1 {
     font-size: 40px;
+  }
+
+  header .headerWrap .backLink {
+    display: none;
   }
 
   header .headerWrap button {
@@ -387,6 +393,10 @@ footer p {
 
   header .headerWrap h1 {
     font-size: 40px;
+  }
+
+  header .headerWrap .backLink {
+    display: none;
   }
 
   header .headerWrap button {
