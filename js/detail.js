@@ -3,17 +3,22 @@ class DetailPage {
     const header = document.querySelector("header");
     this.searchBtn = header.querySelector(".searchBtn");
     this.searchWrap = header.querySelector(".searchWrap");
+    this.searchInput = header.querySelector(".searchForm input");
+    this.searchList = header.querySelector(".searchList");
 
     const main = document.querySelector("main");
     this.monsterImg = main.querySelector(".monsterImgWrap");
     this.monsterInfo = main.querySelector(".monsterInfoWrap ul");
     this.monsterWeak = main.querySelector(".monsterWeakWrap table tbody");
     this.monsterEco = main.querySelector(".monsterEcoWrap div");
+
+    this.monsterDataList = [];
   }
 
   // 데이터 받는 함수
   async dataSet(data) {
     this.monsterData(data[0].monsterList);
+    this.monsterDataList = data[0].monsterList;
   }
 
   monsterData(data) {
@@ -115,7 +120,74 @@ class DetailPage {
         searchBtnImg.alt = "닫기 버튼";
       }
     });
+
+    // 검색이벤트
+    this.searchInput.addEventListener("input", (e) => {
+      const searchInputValue = e.target.value;
+
+      this.SearchMonster(searchInputValue);
+      console.log(searchInputValue);
+    })
+
+    // Enter 키 이벤트
+    this.searchInput.addEventListener("keydown", (e) => {
+      if(e.key === "Enter") {
+        const searchInputValue = e.target.value;
+
+        e.preventDefault();
+        this.SearchMonster(searchInputValue);
+        this.HandleSearchMonster(searchInputValue);
+      }
+    });
   }
+
+  SearchMonster(searchInputValue) {
+    this.searchList.innerHTML = "";
+
+    const searchMonster = this.monsterDataList.filter(monster => {
+
+      const monsterName = monster.name;
+      const searchMonsterList = searchInputValue;
+
+      return monsterName.startsWith(searchMonsterList) || monsterName.includes(searchMonsterList);
+    });
+
+    this.searchResult = searchMonster;
+
+    if(this.searchInput.value === "") {
+      this.searchList.innerHTML = "";
+    } else {
+      const docFrag = document.createDocumentFragment();
+  
+      searchMonster.forEach(search => {
+        const searchItem = document.createElement("li");
+  
+        const searchContents = `
+          <a href="/detail.html?monster=${search.name}">
+            <img src="${search.icon}" alt="${search.name}">
+            <p>${search.name}</p>
+          </a>
+        `
+        searchItem.innerHTML = searchContents;
+        docFrag.append(searchItem);
+      })
+      this.searchList.append(docFrag)
+    }
+  }
+
+  HandleSearchMonster(searchInputValue) {
+    const searchMonster = this.monsterDataList.filter(monster => 
+      monster.name.startsWith(searchInputValue) || monster.name.includes(searchInputValue)
+    );
+
+    // 검색 결과가 있으면 첫 번째 결과로 이동
+    if (searchMonster.length > 0) {
+      const firstMonster = searchMonster[0];
+      const newUrl = `http://127.0.0.1:5500/detail.html?monster=${encodeURIComponent(firstMonster.name)}`;
+      window.location.href = newUrl;
+    }
+  }
+
 }
 
 export default DetailPage;
