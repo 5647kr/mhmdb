@@ -119,6 +119,7 @@ main .monsterWrap .monsterImgWrap {
 
 main .monsterWrap .monsterImgWrap img {
   width: 100%;
+  height: 200px;
   aspect-ratio: 1 / 1;
   object-fit: contain;
 }
