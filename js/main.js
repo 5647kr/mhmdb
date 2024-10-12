@@ -136,12 +136,24 @@ class MainPage {
       })
     })
   
-    // 검색 이벤트
+    // 검색이벤트
     this.searchInput.addEventListener("input", (e) => {
       const searchInputValue = e.target.value;
-    
+
       this.SearchMonster(searchInputValue);
     })
+
+    // Enter 키 이벤트
+    this.searchInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        const firstResult = this.searchList.querySelector("li a");
+
+        if (firstResult) {
+          window.location.href = firstResult.href; 
+        }
+      }
+    });
   }
   
 
@@ -231,33 +243,47 @@ class MainPage {
 
   SearchMonster(searchInputValue) {
     this.searchList.innerHTML = "";
-
+  
     const searchMonster = this.monsterDataList.filter(monster => {
-
       const monsterName = monster.name;
-      const searchMonsterList = searchInputValue;
-
-      return monsterName.startsWith(searchMonsterList) || monsterName.includes(searchMonsterList);
+      const searchTerms = searchInputValue.trim().split(" ");
+  
+      return searchTerms.every(term => monsterName.includes(term));
     });
-
-    if(this.searchInput.value === "") {
+  
+    this.searchResult = searchMonster;
+  
+    if (this.searchInput.value === "") {
       this.searchList.innerHTML = "";
     } else {
       const docFrag = document.createDocumentFragment();
-  
+    
       searchMonster.forEach(search => {
         const searchItem = document.createElement("li");
-  
+    
         const searchContents = `
-          <a href="#">
+          <a href="/detail.html?monster=${search.name}">
             <img src="${search.icon}" alt="${search.name}">
             <p>${search.name}</p>
           </a>
-        `
+        `;
         searchItem.innerHTML = searchContents;
         docFrag.append(searchItem);
-      })
-      this.searchList.append(docFrag)
+      });
+      this.searchList.append(docFrag);
+    }
+  }
+  
+
+  HandleSearchMonster(searchInputValue) {
+    const searchMonster = this.monsterDataList.filter(monster => 
+      monster.name.startsWith(searchInputValue) || monster.name.includes(searchInputValue)
+    );
+
+    if (searchMonster.length > 0) {
+      const firstMonster = searchMonster[0];
+      const newUrl = `/detail.html?monster=${encodeURIComponent(firstMonster.name)}`;
+      window.location.href = newUrl;
     }
   }
 
