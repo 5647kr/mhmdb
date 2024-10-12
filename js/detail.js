@@ -3,17 +3,22 @@ class DetailPage {
     const header = document.querySelector("header");
     this.searchBtn = header.querySelector(".searchBtn");
     this.searchWrap = header.querySelector(".searchWrap");
+    this.searchInput = header.querySelector(".searchForm input");
+    this.searchList = header.querySelector(".searchList");
 
     const main = document.querySelector("main");
     this.monsterImg = main.querySelector(".monsterImgWrap");
     this.monsterInfo = main.querySelector(".monsterInfoWrap ul");
-    this.monsterWeak = main.querySelector(".monsterWeakWrap");
+    this.monsterWeak = main.querySelector(".monsterWeakWrap table tbody");
     this.monsterEco = main.querySelector(".monsterEcoWrap div");
+
+    this.monsterDataList = [];
   }
 
   // 데이터 받는 함수
   async dataSet(data) {
     this.monsterData(data[0].monsterList);
+    this.monsterDataList = data[0].monsterList;
   }
 
   monsterData(data) {
@@ -31,6 +36,11 @@ class DetailPage {
     this.monsterImg.innerHTML = monsterImgContents;
 
     // monsterInfoWrap
+    const nickname1Main = monster.nickname1.split("/")[0] || "";
+    const nickname1Detail = monster.nickname1.split("/")[1] || "";
+    const nickname2Main = monster.nickname2.split("/")[0] || "";
+    const nickname2Detail = monster.nickname2.split("/")[1] || "";
+
     const monsterInfoContents = `
       <li>
         <h3>이름</h3>
@@ -38,30 +48,30 @@ class DetailPage {
       </li>
       <li>
         <h3>속성</h3>
-        <p>${monster.element}</p>
+        <p>${monster.element || "없음"}</p>
       </li>
       <li>
         <h3>종별</h3>
-        <p>${monster.type}</p>
+        <p>${monster.type || "없음"}</p>
       </li>
       <li>
         <h3>상태이상</h3>
-        <p>${monster.ailment}</p>
+        <p>${monster.ailment || "없음"}</p>
       </li>
       <li>
         <h3>종</h3>
-        <p>${monster.species}</p>
+        <p>${monster.species || "없음"}</p>
       </li>
       <li>
         <h3>크기</h3>
         <p>${monster.small} ~ ${monster.large}</p>
       </li>
       <li>
-        <h3>별명7</h3>
-        <p>${monster.nickname1}</p>
-        <p class="detail">${monster.nickname1}</p>
-        <p>${monster.nickname2}</p>
-        <p class="detail">${monster.nickname2}</p>
+        <h3>별명</h3>
+        <p>${nickname1Main}</p>
+        <p class="detail">${nickname1Detail}</p>
+        <p>${nickname2Main}</p>
+        <p class="detail">${nickname2Detail}</p>
       </li>
       <li>
         <h3>작품</h3>
@@ -71,7 +81,21 @@ class DetailPage {
     this.monsterInfo.innerHTML = monsterInfoContents;
 
     // monsterWeakWrap
+    const monsterWeak = monster.weak;
 
+    this.monsterWeak.innerHTML = ''; 
+
+    monsterWeak.forEach((weak) => {
+      const tr = document.createElement("tr");
+
+      for (const key in weak) {
+        const td = document.createElement("td");
+        td.textContent = weak[key] || "없음";
+        tr.appendChild(td);
+      }
+    
+      this.monsterWeak.appendChild(tr);
+    });
 
     // monsterEcoWrap
     const monsterEcoContents = `
@@ -96,7 +120,74 @@ class DetailPage {
         searchBtnImg.alt = "닫기 버튼";
       }
     });
+
+    // 검색이벤트
+    this.searchInput.addEventListener("input", (e) => {
+      const searchInputValue = e.target.value;
+
+      this.SearchMonster(searchInputValue);
+    })
+
+    // Enter 키 이벤트
+    this.searchInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        const firstResult = this.searchList.querySelector("li a");
+
+        if (firstResult) {
+          window.location.href = firstResult.href; 
+        }
+      }
+    });
+
   }
+
+  SearchMonster(searchInputValue) {
+    this.searchList.innerHTML = "";
+  
+    const searchMonster = this.monsterDataList.filter(monster => {
+      const monsterName = monster.name;
+      const searchTerms = searchInputValue.trim().split(" ");
+  
+      return searchTerms.every(term => monsterName.includes(term));
+    });
+  
+    this.searchResult = searchMonster;
+  
+    if (this.searchInput.value === "") {
+      this.searchList.innerHTML = "";
+    } else {
+      const docFrag = document.createDocumentFragment();
+    
+      searchMonster.forEach(search => {
+        const searchItem = document.createElement("li");
+    
+        const searchContents = `
+          <a href="/detail.html?monster=${search.name}">
+            <img src="${search.icon}" alt="${search.name}">
+            <p>${search.name}</p>
+          </a>
+        `;
+        searchItem.innerHTML = searchContents;
+        docFrag.append(searchItem);
+      });
+      this.searchList.append(docFrag);
+    }
+  }
+  
+
+  HandleSearchMonster(searchInputValue) {
+    const searchMonster = this.monsterDataList.filter(monster => 
+      monster.name.startsWith(searchInputValue) || monster.name.includes(searchInputValue)
+    );
+
+    if (searchMonster.length > 0) {
+      const firstMonster = searchMonster[0];
+      const newUrl = `/detail.html?monster=${encodeURIComponent(firstMonster.name)}`;
+      window.location.href = newUrl;
+    }
+  }
+
 }
 
 export default DetailPage;

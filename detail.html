@@ -32,13 +32,20 @@
           </button>
         </div>
   
-        <form action="" class="searchWrap">
-          <label for="searchWrap" class="a11y-hidden">몬스터 이름 검색</label>
-          <input type="text" id="searchWrap" autocomplete="off">
-          <button type="button">
-            <img src="./img/common/search.svg" alt="검색 버튼">
-          </button>
-        </form>
+        <div class="searchWrap">
+          <form action="" class="searchForm">
+            <label for="searchForm" class="a11y-hidden">몬스터 이름 검색</label>
+            <input type="text" id="searchForm" autocomplete="off">
+            <button type="button">
+              <img src="./img/common/search.svg" alt="검색 버튼">
+            </button>
+          </form>
+  
+          <div class="searchListWrap">
+            <ul class="searchList">
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     
@@ -47,8 +54,6 @@
         <section>
           <div class="monsterWrap">
             <div class="monsterImgWrap">
-              <h1 class="a11y-hidden">다이묘자자미</h1>
-              <img src="./img/MonsterIcon/갑각종/다이묘자자미.webp" alt="다이묘자자미">
             </div>
             <div class="monsterInfoWrap">
               <h2>기본정보</h2>
@@ -58,38 +63,18 @@
             <div class="monsterWeakWrap">
               <h2>약점</h2>
               <table>
-                <tr>
-                  <th>&nbsp;</th>
-                  <th>화</th>
-                  <th>수</th>
-                  <th>뇌</th>
-                  <th>빙</th>
-                  <th>용</th>
-                </tr>
-                <tr>
-                  <td>MHP2G</td>
-                  <td>★★★</td>
-                  <td>★★</td>
-                  <td>★</td>
-                  <td>★★</td>
-                  <td>★★★</td>
-                </tr>
-                <tr>
-                  <td>MHXX</td>
-                  <td>★</td>
-                  <td>★★★</td>
-                  <td>-</td>
-                  <td>★★★</td>
-                  <td>★★</td>
-                </tr>
-                <tr>
-                  <td>MHRSB</td>
-                  <td>★</td>
-                  <td>★★★</td>
-                  <td>-</td>
-                  <td>★★★</td>
-                  <td>★★</td>
-                </tr>
+                <thead>
+                  <tr>
+                    <th>&nbsp;</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>뇌</th>
+                    <th>빙</th>
+                    <th>용</th>
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
               </table>
             </div>
             <div class="monsterEcoWrap">
