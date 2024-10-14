@@ -280,7 +280,7 @@ main .cardWrap article .title span::after {
   content: "";
   width: 8px;
   height: 8px;
-  background: url("../img/monsterIcon/금관/최대금관.webp") no-repeat center center / 100%;
+  background: url("../img/monsterIcon/아이콘/최대금관.webp") no-repeat center center / 100%;
   display: inline-block;
 }
 
