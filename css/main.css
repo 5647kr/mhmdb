@@ -186,10 +186,45 @@ main section {
 }
 
 main section .slideWrap {
-  box-shadow: inset 0 0 10px orange;
   margin-bottom: 20px;
   width: 100%;
   min-height: 160px;
+  overflow: hidden;
+}
+
+main section .slideWrap ul {
+  display: flex;
+  width: 300%;
+  transition: margin-left 0.8s ease;
+}
+
+main section .slideWrap ul li {
+  width: calc(100% / 3);
+}
+
+main section .slideWrap ul li img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+main section .slideWrap div {
+  position: relative;
+}
+
+main section .slideWrap h2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: var(--font-mz);
 }
 
 main section .cardWrap {
@@ -364,6 +399,10 @@ footer p {
     min-height: 180px;
   }
 
+  main section .slideWrap ul li img {
+    height: 180px;
+  }
+
   /* !main cardWrap */
   main .cardWrap .warnResult {
     font-size: var(--font-mlz);
@@ -491,6 +530,10 @@ footer p {
   /* !main slideWrap */
   main section .slideWrap {
     min-height: 200px;
+  }
+
+  main section .slideWrap ul li img {
+    height: 200px;
   }
   
   /* !main cardWrap */
@@ -624,7 +667,11 @@ footer p {
 
   /* !main slideWrap */
   main section .slideWrap {
-    min-height: 200px;
+    min-height: 240px;
+  }
+
+  main section .slideWrap ul li img {
+    height: 240px;
   }
 
   /* !main cardWrap */
