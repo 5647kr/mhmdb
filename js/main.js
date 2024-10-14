@@ -297,7 +297,6 @@ class MainPage {
     this.totalSlides = 3;
   
     setInterval(() => {
-      console.log(this.slideList);
       currentSlide++;
   
       // 인덱스가 총 슬라이드 수에 도달하면 0으로 리셋
