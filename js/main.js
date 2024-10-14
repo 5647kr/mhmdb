@@ -8,6 +8,7 @@ class MainPage {
     this.searchList = header.querySelector(".searchList");
 
     const main = document.querySelector("main");
+    this.slideList = main.querySelector(".slideWrap ul");
     this.aside = main.querySelector("aside");
     this.typeList = main.querySelector(".typeList");
     this.seriesList = main.querySelector(".seriesList");
@@ -154,6 +155,9 @@ class MainPage {
         }
       }
     });
+
+    // 이미지슬라이드 기능
+    this.ImgSlide();
   }
   
 
@@ -287,6 +291,23 @@ class MainPage {
     }
   }
 
+  ImgSlide() {
+    let currentSlide = 0;
+    const slideWidth = 100;
+    this.totalSlides = 3;
+  
+    setInterval(() => {
+      console.log(this.slideList);
+      currentSlide++;
+  
+      // 인덱스가 총 슬라이드 수에 도달하면 0으로 리셋
+      if (currentSlide >= this.totalSlides) {
+        currentSlide = 0;
+      }
+  
+      this.slideList.style.marginLeft = `-${currentSlide * slideWidth}%`;
+    }, 5000);
+  }
 }
 
 export default MainPage;
