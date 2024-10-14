@@ -195,8 +195,12 @@ main .monsterWrap .monsterWeakWrap table {
 main .monsterWrap .monsterWeakWrap table tr th {
   width: calc(100% / 6);
   padding: 8px 0;
-  font-size: var(--font-mz);
   border: 1px solid var(--border-color);
+}
+
+main .monsterWrap .monsterWeakWrap table tr th img {
+  width: 16px;
+  aspect-ratio: 1 / 1;
 }
 
 main .monsterWrap .monsterWeakWrap table tr td {
@@ -309,8 +313,8 @@ footer p {
   }
   
   /* !main monsterWrap monsterWeakWrap */
-  main .monsterWrap .monsterWeakWrap table tr th {
-    font-size: var(--font-mlz);
+  main .monsterWrap .monsterWeakWrap table tr th img {
+    width: 16px;
   }
 
   main .monsterWrap .monsterWeakWrap table tr td {
@@ -433,8 +437,8 @@ footer p {
     grid-area: monsterWeakWrap;
   }
 
-  main .monsterWrap .monsterWeakWrap table tr th {
-    font-size: var(--font-lz);
+  main .monsterWrap .monsterWeakWrap table tr th img {
+    width: 18px;
   }
 
   main .monsterWrap .monsterWeakWrap table tr td {
@@ -566,8 +570,8 @@ footer p {
     grid-area: monsterWeakWrap;
   }
 
-  main .monsterWrap .monsterWeakWrap table tr th {
-    font-size: var(--font-xlz);
+  main .monsterWrap .monsterWeakWrap table tr th img {
+    width: 20px;
   }
 
   main .monsterWrap .monsterWeakWrap table tr td {
