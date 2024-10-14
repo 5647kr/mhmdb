@@ -8,101 +8,91 @@
   <title>Detail</title>
 </head>
 <body>
-  <!DOCTYPE html>
-  <html lang="ko-KR">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/detail.css">
-    <title>MHMDB</title>
-  </head>
-  <body>
-    <header>
-      <div class="wrap">
-        <div class="headerWrap">
-          <a href="/" class="backLink">
-            <img src="./img/common/back.svg" alt="되돌아가기 버튼">
-          </a>
-          <h1>
-            <a href="/">MHMDB</a>
-          </h1>
-          <button class="searchBtn">
+  <header>
+    <div class="wrap">
+      <div class="headerWrap">
+        <a href="/" class="backLink">
+          <img src="./img/common/back.svg" alt="되돌아가기 버튼">
+        </a>
+        <h1>
+          <a href="/">MHMDB</a>
+        </h1>
+        <button class="searchBtn">
+          <img src="./img/common/search.svg" alt="검색 버튼">
+        </button>
+      </div>
+
+      <div class="searchWrap">
+        <form action="" class="searchForm">
+          <label for="searchForm" class="a11y-hidden">몬스터 이름 검색</label>
+          <input type="text" id="searchForm" autocomplete="off">
+          <button type="button">
             <img src="./img/common/search.svg" alt="검색 버튼">
           </button>
+        </form>
+
+        <div class="searchListWrap">
+          <ul class="searchList">
+          </ul>
         </div>
+      </div>
+    </div>
+  </header>
   
-        <div class="searchWrap">
-          <form action="" class="searchForm">
-            <label for="searchForm" class="a11y-hidden">몬스터 이름 검색</label>
-            <input type="text" id="searchForm" autocomplete="off">
-            <button type="button">
-              <img src="./img/common/search.svg" alt="검색 버튼">
-            </button>
-          </form>
-  
-          <div class="searchListWrap">
-            <ul class="searchList">
+  <main>
+    <div class="wrap">
+      <section>
+        <div class="monsterWrap">
+          <div class="monsterImgWrap">
+          </div>
+          <div class="monsterInfoWrap">
+            <h2>기본정보</h2>
+            <ul>
             </ul>
           </div>
-        </div>
-      </div>
-    </header>
-    
-    <main>
-      <div class="wrap">
-        <section>
-          <div class="monsterWrap">
-            <div class="monsterImgWrap">
-            </div>
-            <div class="monsterInfoWrap">
-              <h2>기본정보</h2>
-              <ul>
-              </ul>
-            </div>
-            <div class="monsterWeakWrap">
-              <h2>약점</h2>
-              <table>
-                <thead>
-                  <tr>
-                    <th>&nbsp;</th>
-                    <th>
-                      <img src="./img/monsterIcon/아이콘/불.webp" alt="">
-                    </th>
-                    <th>
-                      <img src="./img/monsterIcon/아이콘/물.webp" alt="">
-                    </th>
-                    <th>
-                      <img src="./img/monsterIcon/아이콘/번개.webp" alt="">
-                    </th>
-                    <th>
-                      <img src="./img/monsterIcon/아이콘/얼음.webp" alt="">
-                    </th>
-                    <th>
-                      <img src="./img/monsterIcon/아이콘/용.webp" alt="">
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                </tbody>
-              </table>
-            </div>
-            <div class="monsterEcoWrap">
-              <h2>생태</h2>
-              <div></div>
-            </div>
+          <div class="monsterWeakWrap">
+            <h2>약점</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>&nbsp;</th>
+                  <th>
+                    <img src="./img/monsterIcon/아이콘/불.webp" alt="">
+                  </th>
+                  <th>
+                    <img src="./img/monsterIcon/아이콘/물.webp" alt="">
+                  </th>
+                  <th>
+                    <img src="./img/monsterIcon/아이콘/번개.webp" alt="">
+                  </th>
+                  <th>
+                    <img src="./img/monsterIcon/아이콘/얼음.webp" alt="">
+                  </th>
+                  <th>
+                    <img src="./img/monsterIcon/아이콘/용.webp" alt="">
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
           </div>
-        </section>
-      </div>
-    </main>
-    
-    <footer>
-      <div class="wrap">
-        <p class="copyRight">
-          COPYRIGHTⓒ by MHMDB. ALL RIGHTS RESERVED
-        </p>
-      </div>
-    </footer>
+          <div class="monsterEcoWrap">
+            <h2>생태</h2>
+            <div></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="wrap">
+      <p class="copyRight">
+        COPYRIGHTⓒ by MHMDB. ALL RIGHTS RESERVED
+      </p>
+    </div>
+  </footer>
 
   <script type="module" src="./js/indexDetail.js"></script>
 </body>
