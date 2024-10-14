@@ -2,7 +2,7 @@ class DataJson {
   // Json 파일에 있는 데이터를 불러오는 함수
   async loadData() {
     try {
-      const response = await fetch("/js/index.json");
+      const response = await fetch("./js/index.json");
       // 서버로 부터 응답이 정상적일 때 응답 코드: 200 ~ 299
       if(response.ok) {
         // json이였던 것을 js 객체로 변환

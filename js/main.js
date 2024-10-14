@@ -204,7 +204,7 @@ class MainPage {
 
 
         const monsterContents = `
-          <a href="/detail.html?monster=${monster.name}">
+          <a href="./detail.html?monster=${monster.name}">
             <article class="${hasTitle ? "hasTitle" : ""}">
               ${isTitle}
               <p>${monster.type}</p>
