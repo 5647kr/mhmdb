@@ -403,6 +403,10 @@ footer p {
     height: 180px;
   }
 
+  main section .slideWrap h2 {
+    font-size: var(--font-mlz);
+  }
+
   /* !main cardWrap */
   main .cardWrap .warnResult {
     font-size: var(--font-mlz);
@@ -534,6 +538,10 @@ footer p {
 
   main section .slideWrap ul li img {
     height: 200px;
+  }
+
+  main section .slideWrap h2 {
+    font-size: var(--font-lz);
   }
   
   /* !main cardWrap */
@@ -672,6 +680,10 @@ footer p {
 
   main section .slideWrap ul li img {
     height: 240px;
+  }
+
+  main section .slideWrap h2 {
+    font-size: var(--font-xlz);
   }
 
   /* !main cardWrap */
