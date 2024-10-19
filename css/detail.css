@@ -465,7 +465,7 @@ footer p {
 }
 
 /* PC */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width: 1920px) {
   /* !header headerWrap */
   header .headerWrap {
     flex-grow: 0;
@@ -585,6 +585,139 @@ footer p {
 
   main .monsterWrap .monsterEcoWrap p {
     font-size: var(--font-xlz);
+  }
+  
+  main .monsterWrap .monsterEcoWrap p:not(:last-child) {
+    margin-bottom: 18px;
+  }
+
+  /* !footer p */
+  footer p {
+    line-height: 100px;
+  }
+}
+
+/* 4k */
+@media screen and (min-width: 1921px) {
+  /* !header headerWrap */
+  header .headerWrap {
+    flex-grow: 0;
+  }
+
+  header .headerWrap h1 {
+    font-size: 50px;
+  }
+
+  header .headerWrap .backLink {
+    display: none;
+  }
+
+  header .headerWrap button {
+    display: none;
+  }
+  
+  /* !header searchWrap */
+  header .searchWrap {
+    flex-grow: 1;
+    padding: 30px 400px;
+    display: block;
+    position: relative;
+    top: 0;
+    border: 0;
+  }
+
+  header .searchWrap .searchForm input {
+    font-size: var(--font-xxxlz);
+  }
+
+  header .searchWrap .searchForm button {
+    right: 410px;
+  }
+
+  header .searchWrap .searchForm button img {
+    width: 24px;
+  }
+
+  /* header searhcList */
+  header .searchList {
+    max-height: 380px;
+  }
+
+  header .searchList img {
+    width: 60px;
+  }
+
+  header .searchList p {
+    font-size: var(--font-xxlz);
+  }
+
+  /* !main monsterWrap */
+  main section .monsterWrap {
+    display: grid;
+    grid-template-areas: 
+    "monsterImgWrap monsterInfoWrap"
+    "monsterWeakWrap monsterWeakWrap"
+    "monsterEcoWrap monsterEcoWrap";
+    column-gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  main section .monsterWrap > div:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  main section .monsterWrap h2 {
+    font-size: var(--font-xlz);
+    top: -10px;
+  }
+  
+  /* !main monsterWrap monsterImgWrap */
+  main .monsterWrap .monsterImgWrap {
+    max-height: 400px;
+    grid-area: monsterImgWrap;
+  }
+  
+  main .monsterWrap .monsterImgWrap img {
+    height: 400px;
+  }
+  
+  /* !main monsterWrap monsterInfoWrap */
+  main .monsterWrap .monsterInfoWrap {
+    grid-area: monsterInfoWrap;
+  }
+
+  main .monsterWrap .monsterInfoWrap h3 {
+    font-size: var(--font-xxlz);
+  }
+  
+  main .monsterWrap .monsterInfoWrap p {
+    font-size: var(--font-xxlz);
+  }
+  
+  main .monsterWrap .monsterInfoWrap .detail {
+    font-size: var(--font-xlz);
+  }
+  
+  /* !main monsterWrap monsterWeakWrap */
+  main .monsterWrap .monsterWeakWrap {
+    grid-area: monsterWeakWrap;
+  }
+
+  main .monsterWrap .monsterWeakWrap table tr th img {
+    width: 20px;
+  }
+
+  main .monsterWrap .monsterWeakWrap table tr td {
+    font-size: var(--font-xxxlz);
+  }
+  
+  /* !main monsterWrap monsterEcoWrap */
+  main .monsterWrap .monsterEcoWrap {
+    grid-area: monsterEcoWrap;
+  }
+
+  main .monsterWrap .monsterEcoWrap p {
+    font-size: var(--font-xxxlz);
   }
   
   main .monsterWrap .monsterEcoWrap p:not(:last-child) {
