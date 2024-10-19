@@ -807,7 +807,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "원종",
-        "series": "MHP2G, MH3G, MHP3, MHX, MHXX, MHWI, MHR, MHRSB",
+        "series": "MHP2G, MH3G, MHP3, MHX, MHXX, MHWIB, MHR, MHRSB",
         "seriesId": "f, h, i, l, m, o, p, q",
         "title": "MHP2G",
         "titleId": "f",
@@ -857,7 +857,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "X",
             "뇌": "★★★",
@@ -1003,7 +1003,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "원종",
-        "series": "MH, MHG, MHP, MH2, MHP2, MHP2G, MH3, MH3G, MHP3, MH4G, MHXX, MHW, MHWI, MHR, MHRSB",
+        "series": "MH, MHG, MHP, MH2, MHP2, MHP2G, MH3, MH3G, MHP3, MH4G, MHXX, MHW, MHWIB, MHR, MHRSB",
         "seriesId": "a, b, c, d, e, f, g, h, i, k, m, n, o, p, q",
         "title": "",
         "titleId": "",
@@ -1109,7 +1109,7 @@
             "용": "★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★★",
             "뇌": "★",
@@ -1144,7 +1144,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "아종",
-        "series": "MHG, MHP, MH2, MHP2, MHP2G, MH3G, MHP3, MH4G, MHW, MHWI",
+        "series": "MHG, MHP, MH2, MHP2, MHP2G, MH3G, MHP3, MH4G, MHW, MHWIB",
         "seriesId": "b, c, d, e, f, h, i, k, n, o",
         "title": "",
         "titleId": "",
@@ -1226,7 +1226,7 @@
             "용": "X"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★★",
             "뇌": "★",
@@ -1377,7 +1377,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "원종",
-        "series": "MHW, MHWI",
+        "series": "MHW, MHWIB",
         "seriesId": "n, o",
         "title": "",
         "titleId": "",
@@ -1395,7 +1395,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "★",
             "뇌": "★★★",
@@ -1414,7 +1414,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "특수 개체",
-        "series": "MHWI",
+        "series": "MHWIB",
         "seriesId": "o",
         "title": "",
         "titleId": "",
@@ -1424,7 +1424,7 @@
         "large": "2252.98",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★★",
             "수": "★",
             "뇌": "★★",
@@ -1443,7 +1443,7 @@
         "nickname2": "웅화룡/수컷 웅(雄), 불 화(火), 용 룡(竜)",
         "type": "비룡종",
         "species": "원종",
-        "series": "MH, MHG, MHP, MH2, MHP2, MHP2G, MH3, MH3G, MHP3, MH4, MH4G, MHX, MHXX, MHW, MHWI, MHR, MHRSB",
+        "series": "MH, MHG, MHP, MH2, MHP2, MHP2G, MH3, MH3G, MHP3, MH4, MH4G, MHX, MHXX, MHW, MHWIB, MHR, MHRSB",
         "seriesId": "a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q",
         "title": "MH MHP",
         "titleId": "a, c",
@@ -1565,7 +1565,7 @@
             "용": "★★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★",
             "뇌": "★★",
@@ -1600,7 +1600,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "아종",
-        "series": "MHG, MHP, MH2, MHP2, MHP2G, MH3G, MH4, MH4G, MHW, MHWI",
+        "series": "MHG, MHP, MH2, MHP2, MHP2G, MH3G, MH4, MH4G, MHW, MHWIB",
         "seriesId": "b, c, d, e, f, h, j, k, n, o",
         "title": "MHG",
         "titleId": "b",
@@ -1682,7 +1682,7 @@
             "용": "★★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★",
             "뇌": "★",
@@ -1701,7 +1701,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "희소종",
-        "series": "MHG, MHP, MH2, MHP2, MHP2G, MH3G, MHP3, MH4, MH4G, MHX, MHXX, MHWI",
+        "series": "MHG, MHP, MH2, MHP2, MHP2G, MH3G, MHP3, MH4, MH4G, MHX, MHXX, MHWIB",
         "seriesId": "b, c, d, e, f, h, i, j, k, l, m, o",
         "title": "",
         "titleId": "",
@@ -1799,7 +1799,7 @@
             "용": "X"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★★★",
             "뇌": "★★",
@@ -1884,7 +1884,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "원종",
-        "series": "MH, MHG, MHP, MH2, MHP2, MHP2G, MH3, MH3G, MHP3, MH4, MH4G, MHX, MHXX, MHW, MHWI, MHR, MHRSB",
+        "series": "MH, MHG, MHP, MH2, MHP2, MHP2G, MH3, MH3G, MHP3, MH4, MH4G, MHX, MHXX, MHW, MHWIB, MHR, MHRSB",
         "seriesId": "a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q",
         "title": "",
         "titleId": "",
@@ -2006,7 +2006,7 @@
             "용": "★★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★",
             "뇌": "★★",
@@ -2041,7 +2041,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "아종",
-        "series": "MHG, MHP, MH2, MHP2, MHP2G, MH3G, MH4, MH4G, MHW, MHWI",
+        "series": "MHG, MHP, MH2, MHP2, MHP2G, MH3G, MH4, MH4G, MHW, MHWIB",
         "seriesId": "b, c, d, e, f, h, j, k, n, o",
         "title": "",
         "titleId": "",
@@ -2123,7 +2123,7 @@
             "용": "★★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★",
             "뇌": "★★",
@@ -2142,7 +2142,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "희소종",
-        "series": "MHG, MHP, MH2, MHP2, MHP2G, MH3G, MHP3, MH4, MH4G, MHX, MHXX, MHWI, MHRSB",
+        "series": "MHG, MHP, MH2, MHP2, MHP2G, MH3G, MHP3, MH4, MH4G, MHX, MHXX, MHWIB, MHRSB",
         "seriesId": "b, c, d, e, f, h, i, j, k, l, m, o, q",
         "title": "",
         "titleId": "",
@@ -2240,7 +2240,7 @@
             "용": "X"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★★",
             "뇌": "★★★",
@@ -2625,7 +2625,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "원종",
-        "series": "MHW, MHWI, MHR, MHRSB",
+        "series": "MHW, MHWIB, MHR, MHRSB",
         "seriesId": "n, o, p, q",
         "title": "",
         "titleId": "",
@@ -2643,7 +2643,7 @@
             "용": "★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★",
             "뇌": "★★★",
@@ -2678,7 +2678,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "특수 개체",
-        "series": "MHWI, MHRSB",
+        "series": "MHWIB, MHRSB",
         "seriesId": "o, q",
         "title": "",
         "titleId": "",
@@ -2688,7 +2688,7 @@
         "large": "2410.48",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★",
             "뇌": "★★",
@@ -2715,7 +2715,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "원종",
-        "series": "MH3, MH3G, MHP3, MHXX, MHWI, MHR, MHRSB",
+        "series": "MH3, MH3G, MHP3, MHXX, MHWIB, MHR, MHRSB",
         "seriesId": "g, h, i, m, o, p, q",
         "title": "",
         "titleId": "",
@@ -2757,7 +2757,7 @@
             "용": "★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★★",
             "수": "X",
             "뇌": "★★",
@@ -2829,7 +2829,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "특수 개체",
-        "series": "MHWI",
+        "series": "MHWIB",
         "seriesId": "o",
         "title": "",
         "titleId": "",
@@ -2839,7 +2839,7 @@
         "large": "2580.91",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★★",
             "수": "X",
             "뇌": "★★",
@@ -3107,7 +3107,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "원종",
-        "series": "MHP2, MHP2G, MHP3, MH4, MH4G, MHX, MHXX, MHWI, MHR, MHRSB",
+        "series": "MHP2, MHP2G, MHP3, MH4, MH4G, MHX, MHXX, MHWIB, MHR, MHRSB",
         "seriesId": "e, f, i, j, k, l, m, o, p, q",
         "title": "MHP2",
         "titleId": "e",
@@ -3173,7 +3173,7 @@
             "용": "★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★",
             "뇌": "★★★",
@@ -3208,7 +3208,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "아종",
-        "series": "MHP3, MH4, MH4G, MHWI",
+        "series": "MHP3, MH4, MH4G, MHWIB",
         "seriesId": "i, j, k, o",
         "title": "",
         "titleId": "",
@@ -3242,7 +3242,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★★★",
             "뇌": "★★",
@@ -3335,7 +3335,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "원종",
-        "series": "MHW, MHWI",
+        "series": "MHW, MHWIB",
         "seriesId": "n, o",
         "title": "",
         "titleId": "",
@@ -3353,7 +3353,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★★",
             "수": "X",
             "뇌": "★★",
@@ -3372,7 +3372,7 @@
         "nickname2": "",
         "type": "비룡종",
         "species": "아종",
-        "series": "MHWI",
+        "series": "MHWIB",
         "seriesId": "o",
         "title": "",
         "titleId": "",
@@ -3382,7 +3382,7 @@
         "large": "1406.33",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "★★★",
             "뇌": "★",
@@ -3759,7 +3759,7 @@
         "nickname2": "",
         "type": "수룡종",
         "species": "원종",
-        "series": "MHX, MHXX, MHWI",
+        "series": "MHX, MHXX, MHWIB",
         "seriesId": "l, m, o",
         "title": "MHX",
         "titleId": "l",
@@ -3785,7 +3785,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★★★",
             "뇌": "★",
@@ -3804,7 +3804,7 @@
         "nickname2": "",
         "type": "수룡종",
         "species": "아종",
-        "series": "MHWI",
+        "series": "MHWIB",
         "seriesId": "o",
         "title": "",
         "titleId": "",
@@ -3814,7 +3814,7 @@
         "large": "2846.93",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★★",
             "수": "★",
             "뇌": "★★",
@@ -3870,7 +3870,7 @@
         "nickname2": "",
         "type": "수룡종",
         "species": "원종",
-        "series": "MHW, MHWI",
+        "series": "MHW, MHWIB",
         "seriesId": "n, o",
         "title": "",
         "titleId": "",
@@ -3888,7 +3888,7 @@
             "용": "★★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★",
             "수": "★",
             "뇌": "★",
@@ -3907,7 +3907,7 @@
         "nickname2": "",
         "type": "수룡종",
         "species": "원종",
-        "series": "MHWI",
+        "series": "MHWIB",
         "seriesId": "o",
         "title": "",
         "titleId": "",
@@ -3917,7 +3917,7 @@
         "large": "2957.95",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "X",
             "뇌": "★",
@@ -3936,7 +3936,7 @@
         "nickname2": "",
         "type": "수룡종",
         "species": "원종",
-        "series": "MH3, MH3G, MHP3, MHXX, MHW, MHWI, MHR, MHRSB",
+        "series": "MH3, MH3G, MHP3, MHXX, MHW, MHWIB, MHR, MHRSB",
         "seriesId": "g, h, i, m, n, o, p, q",
         "title": "",
         "titleId": "",
@@ -3986,7 +3986,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★★",
             "수": "★★★",
             "뇌": "X",
@@ -4058,7 +4058,7 @@
         "nickname2": "",
         "type": "수룡종",
         "species": "원종",
-        "series": "MH3G, MH4, MH4G, MHX, MHXX, MHWI",
+        "series": "MH3G, MH4, MH4G, MHX, MHXX, MHWIB",
         "seriesId": "h, j, k, l, m, o",
         "title": "MH3G",
         "titleId": "h",
@@ -4108,7 +4108,7 @@
             "용": "X"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★★",
             "뇌": "★",
@@ -4127,7 +4127,7 @@
         "nickname2": "",
         "type": "수룡종",
         "species": "특수 개체",
-        "series": "MH4G, MHXX, MHWI",
+        "series": "MH4G, MHXX, MHWIB",
         "seriesId": "k, m, o",
         "title": "",
         "titleId": "",
@@ -4153,7 +4153,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★★",
             "뇌": "★",
@@ -4172,7 +4172,7 @@
         "nickname2": "",
         "type": "수룡종",
         "species": "원종",
-        "series": "MHW, MHWI, MHR, MHRSB",
+        "series": "MHW, MHWIB, MHR, MHRSB",
         "seriesId": "n, o, p, q",
         "title": "",
         "titleId": "",
@@ -4190,7 +4190,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★★★",
             "뇌": "★★",
@@ -4225,7 +4225,7 @@
         "nickname2": "",
         "type": "수룡종",
         "species": "아종",
-        "series": "MHWI",
+        "series": "MHWIB",
         "seriesId": "o",
         "title": "",
         "titleId": "",
@@ -4235,7 +4235,7 @@
         "large": "2008.68",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "★★",
             "뇌": "X",
@@ -4254,7 +4254,7 @@
         "nickname2": "",
         "type": "수룡종",
         "species": "원종",
-        "series": "MH3, MH3G, MHP3, MHX, MHXX, MHW, MHWI",
+        "series": "MH3, MH3G, MHP3, MHX, MHXX, MHW, MHWIB",
         "seriesId": "g, h, i, l, m, n, o",
         "title": "",
         "titleId": "",
@@ -4312,7 +4312,7 @@
             "용": "★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★★★",
             "뇌": "★",
@@ -4405,7 +4405,7 @@
         "nickname2": "",
         "type": "수룡종",
         "species": "원종",
-        "series": "MH3, MH3G, MHP3, MH4, MH4G, MHX, MHXX, MHW, MHWI",
+        "series": "MH3, MH3G, MHP3, MH4, MH4G, MHX, MHXX, MHW, MHWIB",
         "seriesId": "g, h, i, j, k, l, m, n, o",
         "title": "",
         "titleId": "",
@@ -4479,7 +4479,7 @@
             "용": "★★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "★★",
             "뇌": "★★★",
@@ -4498,7 +4498,7 @@
         "nickname2": "",
         "type": "수룡종",
         "species": "특수 개체",
-        "series": "MH3G, MH4, MH4G, MHX, MHXX, MHWI",
+        "series": "MH3G, MH4, MH4G, MHX, MHXX, MHWIB",
         "seriesId": "h, j, k, l, m, o",
         "title": "",
         "titleId": "",
@@ -4548,7 +4548,7 @@
             "용": "★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "★★",
             "뇌": "★★★",
@@ -4567,7 +4567,7 @@
         "nickname2": "",
         "type": "아룡종",
         "species": "원종",
-        "series": "MHW, MHWI",
+        "series": "MHW, MHWIB",
         "seriesId": "n, o",
         "title": "",
         "titleId": "",
@@ -4585,7 +4585,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★★",
             "뇌": "★★★",
@@ -4604,7 +4604,7 @@
         "nickname2": "",
         "type": "아룡종",
         "species": "원종",
-        "series": "MHW, MHWI",
+        "series": "MHW, MHWIB",
         "seriesId": "n, o",
         "title": "",
         "titleId": "",
@@ -4622,7 +4622,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "★★★",
             "뇌": "X",
@@ -4641,7 +4641,7 @@
         "nickname2": "",
         "type": "아룡종",
         "species": "원종",
-        "series": "MHW, MHWI",
+        "series": "MHW, MHWIB",
         "seriesId": "n, o",
         "title": "",
         "titleId": "",
@@ -4659,7 +4659,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★★",
             "수": "X",
             "뇌": "★★",
@@ -4773,7 +4773,7 @@
         "nickname2": "",
         "type": "아룡종",
         "species": "원종",
-        "series": "MHW, MHWI",
+        "series": "MHW, MHWIB",
         "seriesId": "n, o",
         "title": "",
         "titleId": "",
@@ -4791,7 +4791,7 @@
             "용": "X"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★",
             "수": "★",
             "뇌": "★★",
@@ -4810,7 +4810,7 @@
         "nickname2": "",
         "type": "아룡종",
         "species": "아종",
-        "series": "MHWI",
+        "series": "MHWIB",
         "seriesId": "o",
         "title": "",
         "titleId": "",
@@ -4820,7 +4820,7 @@
         "large": "1722.05",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "★★★",
             "뇌": "★★",
@@ -4839,7 +4839,7 @@
         "nickname2": "",
         "type": "아룡종",
         "species": "원종",
-        "series": "MH3G, MHP3, MH4, MH4G, MHX, MHXX, MHWI, MHR, MHRSB",
+        "series": "MH3G, MHP3, MH4, MH4G, MHX, MHXX, MHWIB, MHR, MHRSB",
         "seriesId": "h, i, j, k, l, m, o, p, q",
         "title": "MHP3",
         "titleId": "i",
@@ -4897,7 +4897,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★",
             "수": "★★",
             "뇌": "X",
@@ -4932,7 +4932,7 @@
         "nickname2": "",
         "type": "아룡종",
         "species": "아종",
-        "series": "MH3G, MH4, MH4G, MHWI",
+        "series": "MH3G, MH4, MH4G, MHWIB",
         "seriesId": "h, j, k, o",
         "title": "",
         "titleId": "",
@@ -4966,7 +4966,7 @@
             "용": "X"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "X",
             "뇌": "★",
@@ -5051,7 +5051,7 @@
         "nickname2": "",
         "type": "아룡종",
         "species": "원종",
-        "series": "MHW, MHWI, MHR, MHRSB",
+        "series": "MHW, MHWIB, MHR, MHRSB",
         "seriesId": "n, o, p, q",
         "title": "",
         "titleId": "",
@@ -5069,7 +5069,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "★★★",
             "뇌": "X",
@@ -5104,7 +5104,7 @@
         "nickname2": "",
         "type": "아룡종",
         "species": "아종",
-        "series": "MHWI",
+        "series": "MHWIB",
         "seriesId": "o",
         "title": "",
         "titleId": "",
@@ -5114,7 +5114,7 @@
         "large": "1560.62",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★",
             "수": "X",
             "뇌": "★★★",
@@ -5365,6 +5365,14 @@
         "large": "1188.6",
         "weak": [
           {
+            "작품": "MH2",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
+          },
+          {
             "작품": "MHP2",
             "화": "★★",
             "수": "★★",
@@ -5416,7 +5424,7 @@
         "nickname2": "",
         "type": "아수종",
         "species": "원종",
-        "series": "MH2, MHP2, MHP2G, MH4, MH4G, MHX, MHXX, MHWI, MHR, MHRSB",
+        "series": "MH2, MHP2, MHP2G, MH4, MH4G, MHX, MHXX, MHWIB, MHR, MHRSB",
         "seriesId": "d, e, f, j, k, l, m, o, p, q",
         "title": "",
         "titleId": "",
@@ -5425,6 +5433,14 @@
         "small": "729.62",
         "large": "1631.2",
         "weak": [
+          {
+            "작품": "MH2",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
+          },
           {
             "작품": "MHP2",
             "화": "X",
@@ -5474,7 +5490,7 @@
             "용": "X"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★",
             "뇌": "X",
@@ -5509,7 +5525,7 @@
         "nickname2": "",
         "type": "아수종",
         "species": "특수 개체",
-        "series": "MHP2G, MH4, MH4G, MHX, MHXX, MHWI, MHRSB",
+        "series": "MHP2G, MH4, MH4G, MHX, MHXX, MHWIB, MHRSB",
         "seriesId": "f, j, k, l, m, o, q",
         "title": "",
         "titleId": "",
@@ -5559,7 +5575,7 @@
             "용": "X"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★",
             "뇌": "X",
@@ -5664,6 +5680,14 @@
         "small": "491.4",
         "large": "1670.76",
         "weak": [
+          {
+            "작품": "MH2",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
+          },
           {
             "작품": "MHP2",
             "화": "★★★",
@@ -6414,6 +6438,54 @@
         "large": "3877.9",
         "weak": [
           {
+            "작품": "MH",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
+          },
+          {
+            "작품": "MHG",
+            "화": "★★★",
+            "수": "X",
+            "뇌": "★★★",
+            "빙": "X",
+            "용": "X"
+          },
+          {
+            "작품": "MHP",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
+          },
+          {
+            "작품": "MH2",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
+          },
+          {
+            "작품": "MHP2",
+            "화": "★★★",
+            "수": "X",
+            "뇌": "★★★",
+            "빙": "X",
+            "용": "X"
+          },
+          {
+            "작품": "MHP2G",
+            "화": "★★★",
+            "수": "X",
+            "뇌": "★★★",
+            "빙": "X",
+            "용": "X"
+          },
+          {
             "작품": "MH3G",
             "화": "★★",
             "수": "X",
@@ -6479,7 +6551,7 @@
             "화": "★★★",
             "수": "X",
             "뇌": "★★★",
-            "빙": "–",
+            "빙": "X",
             "용": "X"
           },
           {
@@ -6544,12 +6616,36 @@
         "large": "2097",
         "weak": [
           {
+            "작품": "MH",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
+          },
+          {
             "작품": "MHG",
             "화": "X",
             "수": "★",
             "뇌": "★★",
             "빙": "–",
             "용": "X"
+          },
+          {
+            "작품": "MHP",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
+          },
+          {
+            "작품": "MH2",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
           },
           {
             "작품": "MHP2",
@@ -6603,7 +6699,7 @@
         "nickname2": "",
         "type": "어룡종",
         "species": "원종",
-        "series": "MHP2G, MHX, MHXX, MHW, MHWI",
+        "series": "MHP2G, MHX, MHXX, MHW, MHWIB",
         "seriesId": "f, l, m, n, o",
         "title": "",
         "titleId": "",
@@ -6645,7 +6741,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★★★",
             "뇌": "★★",
@@ -6664,7 +6760,7 @@
         "nickname2": "",
         "type": "어룡종",
         "species": "원종",
-        "series": "MHWI",
+        "series": "MHWIB",
         "seriesId": "o",
         "title": "",
         "titleId": "",
@@ -6674,7 +6770,7 @@
         "large": "2044.26",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★★",
             "수": "★",
             "뇌": "★★",
@@ -6693,7 +6789,7 @@
         "nickname2": "",
         "type": "어룡종",
         "species": "원종",
-        "series": "MHW, MHWI, MHR, MHRSB",
+        "series": "MHW, MHWIB, MHR, MHRSB",
         "seriesId": "n, o, p, q",
         "title": "",
         "titleId": "",
@@ -6711,7 +6807,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★",
             "수": "X",
             "뇌": "★★★",
@@ -6756,12 +6852,36 @@
         "large": "1348.2",
         "weak": [
           {
+            "작품": "MH",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
+          },
+          {
             "작품": "MHG",
             "화": "★★★",
             "수": "★★",
             "뇌": "X",
             "빙": "–",
             "용": "★"
+          },
+          {
+            "작품": "MHP",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
+          },
+          {
+            "작품": "MH2",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
           },
           {
             "작품": "MHP2",
@@ -6839,6 +6959,22 @@
             "뇌": "X",
             "빙": "–",
             "용": "★"
+          },
+          {
+            "작품": "MHP",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
+          },
+          {
+            "작품": "MH2",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
           },
           {
             "작품": "MHP2",
@@ -7481,7 +7617,7 @@
         "nickname2": "",
         "type": "조룡종",
         "species": "원종",
-        "series": "MHP, MH2, MHP2, MHP2G, MH4, MH4G, MHX, MHXX, MHWI",
+        "series": "MHP, MH2, MHP2, MHP2G, MH4, MH4G, MHX, MHXX, MHWIB",
         "seriesId": "c, d, e, f, j, k, l, m, o",
         "title": "",
         "titleId": "",
@@ -7555,7 +7691,7 @@
             "용": "★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★★★",
             "뇌": "X",
@@ -7574,7 +7710,7 @@
         "nickname2": "",
         "type": "조룡종",
         "species": "특수 개체",
-        "series": "MHP2G, MHWI",
+        "series": "MHP2G, MHWIB",
         "seriesId": "f, o",
         "title": "",
         "titleId": "",
@@ -7592,7 +7728,7 @@
             "용": "★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★★★",
             "뇌": "X",
@@ -7659,12 +7795,36 @@
         "large": "1204.9",
         "weak": [
           {
+            "작품": "MH",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
+          },
+          {
             "작품": "MHG",
             "화": "★",
             "수": "★★★",
             "뇌": "★★★",
             "빙": "–",
             "용": "★★"
+          },
+          {
+            "작품": "MHP",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
+          },
+          {
+            "작품": "MH2",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
           },
           {
             "작품": "MHP2",
@@ -7742,6 +7902,22 @@
             "뇌": "★★★",
             "빙": "–",
             "용": "★★"
+          },
+          {
+            "작품": "MHP",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
+          },
+          {
+            "작품": "MH2",
+            "화": "–",
+            "수": "–",
+            "뇌": "–",
+            "빙": "–",
+            "용": "–"
           },
           {
             "작품": "MHP2",
@@ -7824,7 +8000,7 @@
         "nickname2": "",
         "type": "조룡종",
         "species": "원종",
-        "series": "MHW, MHWI",
+        "series": "MHW, MHWIB",
         "seriesId": "n, o",
         "title": "",
         "titleId": "",
@@ -7842,7 +8018,7 @@
             "용": "★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "★★",
             "뇌": "★★★",
@@ -7861,7 +8037,7 @@
         "nickname2": "",
         "type": "조룡종",
         "species": "원종",
-        "series": "MHW, MHWI, MHR, MHRSB",
+        "series": "MHW, MHWIB, MHR, MHRSB",
         "seriesId": "n, o, p, q",
         "title": "",
         "titleId": "",
@@ -7879,7 +8055,7 @@
             "용": "★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "★★★",
             "뇌": "★★",
@@ -7996,7 +8172,7 @@
         "nickname2": "",
         "type": "조룡종",
         "species": "원종",
-        "series": "MHW, MHWI, MHR, MHRSB",
+        "series": "MHW, MHWIB, MHR, MHRSB",
         "seriesId": "n, o, p, q",
         "title": "",
         "titleId": "",
@@ -8014,7 +8190,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "X",
             "뇌": "★★★",
@@ -8049,7 +8225,7 @@
         "nickname2": "",
         "type": "조룡종",
         "species": "아종",
-        "series": "MHWI",
+        "series": "MHWIB",
         "seriesId": "o",
         "title": "",
         "titleId": "",
@@ -8059,7 +8235,7 @@
         "large": "1322.94",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★",
             "수": "X",
             "뇌": "★★",
@@ -9191,7 +9367,7 @@
         "nickname2": "",
         "type": "고룡종",
         "species": "원종",
-        "series": "MH2, MHP2, MHP2G, MHW, MHWI",
+        "series": "MH2, MHP2, MHP2G, MHW, MHWIB",
         "seriesId": "d, e, f, n, o",
         "title": "",
         "titleId": "",
@@ -9233,7 +9409,7 @@
             "용": "★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★",
             "뇌": "★",
@@ -9384,7 +9560,7 @@
         "nickname2": "",
         "type": "고룡종",
         "species": "원종",
-        "series": "MHWI",
+        "series": "MHWIB",
         "seriesId": "o",
         "title": "",
         "titleId": "",
@@ -9394,7 +9570,7 @@
         "large": "2560.31",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★★",
             "수": "X",
             "뇌": "X",
@@ -9413,7 +9589,7 @@
         "nickname2": "",
         "type": "고룡종",
         "species": "원종",
-        "series": "MHW, MHWI",
+        "series": "MHW, MHWIB",
         "seriesId": "n, o",
         "title": "MHW",
         "titleId": "n",
@@ -9431,7 +9607,7 @@
             "용": "★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★",
             "수": "★",
             "뇌": "★★★",
@@ -9450,7 +9626,7 @@
         "nickname2": "",
         "type": "고룡종",
         "species": "특수 개체",
-        "series": "MHWI",
+        "series": "MHWIB",
         "seriesId": "o",
         "title": "",
         "titleId": "",
@@ -9460,7 +9636,7 @@
         "large": "2310.15",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★",
             "수": "★",
             "뇌": "★★",
@@ -9720,7 +9896,7 @@
         "nickname2": "",
         "type": "고룡종",
         "species": "원종",
-        "series": "MHW, MHWI",
+        "series": "MHW, MHWIB",
         "seriesId": "n, o",
         "title": "",
         "titleId": "",
@@ -9738,7 +9914,7 @@
             "용": "★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★★",
             "뇌": "X",
@@ -9815,7 +9991,7 @@
         "nickname2": "명적룡",
         "type": "고룡종",
         "species": "원종",
-        "series": "MHWI",
+        "series": "MHWIB",
         "seriesId": "o",
         "title": "",
         "titleId": "",
@@ -9825,7 +10001,7 @@
         "large": "4799.78",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "★★",
             "뇌": "★★",
@@ -9844,7 +10020,7 @@
         "nickname2": "",
         "type": "고룡종",
         "species": "원종",
-        "series": "MH, MHG, MHP, MH2, MHP2, MHP2G, MH4, MH4G, MHXX, MHWI",
+        "series": "MH, MHG, MHP, MH2, MHP2, MHP2G, MH4, MH4G, MHXX, MHWIB",
         "seriesId": "a, b, c, d, e, f, j, k, m, o",
         "title": "",
         "titleId": "",
@@ -9926,7 +10102,7 @@
             "용": "★★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "★",
             "뇌": "★",
@@ -10186,7 +10362,7 @@
         "nickname2": "",
         "type": "고룡종",
         "species": "원종",
-        "series": "MHW, MHWI",
+        "series": "MHW, MHWIB",
         "seriesId": "n, o",
         "title": "",
         "titleId": "",
@@ -10204,7 +10380,7 @@
             "용": "★★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★★",
             "수": "X",
             "뇌": "★",
@@ -10223,7 +10399,7 @@
         "nickname2": "",
         "type": "고룡종",
         "species": "특수 개체",
-        "series": "MHWI",
+        "series": "MHWIB",
         "seriesId": "o",
         "title": "",
         "titleId": "",
@@ -10233,7 +10409,7 @@
         "large": "2577.34",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "X",
             "뇌": "★",
@@ -10395,7 +10571,7 @@
         "nickname2": "",
         "type": "고룡종",
         "species": "원종",
-        "series": "MHWI",
+        "series": "MHWIB",
         "seriesId": "o",
         "title": "",
         "titleId": "",
@@ -10405,7 +10581,7 @@
         "large": "2910.91",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★",
             "수": "★★",
             "뇌": "X",
@@ -10424,7 +10600,7 @@
         "nickname2": "",
         "type": "고룡종",
         "species": "원종",
-        "series": "MH3, MH3G, MHP3, MHX, MHXX, MHWI",
+        "series": "MH3, MH3G, MHP3, MHX, MHXX, MHWIB",
         "seriesId": "g, h, i, l, m, o",
         "title": "",
         "titleId": "",
@@ -10474,7 +10650,7 @@
             "용": "X"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★★",
             "수": "★",
             "뇌": "★",
@@ -10681,9 +10857,9 @@
         "nickname2": "",
         "type": "고룡종",
         "species": "원종",
-        "series": "MHWI, MHRSB",
+        "series": "MHWIB, MHRSB",
         "seriesId": "o, q",
-        "title": "MHWI",
+        "title": "MHWIB",
         "titleId": "o",
         "element": "얼음",
         "ailment": "얼음",
@@ -10691,7 +10867,7 @@
         "large": "3245.06",
         "weak": [
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★★",
             "수": "★",
             "뇌": "★★",
@@ -10755,7 +10931,7 @@
         "nickname2": "",
         "type": "고룡종",
         "species": "원종",
-        "series": "MHW, MHWI",
+        "series": "MHW, MHWIB",
         "seriesId": "n, o",
         "title": "",
         "titleId": "",
@@ -10773,7 +10949,7 @@
             "용": "★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★",
             "수": "★★",
             "뇌": "★★",
@@ -10895,7 +11071,7 @@
         "nickname2": "풍상룡/바람 풍(風), 날 상(翔), 용 룡(龍)",
         "type": "고룡종",
         "species": "원종",
-        "series": "MH2, MHP2, MHP2G, MH4, MH4G, MHX, MHXX, MHW, MHWI, MHR, MHRSB",
+        "series": "MH2, MHP2, MHP2G, MH4, MH4G, MHX, MHXX, MHW, MHWIB, MHR, MHRSB",
         "seriesId": "d, e, f, j, k, l, m, n, o, p, q",
         "title": "MH2",
         "titleId": "d",
@@ -10969,7 +11145,7 @@
             "용": "★★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★",
             "수": "X",
             "뇌": "★★★",
@@ -11086,7 +11262,7 @@
         "nickname2": "",
         "type": "고룡종",
         "species": "원종",
-        "series": "MH, MHG, MHP, MH2, MHP2, MHP2G, MH4, MH4G, MHX, MHXX, MHW, MHWI",
+        "series": "MH, MHG, MHP, MH2, MHP2, MHP2G, MH4, MH4G, MHX, MHXX, MHW, MHWIB",
         "seriesId": "a, b, c, d, e, f, j, k, l, m, n, o",
         "title": "",
         "titleId": "",
@@ -11184,7 +11360,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "★★★",
             "수": "★★",
             "뇌": "X",
@@ -11240,7 +11416,7 @@
         "nickname2": "",
         "type": "고룡종",
         "species": "원종",
-        "series": "MH2, MHP2, MHP2G, MH4, MH4G, MHX, MHXX, MHW, MHWI, MHR, MHRSB",
+        "series": "MH2, MHP2, MHP2G, MH4, MH4G, MHX, MHXX, MHW, MHWIB, MHR, MHRSB",
         "seriesId": "d, e, f, j, k, l, m, n, o, p, q",
         "title": "",
         "titleId": "",
@@ -11314,7 +11490,7 @@
             "용": "★"
           },
           {
-            "작품": "MHWI",
+            "작품": "MHWIB",
             "화": "X",
             "수": "★★★",
             "뇌": "★",
@@ -11501,7 +11677,7 @@
       },
       {
         "id": "o",
-        "series": "MHWI",
+        "series": "MHWIB",
         "fullName": "Monster Hunter World IceBorne"
       },
       {
