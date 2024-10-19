@@ -771,15 +771,15 @@ footer p {
 
   /* !main section */
   main section {
-    width: calc(100% - 220px);
-    margin-left: 220px;
+    width: calc(100% - 260px);
+    margin-left: 260px;
   }
 
   /* !main asideWrap */
   main .asideWrap {
-    width: 200px;
+    width: 240px;
     position: fixed;
-    min-height: calc(100vh - 200px);
+    min-height: calc(100vh - 220px);
     margin-left: 0;
     background-color: var(--main-color);
     display: block;
