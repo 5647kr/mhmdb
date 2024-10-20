@@ -13,6 +13,9 @@ class DetailPage {
     this.monsterEco = main.querySelector(".monsterEcoWrap div");
 
     this.monsterDataList = [];
+
+    this.metaDesc = document.querySelector('meta[name="description"]');
+
   }
 
   // 데이터 받는 함수
@@ -27,6 +30,9 @@ class DetailPage {
     const targetMonster = urlRoute.get("monster");
 
     const monster = data.find(monster => monster.name === targetMonster);
+
+    // title
+    document.title = "몬헌 몬스터 DB - " + `${monster.name}` + " 상세 정보"
 
     // monsterImgWrap
     const monsterImgContents = `
@@ -188,6 +194,14 @@ class DetailPage {
     }
   }
 
+  UpdateMetaDesc(monster) {
+    if (this.metaDesc) {
+      const description = `몬헌(몬스터 헌터)시리즈 ${monster.name} 상세 정보 - 몬헌(몬스터 헌터)시리즈에 나오는 ${monster.name}의 정보를 제공합니다. 몬헌(몬스터 헌터)부터 몬헌 선브레이크(몬스터 헌터 라이즈: 선브레이크)까지 모든 걸 확인할 수 있습니다.`;
+      this.metaDesc.setAttribute('content', description);
+    } else {
+      console.warn('메타 디스크립션이 없습니다.');
+    }
+}  
 }
 
 export default DetailPage;
