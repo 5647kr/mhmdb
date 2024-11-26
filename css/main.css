@@ -514,6 +514,7 @@ footer p {
   
   main .asideWrap label {
     font-size: var(--font-lz);
+    cursor: pointer;
   }
   
   main .asideWrap input {
@@ -656,6 +657,7 @@ footer p {
   
   main .asideWrap label {
     font-size: var(--font-lz);
+    cursor: pointer;
   }
   
   main .asideWrap input {
@@ -798,6 +800,7 @@ footer p {
   
   main .asideWrap label {
     font-size: var(--font-xxlz);
+    cursor: pointer;
   }
   
   main .asideWrap input {
