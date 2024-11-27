@@ -554,6 +554,14 @@ footer p {
     grid-template-columns: repeat(4, 1fr);
   }
 
+  main .cardWrap ul li {
+    transition: transform 0.3s ease;
+  }
+  
+  main .cardWrap ul li:hover {
+    transform: scale(1.1);
+  }
+
   main .cardWrap article .title span {
     font-size: var(--font-smz);
   }
@@ -697,6 +705,14 @@ footer p {
     grid-template-columns: repeat(5, 1fr);
   }
 
+  main .cardWrap ul li {
+    transition: transform 0.3s ease;
+  }
+  
+  main .cardWrap ul li:hover {
+    transform: scale(1.1);
+  }
+
   main .cardWrap article .title span {
     font-size: var(--font-mz);
   }
@@ -838,6 +854,14 @@ footer p {
 
   main .cardWrap ul {
     grid-template-columns: repeat(6, 1fr);
+  }
+
+  main .cardWrap ul li {
+    transition: transform 0.3s ease;
+  }
+  
+  main .cardWrap ul li:hover {
+    transform: scale(1.1);
   }
 
   main .cardWrap article .title span {
