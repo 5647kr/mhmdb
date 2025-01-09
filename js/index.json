@@ -4614,7 +4614,7 @@
       {
         "id": 81,
         "imgurl": "/img/monsterImg/수룡종/케마트리스.webp",
-        "icon": "/img/monsterIcon/아이콘/물음표.webp",
+        "icon": "/img/monsterIcon/수룡종/케마트리스.webp",
         "name": "케마트리스",
         "nickname1": "염미룡/불꽃 염(炎), 꼬리 미(尾), 용 룡(竜)",
         "nickname2": "",
@@ -4643,7 +4643,7 @@
       {
         "id": 81,
         "imgurl": "/img/monsterImg/수룡종/푸푸로포루.webp",
-        "icon": "/img/monsterIcon/아이콘/물음표.webp",
+        "icon": "/img/monsterIcon/수룡종/푸푸로포루.webp",
         "name": "푸푸로포루",
         "nickname1": "소분룡/못 소(沼), 뿜을 분(噴), 용 룡(竜)",
         "nickname2": "",
@@ -7077,8 +7077,8 @@
         "nickname2": "",
         "type": "조룡종/용반목-조각아목-조룡하목-게리오스과",
         "species": "원종",
-        "series": "MH, MHG, MHP, MH2, MHP2, MHP2G, MH4, MH4G, MHX, MHXX",
-        "seriesId": "a, b, c, d, e, f, j, k, l, m",
+        "series": "MH, MHG, MHP, MH2, MHP2, MHP2G, MH4, MH4G, MHX, MHXX, MHWs",
+        "seriesId": "a, b, c, d, e, f, j, k, l, m, r",
         "title": "",
         "titleId": "",
         "element": "",
@@ -7160,6 +7160,14 @@
           },
           {
             "작품": "MHXX",
+            "화": "★★★",
+            "수": "★",
+            "뇌": "X",
+            "빙": "★★",
+            "용": "★"
+          },
+          {
+            "작품": "MHWs(추측)",
             "화": "★★★",
             "수": "★",
             "뇌": "X",
@@ -9403,7 +9411,7 @@
       {
         "id": 174,
         "imgurl": "/img/monsterImg/협각종/라바라-바리나.webp",
-        "icon": "/img/monsterIcon/아이콘/물음표.webp",
+        "icon": "/img/monsterIcon/협각종/라바라-바리나.webp",
         "name": "라바라 바리나",
         "nickname1": "자화지주/찌를 자(刺), 꽃 화(花), 거미 지(蜘), 거미 주(蛛)",
         "nickname2": "",
