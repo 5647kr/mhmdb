@@ -3,8 +3,8 @@
     "monsterList": [
       {
         "id": 1,
-        "imgurl": "/img/monsterImg/갑각종/다이묘자자미.webp",
-        "icon": "/img/monsterIcon/갑각종/다이묘자자미.webp",
+        "imgurl": "../img/monsterImg/갑각종/다이묘자자미.webp",
+        "icon": "../img/monsterIcon/갑각종/다이묘자자미.webp",
         "name": "다이묘자자미",
         "nickname1": "순해/방패 순(盾), 게 해(蟹)",
         "nickname2": "방패게",
