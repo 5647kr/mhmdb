@@ -555,8 +555,8 @@
         "nickname2": "",
         "type": "비룡종/용반목-용각아목-중각룡하목-개룡상과-그라비모스과",
         "species": "원종",
-        "series": "MH, MHG, MHP, MH2, MHP2, MHP2G, MH4, MH4G, MHXX",
-        "seriesId": "a, b, c, d, e, f, j, k, m",
+        "series": "MH, MHG, MHP, MH2, MHP2, MHP2G, MH4, MH4G, MHXX, MHWs",
+        "seriesId": "a, b, c, d, e, f, j, k, m, r",
         "title": "",
         "titleId": "",
         "element": "불",
@@ -630,6 +630,14 @@
           },
           {
             "작품": "MHXX",
+            "화": "X",
+            "수": "★★★",
+            "뇌": "★",
+            "빙": "★",
+            "용": "★★"
+          },
+          {
+            "작품": "MHWs(추측)",
             "화": "X",
             "수": "★★★",
             "뇌": "★",
