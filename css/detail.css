@@ -221,6 +221,24 @@ main .monsterWrap .monsterEcoWrap p:not(:last-child) {
   margin-bottom: 12px;
 }
 
+main .monsterWrap .monsterRelateWrap ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+main .monsterWrap .monsterRelateWrap img {
+  width: 14px;
+  height: 14px;
+  aspect-ratio: 1 / 1;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+main .monsterWrap .monsterRelateWrap a {
+  font-size: var(--font-mz);
+}
+
 /* !footer */
 footer p {
   font-size: var(--font-mz);
@@ -329,6 +347,19 @@ footer p {
   main .monsterWrap .monsterEcoWrap p:not(:last-child) {
     margin-bottom: 14px;
   }
+
+  main .monsterWrap .monsterRelateWrap ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  main .monsterWrap .monsterRelateWrap img {
+    width: 16px;
+    height: 16px;
+  }
+  
+  main .monsterWrap .monsterRelateWrap a {
+    font-size: var(--font-mlz);
+  }
 }
 
 /* 노트북 */
@@ -391,7 +422,8 @@ footer p {
     grid-template-areas: 
     "monsterImgWrap monsterInfoWrap"
     "monsterWeakWrap monsterWeakWrap"
-    "monsterEcoWrap monsterEcoWrap";
+    "monsterEcoWrap monsterEcoWrap"
+    "monsterRelateWrap monsterRelateWrap";
     column-gap: 40px;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -456,6 +488,23 @@ footer p {
   
   main .monsterWrap .monsterEcoWrap p:not(:last-child) {
     margin-bottom: 16px;
+  }
+
+  main .monsterWrap .monsterRelateWrap {
+    grid-area: monsterRelateWrap
+  }
+
+  main .monsterWrap .monsterRelateWrap ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  main .monsterWrap .monsterRelateWrap img {
+    width: 18px;
+    height: 18px;
+  }
+  
+  main .monsterWrap .monsterRelateWrap a {
+    font-size: var(--font-lz);
   }
 
   /* !footer p */
@@ -524,7 +573,8 @@ footer p {
     grid-template-areas: 
     "monsterImgWrap monsterInfoWrap"
     "monsterWeakWrap monsterWeakWrap"
-    "monsterEcoWrap monsterEcoWrap";
+    "monsterEcoWrap monsterEcoWrap"
+    "monsterRelateWrap monsterRelateWrap";
     column-gap: 40px;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -589,6 +639,24 @@ footer p {
   
   main .monsterWrap .monsterEcoWrap p:not(:last-child) {
     margin-bottom: 18px;
+  }
+
+  main .monsterWrap .monsterRelateWrap {
+    grid-area: monsterRelateWrap
+  }
+
+  
+  main .monsterWrap .monsterRelateWrap ul {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  main .monsterWrap .monsterRelateWrap img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  main .monsterWrap .monsterRelateWrap a {
+    font-size: var(--font-xlz);
   }
 
   /* !footer p */
@@ -657,7 +725,8 @@ footer p {
     grid-template-areas: 
     "monsterImgWrap monsterInfoWrap"
     "monsterWeakWrap monsterWeakWrap"
-    "monsterEcoWrap monsterEcoWrap";
+    "monsterEcoWrap monsterEcoWrap"
+    "monsterRelateWrap monsterRelateWrap";
     column-gap: 40px;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -722,6 +791,23 @@ footer p {
   
   main .monsterWrap .monsterEcoWrap p:not(:last-child) {
     margin-bottom: 18px;
+  }
+
+  main .monsterWrap .monsterRelateWrap {
+    grid-area: monsterRelateWrap
+  }
+
+  main .monsterWrap .monsterRelateWrap ul {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  main .monsterWrap .monsterRelateWrap img {
+    width: 22px;
+    height: 22px;
+  }
+  
+  main .monsterWrap .monsterRelateWrap a {
+    font-size: var(--font-xxlz);
   }
 
   /* !footer p */
