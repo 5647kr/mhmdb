@@ -14,10 +14,11 @@
         "seriesId": "d, e, f, k, l, m, q",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해]",
         "small": "450.45",
         "large": "1451.2",
+        "relate": "다이묘자자미 아종/모쇄 다이묘자자미",
         "weak": [
           {
             "작품": "MH2",
@@ -91,10 +92,11 @@
         "seriesId": "f, k",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해]",
         "small": "247.5",
         "large": "1346.8",
+        "relate": "다이묘자자미/모쇄 다이묘자자미",
         "weak": [
           {
             "작품": "MHP2G",
@@ -128,10 +130,11 @@
         "seriesId": "l, m",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해]",
         "small": "1449.89",
         "large": "1793.68",
+        "relate": "다이묘자자미 아종/모쇄 다이묘자자미",
         "weak": [
           {
             "작품": "MHX",
@@ -165,10 +168,11 @@
         "seriesId": "d, e, f, l, m, q",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물, 열상",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해], 열상",
         "small": "586.03",
         "large": "1294.5",
+        "relate": "쇼군기자미 아종/개열 쇼군기자미",
         "weak": [
           {
             "작품": "MH2",
@@ -234,10 +238,11 @@
         "seriesId": "f",
         "title": "",
         "titleId": "",
-        "element": "물",
+        "element": "물[수속성]",
         "ailment": "",
         "small": "742.2",
         "large": "1294.5",
+        "relate": "쇼군기자미/개열 쇼군기자미",
         "weak": [
           {
             "작품": "MHP2G",
@@ -263,10 +268,11 @@
         "seriesId": "m",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물, 열상, 방어력다운",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해], 열상, 방어력감소",
         "small": "660.9",
         "large": "784.82",
+        "relate": "쇼군기자미 아종/개열 쇼군기자미",
         "weak": [
           {
             "작품": "MHXX",
@@ -296,6 +302,7 @@
         "ailment": "",
         "small": "3388",
         "large": "3388",
+        "relate": "",
         "weak": [
           {
             "작품": "MH2",
@@ -337,10 +344,11 @@
         "seriesId": "j, k, l, m",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물, 아이템사용금지, 기절",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해], 아이템사용금지, 기절",
         "small": "1271.42",
         "large": "1791.55",
+        "relate": "게넬셀타스 아종, 아르셀타스, 아르셀타스 아종",
         "weak": [
           {
             "작품": "MH4",
@@ -390,10 +398,11 @@
         "seriesId": "k",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물, 아이템사용금지, 기절",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해], 아이템사용금지, 기절",
         "small": "2291.87",
         "large": "1760.16",
+        "relate": "게넬셀타스, 아르셀타스, 아르셀타스 아종",
         "weak": [
           {
             "작품": "MH4G",
@@ -420,9 +429,10 @@
         "title": "",
         "titleId": "",
         "element": "",
-        "ailment": "방어력다운, 피로",
+        "ailment": "방어력감소, 피로",
         "small": "541.99",
         "large": "769.88",
+        "relate": "아르셀타스 아종, 게넬 셀타스, 게넬 셀타스 아종",
         "weak": [
           {
             "작품": "MH4",
@@ -476,6 +486,7 @@
         "ailment": "마비",
         "small": "541.99",
         "large": "769.88",
+        "relate": "아르셀타스, 게넬 셀타스, 게넬 셀타스 아종",
         "weak": [
           {
             "작품": "MH4G",
@@ -502,9 +513,10 @@
         "title": "",
         "titleId": "",
         "element": "",
-        "ailment": "방어력다운, 실속박",
+        "ailment": "방어력감소, 실속박",
         "small": "1504.11",
         "large": "1504.11",
+        "relate": "",
         "weak": [
           {
             "작품": "MHXX",
@@ -531,9 +543,10 @@
         "title": "",
         "titleId": "",
         "element": "",
-        "ailment": "방어력다운, 마비",
+        "ailment": "방어력감소, 마비",
         "small": "691",
         "large": "691",
+        "relate": "",
         "weak": [
           {
             "작품": "MHP2G",
@@ -559,10 +572,11 @@
         "seriesId": "a, b, c, d, e, f, j, k, m, r",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 수면",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 수면",
         "small": "1049.35",
         "large": "3065.9",
+        "relate": "그라비모스 아종, 바살모스, 바살모스 아종",
         "weak": [
           {
             "작품": "MH",
@@ -660,10 +674,11 @@
         "seriesId": "b, c, d, e, f, j, k",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 수면",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 수면",
         "small": "1946.3",
         "large": "3065.9",
+        "relate": "그라비모스, 바살모스, 바살모스 아종",
         "weak": [
           {
             "작품": "MHG",
@@ -741,6 +756,7 @@
         "ailment": "독, 맹독",
         "small": "982.8",
         "large": "1266.7",
+        "relate": "기기네블라 아종",
         "weak": [
           {
             "작품": "MH3",
@@ -782,10 +798,11 @@
         "seriesId": "h, i",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "번개, 마비",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해], 마비",
         "small": "982.6",
         "large": "1266.7",
+        "relate": "기기네블라",
         "weak": [
           {
             "작품": "MH3G",
@@ -823,6 +840,7 @@
         "ailment": "열상",
         "small": "1602.19",
         "large": "2355.13",
+        "relate": "나르가쿠르가 아종, 나르가쿠르가 희소종, 백질풍 나르가쿠르가",
         "weak": [
           {
             "작품": "MHP2G",
@@ -908,6 +926,7 @@
         "ailment": "기절",
         "small": "1410.02",
         "large": "2002.88",
+        "relate": "나르가쿠르가, 나르가쿠르가 희소종, 백질풍 나르가쿠르가",
         "weak": [
           {
             "작품": "MH3G",
@@ -945,6 +964,7 @@
         "ailment": "독, 기절",
         "small": "2503.8",
         "large": "2503.8",
+        "relate": "나르가쿠르가, 나르가쿠르가 아종, 백질풍 나르가쿠르가",
         "weak": [
           {
             "작품": "MH3G",
@@ -982,6 +1002,7 @@
         "ailment": "열상",
         "small": "1617.21",
         "large": "2127.91",
+        "relate": "나르가쿠르가, 나르가쿠르가 아종,나르가쿠르가 희소종",
         "weak": [
           {
             "작품": "MHX",
@@ -1019,6 +1040,7 @@
         "ailment": "",
         "small": "1796.26",
         "large": "3030.0",
+        "relate": "디아블로스 아종, 오마 디아블로스, 주인 디아블로스, 모노블로스, 모노블로스 아종",
         "weak": [
           {
             "작품": "MH",
@@ -1160,6 +1182,7 @@
         "ailment": "기절",
         "small": "1865.66",
         "large": "2930.3",
+        "relate": "디아블로스, 오마 디아블로스, 주인 디아블로스, 모노블로스, 모노블로스 아종",
         "weak": [
           {
             "작품": "MHG",
@@ -1261,6 +1284,7 @@
         "ailment": "",
         "small": "2288.88",
         "large": "2770.75",
+        "relate": "디아블로스, 디아블로스 아종, 주인 디아블로스, 모노블로스, 모노블로스 아종",
         "weak": [
           {
             "작품": "MHXX",
@@ -1290,6 +1314,7 @@
         "ailment": "",
         "small": "2157.39",
         "large": "2838.67",
+        "relate": "디아블로스, 디아블로스 아종, 오마 디아블로스",
         "weak": [
           {
             "작품": "MHR",
@@ -1315,10 +1340,11 @@
         "seriesId": "l, m, q",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "번개, 마비, 기절",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해], 마비, 기절",
         "small": "1544.63",
         "large": "2194.07",
+        "relate": "청전주 라이젝스",
         "weak": [
           {
             "작품": "MHX",
@@ -1360,10 +1386,11 @@
         "seriesId": "m",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "번개, 마비",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해], 마비",
         "small": "2108.45",
         "large": "2441.36",
+        "relate": "라이젝스",
         "weak": [
           {
             "작품": "MHXX",
@@ -1389,10 +1416,11 @@
         "seriesId": "r",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "번개",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해]",
         "small": "-",
         "large": "-",
+        "relate": "",
         "weak": [
           {
             "작품": "MHWs",
@@ -1418,10 +1446,11 @@
         "seriesId": "n, o",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해]",
         "small": "1495.78",
         "large": "2124.69",
+        "relate": "얼려 찌르는 레이기에나",
         "weak": [
           {
             "작품": "MHW",
@@ -1455,10 +1484,11 @@
         "seriesId": "o",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해]",
         "small": "1529.78",
         "large": "2252.98",
+        "relate": "레이기에나",
         "weak": [
           {
             "작품": "MHWIB",
@@ -1484,10 +1514,11 @@
         "seriesId": "a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r",
         "title": "MH MHP",
         "titleId": "a, c",
-        "element": "불",
-        "ailment": "불, 기절, 독",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 기절, 독",
         "small": "1140.6",
         "large": "2248.6",
+        "relate": "리오레우스 아종, 리오레우스 희소종, 흑염왕 리오레우스, 주인 리오레우스, 리오레이아, 리오레이아 아종, 리오레이아 희소종, 자독희 리오레이아, 주인 리오레이아",
         "weak": [
           {
             "작품": "MH",
@@ -1649,10 +1680,11 @@
         "seriesId": "b, c, d, e, f, h, j, k, n, o",
         "title": "MHG",
         "titleId": "b",
-        "element": "불",
-        "ailment": "불, 기절, 독",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 기절, 독",
         "small": "1140.6",
         "large": "2248.6",
+        "relate": "리오레우스, 리오레우스 희소종, 흑염왕 리오레우스, 주인 리오레우스, 리오레이아, 리오레이아 아종, 리오레이아 희소종, 자독희 리오레이아, 주인 리오레이아",
         "weak": [
           {
             "작품": "MHG",
@@ -1750,10 +1782,11 @@
         "seriesId": "b, c, d, e, f, h, i, j, k, l, m, o, q",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 기절, 독",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 기절, 독",
         "small": "1140.6",
         "large": "2248.6",
+        "relate": "리오레우스, 리오레우스 아종, 흑염왕 리오레우스, 주인 리오레우스, 리오레이아, 리오레이아 아종, 리오레이아 희소종, 자독희 리오레이아, 주인 리오레이아",
         "weak": [
           {
             "작품": "MHG",
@@ -1875,10 +1908,11 @@
         "seriesId": "l, m",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 맹독",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 맹독",
         "small": "1954.89",
         "large": "2263.56",
+        "relate": "리오레우스, 리오레우스 아종, 리오레우스 희소종, 주인 리오레우스, 리오레이아, 리오레이아 아종, 리오레이아 희소종, 자독희 리오레이아, 주인 리오레이아",
         "weak": [
           {
             "작품": "MHX",
@@ -1912,10 +1946,11 @@
         "seriesId": "p",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 독",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 독",
         "small": "1780.91",
         "large": "2343.30",
+        "relate": "리오레우스, 리오레우스 아종, 리오레우스 희소종, 흑염왕 리오레우스, 리오레이아, 리오레이아 아종, 리오레이아 희소종, 자독희 리오레이아, 주인 리오레이아",
         "weak": [
           {
             "작품": "MHR",
@@ -1941,10 +1976,11 @@
         "seriesId": "a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 독",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 독",
         "small": "1151.9",
         "large": "2303.8",
+        "relate": "리오레이아 아종, 리오레이아 희소종, 자독희 리오레이아, 주인 리오레이아, 리오레우스, 리오레우스 아종, 리오레우스 희소종, 흑염왕 리오레우스, 주인 리오레우스",
         "weak": [
           {
             "작품": "MH",
@@ -2106,10 +2142,11 @@
         "seriesId": "b, c, d, e, f, h, j, k, n, o",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 독, 맹독",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 독, 맹독",
         "small": "1151.9",
         "large": "2303.8",
+        "relate": "리오레이아, 리오레이아 희소종, 자독희 리오레이아, 주인 리오레이아, 리오레우스, 리오레우스 아종, 리오레우스 희소종, 흑염왕 리오레우스, 주인 리오레우스",
         "weak": [
           {
             "작품": "MHG",
@@ -2207,10 +2244,11 @@
         "seriesId": "b, c, d, e, f, h, i, j, k, l, m, o, q",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 독, 맹독",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 독, 맹독",
         "small": "1151.9",
         "large": "2303.8",
+        "relate": "리오레이아, 리오레이아 아종, 자독희 리오레이아, 주인 리오레이아, 리오레우스, 리오레우스 아종, 리오레우스 희소종, 흑염왕 리오레우스, 주인 리오레우스",
         "weak": [
           {
             "작품": "MHG",
@@ -2332,10 +2370,11 @@
         "seriesId": "l, m",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 독, 맹독",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 독, 맹독",
         "small": "1973.45",
         "large": "2261.25",
+        "relate": "리오레이아, 리오레이아 아종, 리오레이아 희소종, 주인 리오레이아, 리오레우스, 리오레우스 아종, 리오레우스 희소종, 흑염왕 리오레우스, 주인 리오레우스",
         "weak": [
           {
             "작품": "MHX",
@@ -2369,10 +2408,11 @@
         "seriesId": "p",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 독, 맹독",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 독, 맹독",
         "small": "1916.65",
         "large": "2340.33",
+        "relate": "리오레이아, 리오레이아 아종, 리오레이아 희소종, 자독희 리오레이아, 리오레우스, 리오레우스 아종, 리오레우스 희소종, 흑염왕 리오레우스, 주인 리오레우스",
         "weak": [
           {
             "작품": "MHR",
@@ -2402,6 +2442,7 @@
         "ailment": "",
         "small": "1683.5",
         "large": "2918.8",
+        "relate": "모노블로스 아종, 디아블로스, 디아블로스 아종",
         "weak": [
           {
             "작품": "MH",
@@ -2479,6 +2520,7 @@
         "ailment": "",
         "small": "1849.2",
         "large": "2810.7",
+        "relate": "모노블로스, 디아블로스, 디아블로스 아종",
         "weak": [
           {
             "작품": "MHG",
@@ -2544,10 +2586,11 @@
         "seriesId": "a, b, c, d, e, f, j, k, m, p, q",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 독, 맹독, 수면",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 독, 맹독, 수면",
         "small": "1154.9",
         "large": "1754.6",
+        "relate": "바살모스 아종",
         "weak": [
           {
             "작품": "MH",
@@ -2653,10 +2696,11 @@
         "seriesId": "j, k",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 독, 맹독, 수면, 기절",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 독, 맹독, 수면, 기절",
         "small": "1269.59",
         "large": "1783.13",
+        "relate": "바살모스",
         "weak": [
           {
             "작품": "MH4",
@@ -2690,10 +2734,11 @@
         "seriesId": "n, o, p, q",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 폭파",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 폭파",
         "small": "1696.97",
         "large": "2410.48",
+        "relate": "홍련에 솟구치는 바젤기우스",
         "weak": [
           {
             "작품": "MHW",
@@ -2743,10 +2788,11 @@
         "seriesId": "o, q",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 폭파",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 폭파",
         "small": "1696.97",
         "large": "2410.48",
+        "relate": "바젤기우스",
         "weak": [
           {
             "작품": "MHWIB",
@@ -2780,10 +2826,11 @@
         "seriesId": "g, h, i, m, o, p, q",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음, 눈사람",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해], 눈사람상태",
         "small": "1888.47",
         "large": "2580.91",
+        "relate": "벨리오로스 아종, 얼음 칼날을 찬 벨리오로스",
         "weak": [
           {
             "작품": "MH3",
@@ -2861,6 +2908,7 @@
         "ailment": "",
         "small": "1730.62",
         "large": "2277.13",
+        "relate": "벨리오로스, 얼음 칼날을 찬 벨리오로스",
         "weak": [
           {
             "작품": "MH3G",
@@ -2894,10 +2942,11 @@
         "seriesId": "o",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해]",
         "small": "1888.47",
         "large": "2580.91",
+        "relate": "벨리오로스, 벨리오로스 아종",
         "weak": [
           {
             "작품": "MHWIB",
@@ -2927,6 +2976,7 @@
         "ailment": "열상",
         "small": "1520.73",
         "large": "2246.53",
+        "relate": "",
         "weak": [
           {
             "작품": "MH4G",
@@ -2976,10 +3026,11 @@
         "seriesId": "e, f, i, j, k, l, m",
         "title": "",
         "titleId": "",
-        "element": "불, 용",
-        "ailment": "불, 용, 방어력다운",
+        "element": "불[화속성], 용[용속성]",
+        "ailment": "불속성 피해[화속성 피해], 용속성 피해[용속성 피해], 방어력감소",
         "small": "3049",
         "large": "3049",
+        "relate": "우캄루바스",
         "weak": [
           {
             "작품": "MHP2",
@@ -3053,10 +3104,11 @@
         "seriesId": "q",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 독, 마비",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 독, 마비",
         "small": "836.9",
         "large": "2477.2",
+        "relate": "에스피나스 아종",
         "weak": [
           {
             "작품": "MHRSB",
@@ -3082,10 +3134,11 @@
         "seriesId": "q",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 독, 방어력다운",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 독, 방어력감소",
         "small": "1489.7",
         "large": "2812",
+        "relate": "에스피나스",
         "weak": [
           {
             "작품": "MHRSB",
@@ -3111,10 +3164,11 @@
         "seriesId": "f, i, k, l, m",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음, 눈사람",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해], 눈사람상태",
         "small": "3188",
         "large": "3188",
+        "relate": "아캄토름",
         "weak": [
           {
             "작품": "MHP2G",
@@ -3176,6 +3230,7 @@
         "ailment": "",
         "small": "1388.2",
         "large": "2914.8",
+        "relate": "티가렉스 아종, 티가렉스 희소종, 황구조 티가렉스",
         "weak": [
           {
             "작품": "MHP2",
@@ -3277,6 +3332,7 @@
         "ailment": "",
         "small": "1579.21",
         "large": "2169.38",
+        "relate": "티가렉스, 티가렉스 희소종, 황구조 티가렉스",
         "weak": [
           {
             "작품": "MHP3",
@@ -3330,6 +3386,7 @@
         "ailment": "폭파",
         "small": "2313.9",
         "large": "2313.9",
+        "relate": "티가렉스, 티가렉스 아종, 황구조 티가렉스",
         "weak": [
           {
             "작품": "MH4",
@@ -3364,9 +3421,10 @@
         "title": "",
         "titleId": "",
         "element": "",
-        "ailment": "물, 얼음",
+        "ailment": "물속성 피해[수속성 피해], 얼음속성 피해[빙속성 피해]",
         "small": "2036.26",
         "large": "2333.21",
+        "relate": "티가렉스, 티가렉스 아종, 티가렉스 희소종",
         "weak": [
           {
             "작품": "MHX",
@@ -3404,6 +3462,7 @@
         "ailment": "",
         "small": "1006.16",
         "large": "1429.2",
+        "relate": "파오우르무 아종",
         "weak": [
           {
             "작품": "MHW",
@@ -3441,6 +3500,7 @@
         "ailment": "수면",
         "small": "1006.16",
         "large": "1406.33",
+        "relate": "파오우르무",
         "weak": [
           {
             "작품": "MHWIB",
@@ -3466,10 +3526,11 @@
         "seriesId": "a, b, c, d, e, f, j, k, l, m, p, q",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "번개, 마비, 기절",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해], 마비, 기절",
         "small": "436.6",
         "large": "1225.5",
+        "relate": "푸루푸루 아종",
         "weak": [
           {
             "작품": "MH",
@@ -3583,10 +3644,11 @@
         "seriesId": "b, c, d, e, f, j, k",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "번개, 마비",
-        "small": "436.6",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해], 마비",
+        "small": "436.6", 
         "large": "1205",
+        "relate": "푸루푸루",
         "weak": [
           {
             "작품": "MHG",
@@ -3664,6 +3726,7 @@
         "ailment": "마비, 기절",
         "small": "3568.4",
         "large": "5068.75",
+        "relate": "가라라아자라 아종",
         "weak": [
           {
             "작품": "MH4",
@@ -3713,10 +3776,11 @@
         "seriesId": "k",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물, 마비",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해], 마비",
         "small": "3933.4",
         "large": "5271.50",
+        "relate": "가라라아자라",
         "weak": [
           {
             "작품": "MH4G",
@@ -3746,6 +3810,7 @@
         "ailment": "기절",
         "small": "1317.84",
         "large": "2611.5",
+        "relate": "도볼베르크 아종",
         "weak": [
           {
             "작품": "MH3G",
@@ -3796,9 +3861,10 @@
         "title": "",
         "titleId": "",
         "element": "",
-        "ailment": "진흙",
+        "ailment": "진흙 상태",
         "small": "2116.045",
         "large": "4454.84",
+        "relate": "도볼베르크",
         "weak": [
           {
             "작품": "MH3G",
@@ -3824,10 +3890,11 @@
         "seriesId": "l, m, o",
         "title": "MHX",
         "titleId": "l",
-        "element": "불",
-        "ailment": "불",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해]",
         "small": "2234.75",
         "large": "3174.36",
+        "relate": "디노발드 아종, 신멸인 디노발드",
         "weak": [
           {
             "작품": "MHX",
@@ -3870,9 +3937,10 @@
         "title": "",
         "titleId": "",
         "element": "",
-        "ailment": "방어력다운",
+        "ailment": "방어력감소",
         "small": "2135.2",
         "large": "2846.93",
+        "relate": "디노발드, 신멸인 디노발드",
         "weak": [
           {
             "작품": "MHWIB",
@@ -3898,10 +3966,11 @@
         "seriesId": "l, m",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 폭파",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 폭파",
         "small": "2727.22",
         "large": "3409.02",
+        "relate": "디노발드, 디노발드 아종",
         "weak": [
           {
             "작품": "MHX",
@@ -3939,6 +4008,7 @@
         "ailment": "수면",
         "small": "1587.05",
         "large": "2182.2",
+        "relate": "",
         "weak": [
           {
             "작품": "MHW",
@@ -3976,6 +4046,7 @@
         "ailment": "",
         "small": "2164.36",
         "large": "2957.95",
+        "relate": "",
         "weak": [
           {
             "작품": "MHWIB",
@@ -4002,9 +4073,10 @@
         "title": "",
         "titleId": "",
         "element": "",
-        "ailment": "물, 진흙",
+        "ailment": "물속성 피해[수속성 피해], 진흙상태",
         "small": "1217.1",
         "large": "1744.3",
+        "relate": "볼보로스 아종",
         "weak": [
           {
             "작품": "MH3",
@@ -4086,10 +4158,11 @@
         "seriesId": "h, i",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음, 눈사람",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해], 눈사람상태",
         "small": "1266",
         "large": "1744.31",
+        "relate": "볼보로스",
         "weak": [
           {
             "작품": "MH3G",
@@ -4123,10 +4196,11 @@
         "seriesId": "h, j, k, l, m, o",
         "title": "MH3G",
         "titleId": "h",
-        "element": "불",
+        "element": "불[화속성]",
         "ailment": "폭파, 점균폭파",
         "small": "1339.18",
         "large": "1932.69",
+        "relate": "사납게 터지는 브라키디오스",
         "weak": [
           {
             "작품": "MH3G",
@@ -4193,9 +4267,10 @@
         "title": "",
         "titleId": "",
         "element": "",
-        "ailment": "불, 폭파, 점균폭파",
+        "ailment": "불속성 피해[화속성 피해], 폭파, 점균폭파",
         "small": "2130.5",
         "large": "2282.77",
+        "relate": "브라키디오스",
         "weak": [
           {
             "작품": "MH4G",
@@ -4237,10 +4312,11 @@
         "seriesId": "n, o, p, q",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해]",
         "small": "1448.88",
         "large": "2008.68",
+        "relate": "안쟈나프 아종",
         "weak": [
           {
             "작품": "MHW",
@@ -4290,10 +4366,11 @@
         "seriesId": "o",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "번개",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해]",
         "small": "1481.81",
         "large": "2008.68",
+        "relate": "안쟈나프",
         "weak": [
           {
             "작품": "MHWIB",
@@ -4319,10 +4396,11 @@
         "seriesId": "g, h, i, l, m, n, o",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 수면",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 수면",
         "small": "410.06",
         "large": "3344.48",
+        "relate": "우라간킨 아종, 보전 우라간킨",
         "weak": [
           {
             "작품": "MH3",
@@ -4396,10 +4474,11 @@
         "seriesId": "h, i",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 아이템사용금지",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 아이템사용금지",
         "small": "1985.78",
         "large": "2008.68",
+        "relate": "우라간킨, 보전 우라간킨",
         "weak": [
           {
             "작품": "MH3G",
@@ -4433,10 +4512,11 @@
         "seriesId": "l, m",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 수면, 기절",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 수면, 기절",
         "small": "2548.55",
         "large": "2920.21",
+        "relate": "우라간킨, 우라간킨 아종",
         "weak": [
           {
             "작품": "MHX",
@@ -4470,10 +4550,11 @@
         "seriesId": "g, h, i, j, k, l, m, n, o",
         "title": "",
         "titleId": "",
-        "element": "용",
-        "ailment": "용, 방어력다운",
+        "element": "용[용속성]",
+        "ailment": "용속성 피해[용속성 피해], 방어력감소",
         "small": "1803",
         "large": "4097.8",
+        "relate": "미친 이블조",
         "weak": [
           {
             "작품": "MH3",
@@ -4563,10 +4644,11 @@
         "seriesId": "h, j, k, l, m, o",
         "title": "",
         "titleId": "",
-        "element": "용",
-        "ailment": "용, 방어력다운",
+        "element": "용[용속성]",
+        "ailment": "용속성 피해[용속성 피해], 방어력감소",
         "small": "1803",
         "large": "4097.8",
+        "relate": "이블조",
         "weak": [
           {
             "작품": "MH3G",
@@ -4632,10 +4714,11 @@
         "seriesId": "r",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해]",
         "small": "-",
         "large": "-",
+        "relate": "",
         "weak": [
           {
             "작품": "MHWs",
@@ -4665,6 +4748,7 @@
         "ailment": "독",
         "small": "-",
         "large": "-",
+        "relate": "",
         "weak": [
           {
             "작품": "MHWs",
@@ -4694,6 +4778,7 @@
         "ailment": "폭파",
         "small": "977.78",
         "large": "2000",
+        "relate": "",
         "weak": [
           {
             "작품": "MHW",
@@ -4731,6 +4816,7 @@
         "ailment": "마비",
         "small": "937.3",
         "large": "1316.44",
+        "relate": "",
         "weak": [
           {
             "작품": "MHW",
@@ -4768,6 +4854,7 @@
         "ailment": "",
         "small": "277.42",
         "large": "1997.39",
+        "relate": "",
         "weak": [
           {
             "작품": "MHW",
@@ -4801,10 +4888,11 @@
         "seriesId": "q",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음, 기절",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해], 기절",
         "small": "1272.8",
         "large": "1739.5",
+        "relate": "",
         "weak": [
           {
             "작품": "MHRSB",
@@ -4834,6 +4922,7 @@
         "ailment": "귀화",
         "small": "1602.38",
         "large": "2276.11",
+        "relate": "원망 서린 마가이마가도",
         "weak": [
           {
             "작품": "MHR",
@@ -4868,9 +4957,10 @@
         "title": "",
         "titleId": "",
         "element": "",
-        "ailment": "용, 귀화",
+        "ailment": "용속성 피해[용속성 피해], 귀화",
         "small": "1762.61",
         "large": "2383.53",
+        "relate": "마가이마가도",
         "weak": [
           {
             "작품": "MHRSB",
@@ -4900,6 +4990,7 @@
         "ailment": "열상",
         "small": "541.61",
         "large": "1735.94",
+        "relate": "오도가론 아종",
         "weak": [
           {
             "작품": "MHW",
@@ -4933,10 +5024,11 @@
         "seriesId": "o",
         "title": "",
         "titleId": "",
-        "element": "용",
-        "ailment": "용, 열상",
+        "element": "용[용속성]",
+        "ailment": "용속성 피해[용속성 피해], 열상",
         "small": "1249.88",
         "large": "1722.05",
+        "relate": "오도가론",
         "weak": [
           {
             "작품": "MHWIB",
@@ -4962,10 +5054,11 @@
         "seriesId": "h, i, j, k, l, m, o, p, q",
         "title": "MHP3",
         "titleId": "i",
-        "element": "번개",
-        "ailment": "번개, 마비",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해], 마비",
         "small": "1217.4",
         "large": "2144.49",
+        "relate": "진오우거 아종, 금뢰공 진오우거, 주인 진오우거",
         "weak": [
           {
             "작품": "MH3G",
@@ -5055,10 +5148,11 @@
         "seriesId": "h, j, k, o",
         "title": "",
         "titleId": "",
-        "element": "용",
-        "ailment": "용",
+        "element": "용[용속성]",
+        "ailment": "용속성 피해[용속성 피해]",
         "small": "1397.18",
         "large": "1887",
+        "relate": "진오우거, 금뢰공 진오우거, 주인 진오우거",
         "weak": [
           {
             "작품": "MH3G",
@@ -5108,10 +5202,11 @@
         "seriesId": "l, m",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "번개, 기절",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해], 기절",
         "small": "1488.43",
         "large": "1918.07",
+        "relate": "진오우거, 진오우거 아종, 주인 진오우거",
         "weak": [
           {
             "작품": "MHX",
@@ -5145,10 +5240,11 @@
         "seriesId": "p",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "번개",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해]",
         "small": "1648.89",
         "large": "1925.83",
+        "relate": "진오우거, 진오우거 아종, 금뢰공 진오우거",
         "weak": [
           {
             "작품": "MHR",
@@ -5174,10 +5270,11 @@
         "seriesId": "n, o, p, q",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "번개",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해]",
         "small": "1157.46",
         "large": "1573.63",
+        "relate": "토비카가치 아종",
         "weak": [
           {
             "작품": "MHW",
@@ -5231,6 +5328,7 @@
         "ailment": "독, 맹독, 마비",
         "small": "1170.47",
         "large": "1560.62",
+        "relate": "토비카가치",
         "weak": [
           {
             "작품": "MHWIB",
@@ -5256,10 +5354,11 @@
         "seriesId": "q",
         "title": "",
         "titleId": "",
-        "element": "불, 물",
-        "ailment": "불, 물, 폭파",
+        "element": "불[화속성], 물[수속성]",
+        "ailment": "불속성 피해[화속성 피해], 물속성 피해[수속성 피해], 폭파",
         "small": "1529.3",
         "large": "1789.39",
+        "relate": "",
         "weak": [
           {
             "작품": "MHRSB",
@@ -5285,10 +5384,11 @@
         "seriesId": "l, m",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음, 눈사람",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해], 눈사람상태",
         "small": "455.21",
         "large": "2617.48",
+        "relate": "은령 가무토",
         "weak": [
           {
             "작품": "MHX",
@@ -5322,10 +5422,11 @@
         "seriesId": "m",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음, 눈사람",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해], 눈사람상태",
         "small": "2207.79",
         "large": "2594.72",
+        "relate": "가무토",
         "weak": [
           {
             "작품": "MHXX",
@@ -5351,10 +5452,11 @@
         "seriesId": "p, q",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음, 기절",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해], 기절",
         "small": "643.25",
         "large": "906.04",
+        "relate": "",
         "weak": [
           {
             "작품": "MHR",
@@ -5388,10 +5490,11 @@
         "seriesId": "d, e, f, l, m",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음, 눈사람",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해], 눈사람상태",
         "small": "791.12",
         "large": "1221.2",
+        "relate": "도도블랑고 아종",
         "weak": [
           {
             "작품": "MH2",
@@ -5453,6 +5556,7 @@
         "ailment": "기절",
         "small": "799.8",
         "large": "1221.2",
+        "relate": "도도블랑고",
         "weak": [
           {
             "작품": "MHP2G",
@@ -5482,6 +5586,7 @@
         "ailment": "",
         "small": "-",
         "large": "-",
+        "relate": "",
         "weak": [
           {
             "작품": "MHWs",
@@ -5511,6 +5616,7 @@
         "ailment": "",
         "small": "509.26",
         "large": "1188.6",
+        "relate": "",
         "weak": [
           {
             "작품": "MH2",
@@ -5576,10 +5682,11 @@
         "seriesId": "d, e, f, j, k, l, m, o, p, q",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "번개",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해]",
         "small": "729.62",
         "large": "1631.2",
+        "relate": "격앙 라잔",
         "weak": [
           {
             "작품": "MH2",
@@ -5677,10 +5784,11 @@
         "seriesId": "f, j, k, l, m, o, q",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "번개",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해]",
         "small": "869.4",
         "large": "1188.18",
+        "relate": "라잔",
         "weak": [
           {
             "작품": "MHP2G",
@@ -5758,6 +5866,7 @@
         "ailment": "마비, 아이템사용금지",
         "small": "613.08",
         "large": "892",
+        "relate": "",
         "weak": [
           {
             "작품": "MH3G",
@@ -5823,10 +5932,11 @@
         "seriesId": "d, e, f, j, k, m, r",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 수면, 아이템사용금지, 독, 마비, 폭파",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 수면, 아이템사용금지, 독, 마비, 폭파",
         "small": "491.4",
         "large": "1670.76",
+        "relate": "바바콩가 아종",
         "weak": [
           {
             "작품": "MH2",
@@ -5900,10 +6010,11 @@
         "seriesId": "f, j, k",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 수면, 아이템사용금지, 독, 마비, 폭파",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 수면, 아이템사용금지, 독, 마비, 폭파",
         "small": "491.4",
         "large": "1670.76",
+        "relate": "바바콩가",
         "weak": [
           {
             "작품": "MHP2G",
@@ -5949,6 +6060,7 @@
         "ailment": "독, 마비, 기절",
         "small": "832.3",
         "large": "1054.26",
+        "relate": "비슈텐고 아종",
         "weak": [
           {
             "작품": "MHR",
@@ -5982,10 +6094,11 @@
         "seriesId": "q",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해]",
         "small": "832.31",
         "large": "1054.26",
+        "relate": "비슈텐고",
         "weak": [
           {
             "작품": "MHRSB",
@@ -6015,6 +6128,7 @@
         "ailment": "",
         "small": "501.34",
         "large": "854.55",
+        "relate": "홍두 아오아시라, 주인 아오아시라",
         "weak": [
           {
             "작품": "MH3G",
@@ -6084,6 +6198,7 @@
         "ailment": "기절",
         "small": "781.22",
         "large": "904.57",
+        "relate": "아오아시라, 주인 아오아시라",
         "weak": [
           {
             "작품": "MHX",
@@ -6121,6 +6236,7 @@
         "ailment": "기절",
         "small": "674.78",
         "large": "752.92",
+        "relate": "아오아시라, 홍두 아오아시라",
         "weak": [
           {
             "작품": "MHR",
@@ -6150,6 +6266,7 @@
         "ailment": "",
         "small": "-",
         "large": "-",
+        "relate": "",
         "weak": [
           {
             "작품": "MHWs",
@@ -6175,10 +6292,11 @@
         "seriesId": "h, i, j, k, l, m, p, q",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음, 눈사람",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해], 눈사람상태",
         "small": "214.16",
         "large": "1581.9",
+        "relate": "대설주 울크스스",
         "weak": [
           {
             "작품": "MH3G",
@@ -6260,10 +6378,11 @@
         "seriesId": "l, m",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음, 눈사람, 기절",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해], 눈사람상태, 기절",
         "small": "607.52",
         "large": "799.36",
+        "relate": "울크스스",
         "weak": [
           {
             "작품": "MHX",
@@ -6297,10 +6416,11 @@
         "seriesId": "j, k, l, m",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해]",
         "small": "779.77",
         "large": "1019.01",
+        "relate": "케차와차 아종",
         "weak": [
           {
             "작품": "MH4",
@@ -6350,10 +6470,11 @@
         "seriesId": "k",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해]",
         "small": "491.4",
         "large": "1670.76",
+        "relate": "케차와차",
         "weak": [
           {
             "작품": "MH4G",
@@ -6379,10 +6500,11 @@
         "seriesId": "p, q",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물, 기절",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해], 기절",
         "small": "858.84",
         "large": "1206.23",
+        "relate": "",
         "weak": [
           {
             "작품": "MHR",
@@ -6416,10 +6538,11 @@
         "seriesId": "j, k, l, m",
         "title": "",
         "titleId": "",
-        "element": "물, 얼음",
-        "ailment": "물, 얼음, 눈사람",
+        "element": "물[수속성], 얼음[빙속성]",
+        "ailment": "물속성 피해[수속성 피해], 얼음속성 피해[빙속성 피해], 눈사람상태",
         "small": "1367.64",
         "large": "3039.2",
+        "relate": "자보아자길 아종",
         "weak": [
           {
             "작품": "MH4",
@@ -6469,10 +6592,11 @@
         "seriesId": "k",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물, 마비",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해], 마비",
         "small": "1458.82",
         "large": "1899.5",
+        "relate": "자보아자길",
         "weak": [
           {
             "작품": "MH4G",
@@ -6502,6 +6626,7 @@
         "ailment": "",
         "small": "-",
         "large": "-",
+        "relate": "",
         "weak": [
           {
             "작품": "MHWs",
@@ -6531,6 +6656,7 @@
         "ailment": "피로",
         "small": "632.9",
         "large": "1582.25",
+        "relate": "테츠카브라 아종, 암천 테츠카브라",
         "weak": [
           {
             "작품": "MH4",
@@ -6584,6 +6710,7 @@
         "ailment": "피로",
         "small": "632.9",
         "large": "1582.25",
+        "relate": "테츠카브라, 암천 테츠카브라",
         "weak": [
           {
             "작품": "MH4G",
@@ -6613,6 +6740,7 @@
         "ailment": "기절, 피로",
         "small": "1437.26",
         "large": "1649.07",
+        "relate": "테츠카브라, 테츠카브라 아종",
         "weak": [
           {
             "작품": "MHX",
@@ -6646,10 +6774,11 @@
         "seriesId": "a, b, c, d, e, f, h, j, k, l, m",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물, 수면",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해], 수면",
         "small": "1991.11",
         "large": "3877.9",
+        "relate": "가노토토스 아종",
         "weak": [
           {
             "작품": "MH",
@@ -6755,10 +6884,11 @@
         "seriesId": "b, d, e, f, h, k",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물, 수면",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해], 수면",
         "small": "2125.3",
         "large": "3877.9",
+        "relate": "가노토토스",
         "weak": [
           {
             "작품": "MHG",
@@ -6824,10 +6954,11 @@
         "seriesId": "a, b, c, d, e, f, k, l, m",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물, 마비",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해], 마비",
         "small": "889.13",
         "large": "2097",
+        "relate": "",
         "weak": [
           {
             "작품": "MH",
@@ -6917,10 +7048,11 @@
         "seriesId": "f, l, m, n, o",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해]",
         "small": "1581.57",
         "large": "3476.6",
+        "relate": "",
         "weak": [
           {
             "작품": "MHP2G",
@@ -6978,10 +7110,11 @@
         "seriesId": "o",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해]",
         "small": "1945.78",
         "large": "2044.26",
+        "relate": "",
         "weak": [
           {
             "작품": "MHWIB",
@@ -7007,10 +7140,11 @@
         "seriesId": "n, o, p, q",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물, 진흙",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해], 진흙상태",
         "small": "1327.66",
         "large": "1885.89",
+        "relate": "",
         "weak": [
           {
             "작품": "MHW",
@@ -7064,6 +7198,7 @@
         "ailment": "",
         "small": "-",
         "large": "-",
+        "relate": "",
         "weak": [
           {
             "작품": "MHWs",
@@ -7093,6 +7228,7 @@
         "ailment": "독, 맹독, 기절",
         "small": "811",
         "large": "1348.2",
+        "relate": "게리오스 아종",
         "weak": [
           {
             "작품": "MH",
@@ -7202,6 +7338,7 @@
         "ailment": "독, 맹독, 기절",
         "small": "912.3",
         "large": "1348.2",
+        "relate": "게리오스",
         "weak": [
           {
             "작품": "MHG",
@@ -7279,6 +7416,7 @@
         "ailment": "마비, 기절",
         "small": "615",
         "large": "1037.4",
+        "relate": "도스기아노스, 도스람포스, 도스마카오, 도스바기, 도스이오스, 도스재기, 도스프로기",
         "weak": [
           {
             "작품": "MH",
@@ -7376,10 +7514,11 @@
         "seriesId": "e, f, m",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음, 눈사람",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해], 눈사람",
         "small": "649.8",
         "large": "1048.77",
+        "relate": "도스게네포스, 도스람포스, 도스마카오, 도스바기, 도스이오스, 도스재기, 도스프로기",
         "weak": [
           {
             "작품": "MHP2",
@@ -7422,9 +7561,10 @@
         "title": "",
         "titleId": "",
         "element": "",
-        "ailment": "아이템사용금지, 방어력다운",
+        "ailment": "아이템사용금지, 방어력감소",
         "small": "590.7",
         "large": "1936.4",
+        "relate": "도스게네포스, 도스기아노스, 도스마카오, 도스바기, 도스이오스, 도스재기, 도스프로기",
         "weak": [
           {
             "작품": "MH",
@@ -7526,6 +7666,7 @@
         "ailment": "",
         "small": "701.63",
         "large": "1275.7",
+        "relate": "도스게네포스, 도스기아노스, 도스람포스, 도스바기, 도스이오스, 도스재기, 도스프로기",
         "weak": [
           {
             "작품": "MHX",
@@ -7563,6 +7704,7 @@
         "ailment": "수면",
         "small": "839.12",
         "large": "1457.97",
+        "relate": "도스게네포스, 도스기아노스, 도스람포스, 도스마카오, 도스이오스, 도스재기, 도스프로기",
         "weak": [
           {
             "작품": "MH3",
@@ -7624,6 +7766,7 @@
         "ailment": "독",
         "small": "619.7",
         "large": "1641.06",
+        "relate": "도스게네포스, 도스기아노스, 도스람포스, 도스마카오, 도스바기, 도스재기, 도스프로기",
         "weak": [
           {
             "작품": "MH",
@@ -7725,6 +7868,7 @@
         "ailment": "",
         "small": "822.27",
         "large": "1261.31",
+        "relate": "도스게네포스, 도스기아노스, 도스람포스, 도스마카오, 도스바기, 도스이오스, 도스프로기",
         "weak": [
           {
             "작품": "MH3",
@@ -7786,6 +7930,7 @@
         "ailment": "독",
         "small": "831.7",
         "large": "1168.13",
+        "relate": "도스게네포스, 도스기아노스, 도스람포스, 도스마카오, 도스바기, 도스이오스, 도스재기",
         "weak": [
           {
             "작품": "MH3G",
@@ -7835,10 +7980,11 @@
         "seriesId": "p, q",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해]",
         "small": "763.72",
         "large": "1043.75",
+        "relate": "",
         "weak": [
           {
             "작품": "MHR",
@@ -7872,10 +8018,11 @@
         "seriesId": "c, d, e, f, j, k, l, m, o",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 독",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 독",
         "small": "887.3",
         "large": "1744.5",
+        "relate": "상처 입은 얀가루루가, 척안 얀가루루가",
         "weak": [
           {
             "작품": "MHP",
@@ -7965,10 +8112,11 @@
         "seriesId": "f, o",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 독",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 독",
         "small": "1250.11",
         "large": "1708.48",
+        "relate": "얀가루루가, 척안 얀가루루가",
         "weak": [
           {
             "작품": "MHP2G",
@@ -8003,10 +8151,11 @@
         "seriesId": "l, m",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 독, 맹독",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 독, 맹독",
         "small": "1150.74",
         "large": "1482.91",
+        "relate": "얀가루루가, 상처 입은 얀가루루가",
         "weak": [
           {
             "작품": "MHX",
@@ -8040,10 +8189,11 @@
         "seriesId": "a, b, c, d, e, f, j, k, l, m, r",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해]",
         "small": "449.3",
         "large": "1204.9",
+        "relate": "얀쿡크 아종",
         "weak": [
           {
             "작품": "MH",
@@ -8149,10 +8299,11 @@
         "seriesId": "b, c, d, e, f, j, k",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해]",
         "small": "449.3",
         "large": "1195.7",
+        "relate": "얀쿡크",
         "weak": [
           {
             "작품": "MHG",
@@ -8230,6 +8381,7 @@
         "ailment": "",
         "small": "946.08",
         "large": "1343.87",
+        "relate": "",
         "weak": [
           {
             "작품": "MHR",
@@ -8267,6 +8419,7 @@
         "ailment": "기절",
         "small": "786.76",
         "large": "1117.55",
+        "relate": "",
         "weak": [
           {
             "작품": "MHW",
@@ -8304,6 +8457,7 @@
         "ailment": "기절",
         "small": "802.1",
         "large": "1126.55",
+        "relate": "",
         "weak": [
           {
             "작품": "MHW",
@@ -8353,10 +8507,11 @@
         "seriesId": "g, h, i",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 방어력다운, 수면",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 방어력감소, 수면",
         "small": "772.8",
         "large": "1085.4",
+        "relate": "쿠르페코 아종",
         "weak": [
           {
             "작품": "MH3",
@@ -8398,10 +8553,11 @@
         "seriesId": "h, i",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "번개, 기절, 수면",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해], 기절, 수면",
         "small": "347.32",
         "large": "1085.4",
+        "relate": "쿠르페코",
         "weak": [
           {
             "작품": "MH3G",
@@ -8439,6 +8595,7 @@
         "ailment": "독, 기절",
         "small": "970.16",
         "large": "1344.99",
+        "relate": "푸케푸케 아종",
         "weak": [
           {
             "작품": "MHW",
@@ -8488,10 +8645,11 @@
         "seriesId": "o",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해]",
         "small": "992.21",
         "large": "1322.94",
+        "relate": "푸케푸케",
         "weak": [
           {
             "작품": "MHWIB",
@@ -8521,6 +8679,7 @@
         "ailment": "수면, 혼란",
         "small": "305.83",
         "large": "758.46",
+        "relate": "농은 호로로호루루",
         "weak": [
           {
             "작품": "MHX",
@@ -8558,6 +8717,7 @@
         "ailment": "수면, 혼란",
         "small": "711.03",
         "large": "901.61",
+        "relate": "호로로호루루",
         "weak": [
           {
             "작품": "MHXX",
@@ -8587,6 +8747,7 @@
         "ailment": "수면",
         "small": "751.4",
         "large": "1485.8",
+        "relate": "",
         "weak": [
           {
             "작품": "MHP2G",
@@ -8612,10 +8773,11 @@
         "seriesId": "g, h, l, m",
         "title": "MH3",
         "titleId": "g",
-        "element": "번개",
-        "ailment": "물, 번개",
+        "element": "번개[뇌속성]",
+        "ailment": "물속성 피해[수속성 피해], 번개속성 피해[뇌속성 피해]",
         "small": "2330.7",
         "large": "3310.6",
+        "relate": "라기아크루스 아종, 라기아크루스 희소종",
         "weak": [
           {
             "작품": "MH3",
@@ -8665,10 +8827,11 @@
         "seriesId": "h",
         "title": "",
         "titleId": "",
-        "element": "물, 번개",
-        "ailment": "물, 번개",
+        "element": "물[수속성], 번개[뇌속성]",
+        "ailment": "물속성 피해[수속성 피해], 번개속성 피해[뇌속성 피해]",
         "small": "2516",
         "large": "3310.6",
+        "relate": "라기아크루스, 라기아크루스 희소종",
         "weak": [
           {
             "작품": "MH3G",
@@ -8694,10 +8857,11 @@
         "seriesId": "h",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "물, 번개",
+        "element": "번개[뇌속성]",
+        "ailment": "물[수속성], 번개속성 피해[뇌속성 피해]",
         "small": "3969.3",
         "large": "3969.3",
+        "relate": "라기아크루스, 라기아크루스 아종",
         "weak": [
           {
             "작품": "MH3G",
@@ -8723,10 +8887,11 @@
         "seriesId": "g, h, i, l, m, p, q",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해]",
         "small": "1359.78",
         "large": "1931.5",
+        "relate": "로아루드로스 아종",
         "weak": [
           {
             "작품": "MH3",
@@ -8804,6 +8969,7 @@
         "ailment": "독, 맹독",
         "small": "1467.94",
         "large": "1939.5",
+        "relate": "로아루드로스",
         "weak": [
           {
             "작품": "MH3G",
@@ -8837,10 +9003,11 @@
         "seriesId": "r",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해]",
         "small": "-",
         "large": "-",
+        "relate": "",
         "weak": [
           {
             "작품": "MHWs",
@@ -8866,10 +9033,11 @@
         "seriesId": "r",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해]",
         "small": "-",
         "large": "-",
+        "relate": "",
         "weak": [
           {
             "작품": "MHWs",
@@ -8895,10 +9063,11 @@
         "seriesId": "g, h, i, l, m",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해]",
         "small": "2416.1",
         "large": "3421.64",
+        "relate": "아그나코트르 아종",
         "weak": [
           {
             "작품": "MH3",
@@ -8956,10 +9125,11 @@
         "seriesId": "h, i",
         "title": "",
         "titleId": "",
-        "element": "물, 얼음",
-        "ailment": "물, 얼음",
+        "element": "물[수속성], 얼음[빙속성]",
+        "ailment": "물속성 피해[수속성 피해], 얼음속성 피해[빙속성 피해]",
         "small": "2198.91",
         "large": "3176.2",
+        "relate": "아그나코트르",
         "weak": [
           {
             "작품": "MH3G",
@@ -8993,10 +9163,11 @@
         "seriesId": "p, q",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물, 진흙",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해], 진흙상태",
         "small": "2425.04",
         "large": "3368.12",
+        "relate": "오로미도로 아종",
         "weak": [
           {
             "작품": "MHR",
@@ -9030,10 +9201,11 @@
         "seriesId": "q",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해]",
         "small": "2478.94",
         "large": "3341.18",
+        "relate": "오로미도로",
         "weak": [
           {
             "작품": "MHRSB",
@@ -9060,9 +9232,10 @@
         "title": "",
         "titleId": "",
         "element": "",
-        "ailment": "물, 수면, 기절, 폭파",
+        "ailment": "물속성 피해[수속성 피해], 수면, 기절, 폭파",
         "small": "1390.52",
         "large": "1899.97",
+        "relate": "이소네미쿠니 아종",
         "weak": [
           {
             "작품": "MHR",
@@ -9096,10 +9269,11 @@
         "seriesId": "q",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해]",
         "small": "1375.04",
         "large": "1931.25",
+        "relate": "이소네미쿠니",
         "weak": [
           {
             "작품": "MHRSB",
@@ -9126,9 +9300,10 @@
         "title": "",
         "titleId": "",
         "element": "",
-        "ailment": "물, 마비, 기절",
+        "ailment": "물[수속성], 마비, 기절",
         "small": "1562.9",
         "large": "2844.8",
+        "relate": "",
         "weak": [
           {
             "작품": "MH3",
@@ -9162,10 +9337,11 @@
         "seriesId": "l, m, p, q",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물, 거품",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해], 거품상태",
         "small": "565.54",
         "large": "2356.4",
+        "relate": "타마미츠네 희소종, 천안 타마미츠네, 주인 타마미츠네",
         "weak": [
           {
             "작품": "MHX",
@@ -9215,10 +9391,11 @@
         "seriesId": "q",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 속내",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 속내",
         "small": "1738",
         "large": "2269.9",
+        "relate": "타마미츠네, 천안 타마미츠네, 주인 타마미츠네",
         "weak": [
           {
             "작품": "MHRSB",
@@ -9244,10 +9421,11 @@
         "seriesId": "m",
         "title": "",
         "titleId": "",
-        "element": "불, 물",
-        "ailment": "불, 물, 거품",
+        "element": "불[화속성], 물[수속성]",
+        "ailment": "불속성 피해[화속성 피해], 물속성 피해[수속성 피해], 거품상태",
         "small": "2792.77",
         "large": "2797.77",
+        "relate": "타마미츠네, 타마미츠네 희소종, 주인 타마미츠네",
         "weak": [
           {
             "작품": "MHXX",
@@ -9273,10 +9451,11 @@
         "seriesId": "p",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물, 귀화, 폭파",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해], 귀화, 폭파",
         "small": "1934.7",
         "large": "2748.15",
+        "relate": "타마미츠네, 타마미츠네 희소종, 천안 타마미츠네",
         "weak": [
           {
             "작품": "MHR",
@@ -9303,9 +9482,10 @@
         "title": "",
         "titleId": "",
         "element": "",
-        "ailment": "물",
+        "ailment": "물속성 피해[수속성 피해]",
         "small": "1808.1",
         "large": "4693.15",
+        "relate": "",
         "weak": [
           {
             "작품": "MH3G",
@@ -9359,6 +9539,7 @@
         "ailment": "독, 맹독, 수면, 실속박",
         "small": "833.1",
         "large": "1126.57",
+        "relate": "네르스큐라 아종",
         "weak": [
           {
             "작품": "MH4",
@@ -9404,6 +9585,7 @@
         "ailment": "마비, 독, 맹독, 실속박",
         "small": "389.57",
         "large": "1188.69",
+        "relate": "네르스큐라",
         "weak": [
           {
             "작품": "MH4G",
@@ -9433,6 +9615,7 @@
         "ailment": "마비",
         "small": "-",
         "large": "-",
+        "relate": "",
         "weak": [
           {
             "작품": "MHWs",
@@ -9458,10 +9641,11 @@
         "seriesId": "p, q",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 실속박",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 실속박",
         "small": "771.23",
         "large": "1071.16",
+        "relate": "야츠카다키 아종",
         "weak": [
           {
             "작품": "MHR",
@@ -9495,10 +9679,11 @@
         "seriesId": "q",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 폭파, 실속박",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 폭파, 실속박",
         "small": "754.1",
         "large": "1071.16",
+        "relate": "야츠카다키",
         "weak": [
           {
             "작품": "MHRSB",
@@ -9528,6 +9713,7 @@
         "ailment": "폭파, 겁혈",
         "small": "4807.54",
         "large": "4807.54",
+        "relate": "",
         "weak": [
           {
             "작품": "MHRSB",
@@ -9553,10 +9739,11 @@
         "seriesId": "k",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 중유속박",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 중유속박",
         "small": "4920.5",
         "large": "4920.5",
+        "relate": "",
         "weak": [
           {
             "작품": "MH4G",
@@ -9586,6 +9773,7 @@
         "ailment": "광룡증",
         "small": "1549.59",
         "large": "2201.12",
+        "relate": "혼돈에 신음하는 고어 마가라, 샤가르마가라, 괴이 극복 샤가르마가라",
         "weak": [
           {
             "작품": "MH4",
@@ -9647,6 +9835,7 @@
         "ailment": "광룡증",
         "small": "1584.8",
         "large": "2165.9",
+        "relate": "고어 마가라, 샤가르마가라, 괴이 극복 샤가르마가라",
         "weak": [
           {
             "작품": "MH4G",
@@ -9688,10 +9877,11 @@
         "seriesId": "h",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해]",
         "small": "6288",
         "large": "6288",
+        "relate": "밀라보레아스, 홍룡 밀라보레아스, 선조룡 밀라보레아스, 알바트리온",
         "weak": [
           {
             "작품": "MH3G",
@@ -9717,10 +9907,11 @@
         "seriesId": "d, e, f, n, o",
         "title": "",
         "titleId": "",
-        "element": "불, 용",
-        "ailment": "불",
+        "element": "불[화속성], 용[용속성]",
+        "ailment": "불[화속성]",
         "small": "1444.2",
         "large": "2575.2",
+        "relate": "테오 테스카토르, 괴이 극복 테오 테스카토르",
         "weak": [
           {
             "작품": "MH2",
@@ -9778,10 +9969,11 @@
         "seriesId": "p",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "번개, 기절",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해], 기절",
         "small": "3875.05",
         "large": "3875.05",
+        "relate": "백룡 연원 나루하타타히메, 이부시마키히코",
         "weak": [
           {
             "작품": "MHR",
@@ -9807,10 +9999,11 @@
         "seriesId": "p, q",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "번개",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해]",
         "small": "3875.05",
         "large": "3875.05",
+        "relate": "나루하타타히메, 이부시마키히코",
         "weak": [
           {
             "작품": "MHR",
@@ -9844,10 +10037,11 @@
         "seriesId": "g, h",
         "title": "",
         "titleId": "",
-        "element": "물, 용",
-        "ailment": "물, 용",
+        "element": "물[수속성], 용[용속성]",
+        "ailment": "물속성 피해[수속성 피해], 용속성 피해[용속성 피해]",
         "small": "5837.2",
         "large": "5837.2",
+        "relate": "나발데우스 아종",
         "weak": [
           {
             "작품": "MH3",
@@ -9881,10 +10075,11 @@
         "seriesId": "h",
         "title": "",
         "titleId": "",
-        "element": "물",
-        "ailment": "물",
+        "element": "물[수속성]",
+        "ailment": "물속성 피해[수속성 피해]",
         "small": "5837.2",
         "large": "5837.2",
+        "relate": "나발데우스",
         "weak": [
           {
             "작품": "MH3G",
@@ -9910,10 +10105,11 @@
         "seriesId": "o",
         "title": "",
         "titleId": "",
-        "element": "물, 번개",
-        "ailment": "물, 번개",
+        "element": "물[수속성], 번개[뇌속성]",
+        "ailment": "물속성 피해[수속성 피해], 번개속성 피해[뇌속성 피해]",
         "small": "1822.94",
         "large": "2560.31",
+        "relate": "",
         "weak": [
           {
             "작품": "MHWIB",
@@ -9943,6 +10139,7 @@
         "ailment": "",
         "small": "1626.35",
         "large": "2310.14",
+        "relate": "모두를 멸하는 네르기간테",
         "weak": [
           {
             "작품": "MHW",
@@ -9980,6 +10177,7 @@
         "ailment": "열상",
         "small": "1663.31",
         "large": "2310.15",
+        "relate": "네르기간테",
         "weak": [
           {
             "작품": "MHWIB",
@@ -10009,6 +10207,7 @@
         "ailment": "마비",
         "small": "44039.7",
         "large": "44039.7",
+        "relate": "다라 아마듈라 아종",
         "weak": [
           {
             "작품": "MH4",
@@ -10046,6 +10245,7 @@
         "ailment": "마비",
         "small": "44039.7",
         "large": "44039.7",
+        "relate": "다라 아마듈라",
         "weak": [
           {
             "작품": "MH4G",
@@ -10075,6 +10275,7 @@
         "ailment": "",
         "small": "11446.5",
         "large": "11446.5",
+        "relate": "",
         "weak": [
           {
             "작품": "MH4",
@@ -10108,10 +10309,11 @@
         "seriesId": "a, b, c, d, e, f, m",
         "title": "",
         "titleId": "",
-        "element": "용",
+        "element": "용[용속성]",
         "ailment": "",
         "small": "6960",
         "large": "6960",
+        "relate": "라오샨룽 아종",
         "weak": [
           {
             "작품": "MH",
@@ -10185,10 +10387,11 @@
         "seriesId": "b, c, d, e, f",
         "title": "",
         "titleId": "",
-        "element": "용",
+        "element": "용[용속성]",
         "ailment": "",
         "small": "6960",
         "large": "6960",
+        "relate": "라오샨룽",
         "weak": [
           {
             "작품": "MHG",
@@ -10246,10 +10449,11 @@
         "seriesId": "n, o",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해]",
         "small": "4573.25",
         "large": "4573.25",
+        "relate": "",
         "weak": [
           {
             "작품": "MHW",
@@ -10283,10 +10487,11 @@
         "seriesId": "q",
         "title": "MHRSB",
         "titleId": "q",
-        "element": "용",
-        "ailment": "용, 겁혈",
+        "element": "용[용속성]",
+        "ailment": "용속성 피해[용속성 피해], 겁혈",
         "small": "1831.84",
         "large": "2477.15",
+        "relate": "원초를 새기는 멜 제나",
         "weak": [
           {
             "작품": "MHRSB",
@@ -10312,10 +10517,11 @@
         "seriesId": "q",
         "title": "",
         "titleId": "",
-        "element": "용",
-        "ailment": "용, 겁혈",
+        "element": "용[용속성]",
+        "ailment": "용속성 피해[용속성 피해], 겁혈",
         "small": "1831.84",
         "large": "2477.15",
+        "relate": "멜 제나",
         "weak": [
           {
             "작품": "MHRSB",
@@ -10342,9 +10548,10 @@
         "title": "",
         "titleId": "",
         "element": "",
-        "ailment": "불",
+        "ailment": "불속성 피해[화속성 피해]",
         "small": "4799.78",
         "large": "4799.78",
+        "relate": "제노 지바",
         "weak": [
           {
             "작품": "MHWIB",
@@ -10370,10 +10577,11 @@
         "seriesId": "a, b, c, d, e, f, j, k, m, o",
         "title": "",
         "titleId": "",
-        "element": "불, 용",
-        "ailment": "불, 용",
+        "element": "불[화속성], 용[용속성]",
+        "ailment": "불속성 피해[화속성 피해], 용속성 피해[용속성 피해]",
         "small": "4110.6",
         "large": "4137.17",
+        "relate": "홍룡 밀라보레아스, 선조룡 밀라보레아스, 그란 밀라오스, 알바트리온",
         "weak": [
           {
             "작품": "MH",
@@ -10471,10 +10679,11 @@
         "seriesId": "b, c, d, e, f, j, k, m",
         "title": "",
         "titleId": "",
-        "element": "불, 용",
-        "ailment": "불, 폭파",
+        "element": "불[화속성], 용[용속성]",
+        "ailment": "불속성 피해[화속성 피해], 폭파",
         "small": "4110.6",
         "large": "4110.6",
+        "relate": "밀라보레아스, 선조룡 밀라보레아스, 그란 밀라오스, 알바트리온",
         "weak": [
           {
             "작품": "MHG",
@@ -10556,10 +10765,11 @@
         "seriesId": "d, e, f, k, m",
         "title": "",
         "titleId": "",
-        "element": "번개, 용",
-        "ailment": "번개, 용",
+        "element": "번개[뇌속성], 용[용속성]",
+        "ailment": "번개속성 피해[뇌속성 피해], 용속성 피해[용속성 피해]",
         "small": "4119.2",
         "large": "4119.2",
+        "relate": "밀라보레아스, 홍룡 밀라보레아스, 그란 밀라오스, 알바트리온",
         "weak": [
           {
             "작품": "MH2",
@@ -10617,10 +10827,11 @@
         "seriesId": "m",
         "title": "MHXX",
         "titleId": "m",
-        "element": "용",
-        "ailment": "용",
+        "element": "용[용속성]",
+        "ailment": "용속성 피해[용속성 피해]",
         "small": "2267",
         "large": "2698.15",
+        "relate": "영묘한 광채의 발파루크, 괴이 극복 발파루크",
         "weak": [
           {
             "작품": "MHXX",
@@ -10646,10 +10857,11 @@
         "seriesId": "p, q",
         "title": "",
         "titleId": "",
-        "element": "용",
-        "ailment": "용",
+        "element": "용[용속성]",
+        "ailment": "용속성 피해[용속성 피해]",
         "small": "1796.06",
         "large": "2551.22",
+        "relate": "발파루크, 괴이 극복 발파루크",
         "weak": [
           {
             "작품": "MHR",
@@ -10683,10 +10895,11 @@
         "seriesId": "q",
         "title": "",
         "titleId": "",
-        "element": "용",
-        "ailment": "용",
+        "element": "용[용속성]",
+        "ailment": "용속성 피해[용속성 피해]",
         "small": "1796.06",
         "large": "2408.35",
+        "relate": "발파루크, 영묘한 광채의 발파루크",
         "weak": [
           {
             "작품": "MHRSB",
@@ -10716,6 +10929,7 @@
         "ailment": "독기",
         "small": "1843.95",
         "large": "2598.3",
+        "relate": "죽음을 두른 발하자크",
         "weak": [
           {
             "작품": "MHW",
@@ -10753,6 +10967,7 @@
         "ailment": "독기",
         "small": "1885.86",
         "large": "2577.34",
+        "relate": "발하자크",
         "weak": [
           {
             "작품": "MHWIB",
@@ -10782,6 +10997,7 @@
         "ailment": "광룡증",
         "small": "1564.73",
         "large": "2187.06",
+        "relate": "괴이 극복 샤가르마가라, 고어 마가라, 혼돈에 신음하는 고어 마가라",
         "weak": [
           {
             "작품": "MH4",
@@ -10843,6 +11059,7 @@
         "ailment": "광룡증",
         "small": "1527.28",
         "large": "2065.29",
+        "relate": "샤가르마가라, 고어 마가라, 혼돈에 신음하는 고어 마가라",
         "weak": [
           {
             "작품": "MHRSB",
@@ -10868,10 +11085,11 @@
         "seriesId": "i, l, m, q",
         "title": "",
         "titleId": "",
-        "element": "물, 번개",
-        "ailment": "물, 번개",
+        "element": "물[수속성], 번개[뇌속성]",
+        "ailment": "물속성 피해[수속성 피해], 번개속성 피해[뇌속성 피해]",
         "small": "3133.8",
         "large": "3133.8",
+        "relate": "",
         "weak": [
           {
             "작품": "MHP3",
@@ -10925,6 +11143,7 @@
         "ailment": "기절",
         "small": "2910.91",
         "large": "2910.91",
+        "relate": "",
         "weak": [
           {
             "작품": "MHWIB",
@@ -10950,10 +11169,11 @@
         "seriesId": "g, h, i, l, m, o",
         "title": "",
         "titleId": "",
-        "element": "불, 물, 번개, 얼음, 용",
-        "ailment": "불, 물, 번개, 얼음, 용, 눈사람",
+        "element": "불[화속성], 물[수속성], 번개[뇌속성], 얼음[빙속성], 용[용속성]",
+        "ailment": "불속성 피해[화속성 피해], 물속성 피해[수속성 피해], 번개속성 피해[뇌속성 피해], 얼음속성 피해[빙속성 피해], 용속성 피해[용속성 피해], 눈사람상태",
         "small": "2969",
         "large": "3105",
+        "relate": "그란 밀라오스, 밀라보레아스, 홍룡 밀라보레아스, 선조룡 밀라보레아스",
         "weak": [
           {
             "작품": "MH3",
@@ -11019,10 +11239,11 @@
         "seriesId": "d, f",
         "title": "",
         "titleId": "",
-        "element": "불",
+        "element": "불속성 피해[화속성 피해]",
         "ailment": "",
         "small": "4137",
         "large": "4137",
+        "relate": "",
         "weak": [
           {
             "작품": "MH2",
@@ -11056,10 +11277,11 @@
         "seriesId": "d, e, f, k, l, m, p, q",
         "title": "",
         "titleId": "",
-        "element": "용",
-        "ailment": "독, 맹독, 피로, 방어력다운",
+        "element": "용[용속성]",
+        "ailment": "독, 맹독, 피로, 방어력감소",
         "small": "1395.2",
         "large": "2811.32",
+        "relate": "괴이 극복 오나즈치",
         "weak": [
           {
             "작품": "MH2",
@@ -11145,6 +11367,7 @@
         "ailment": "맹독",
         "small": "2249.06",
         "large": "2811.32",
+        "relate": "오나즈치",
         "weak": [
           {
             "작품": "MHRSB",
@@ -11170,10 +11393,11 @@
         "seriesId": "l, m",
         "title": "",
         "titleId": "",
-        "element": "용",
-        "ailment": "불, 번개, 용, 폭파, 마비, 뼈, 점액",
+        "element": "용[용속성]",
+        "ailment": "불속성 피해[화속성 피해], 번개속성 피해[뇌속성 피해], 용속성 피해[용속성 피해], 폭파, 마비, 뼈상태, 점액상태",
         "small": "3547.57",
         "large": "3547.57",
+        "relate": "",
         "weak": [
           {
             "작품": "MHX",
@@ -11207,10 +11431,11 @@
         "seriesId": "o, q",
         "title": "MHWIB",
         "titleId": "o",
-        "element": "얼음",
-        "ailment": "얼음",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해]",
         "small": "2336.45",
         "large": "3245.06",
+        "relate": "",
         "weak": [
           {
             "작품": "MHWIB",
@@ -11244,10 +11469,11 @@
         "seriesId": "p, q",
         "title": "",
         "titleId": "",
-        "element": "용",
-        "ailment": "용",
+        "element": "용[용속성]",
+        "ailment": "용속성 피해[용속성 피해]",
         "small": "3068.6",
         "large": "3068.6",
+        "relate": "나루하타타히메, 백룡 연원 나루하타타히메",
         "weak": [
           {
             "작품": "MHR",
@@ -11281,10 +11507,11 @@
         "seriesId": "n, o",
         "title": "",
         "titleId": "",
-        "element": "불, 용",
-        "ailment": "불, 용",
+        "element": "불[화속성], 용[용속성]",
+        "ailment": "불속성 피해[화속성 피해], 용속성 피해[용속성 피해]",
         "small": "4509.1",
         "large": "4509.1",
+        "relate": "무페토 지바",
         "weak": [
           {
             "작품": "MHW",
@@ -11318,10 +11545,11 @@
         "seriesId": "n",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 기절",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 기절",
         "small": "25764.59",
         "large": "25764.59",
+        "relate": "",
         "weak": [
           {
             "작품": "MHW",
@@ -11351,6 +11579,7 @@
         "ailment": "",
         "small": "11161.9",
         "large": "11161.9",
+        "relate": "지엔 모란 아종",
         "weak": [
           {
             "작품": "MH3",
@@ -11396,6 +11625,7 @@
         "ailment": "",
         "small": "11161.9",
         "large": "11161.9",
+        "relate": "지엔 모란",
         "weak": [
           {
             "작품": "MH3G",
@@ -11421,10 +11651,11 @@
         "seriesId": "d, e, f, j, k, l, m, n, o, p, q",
         "title": "MH2",
         "titleId": "d",
-        "element": "용",
-        "ailment": "얼음, 용",
+        "element": "용[용속성]",
+        "ailment": "얼음속성 피해[빙속성 피해], 용속성 피해[용속성 피해]",
         "small": "2161.6",
         "large": "2391.41",
+        "relate": "녹슨 크샬다오라, 괴이 극복 크샬다오라",
         "weak": [
           {
             "작품": "MH2",
@@ -11530,10 +11761,11 @@
         "seriesId": "d, e, f, k",
         "title": "",
         "titleId": "",
-        "element": "얼음, 용",
-        "ailment": "얼음, 방어력다운",
+        "element": "얼음[빙속성], 용[용속성]",
+        "ailment": "얼음속성 피해[빙속성 피해], 방어력감소",
         "small": "2161.6",
         "large": "2129",
+        "relate": "크샬다오라, 괴이 극복 크샬다오라",
         "weak": [
           {
             "작품": "MH2",
@@ -11583,10 +11815,11 @@
         "seriesId": "q",
         "title": "",
         "titleId": "",
-        "element": "용",
-        "ailment": "얼음, 용",
+        "element": "용[용속성]",
+        "ailment": "얼음속성 피해[빙속성 피해], 용속성 피해[용속성 피해]",
         "small": "1817.47",
         "large": "2391.41",
+        "relate": "크샬다오라, 녹슨 크샬다오라",
         "weak": [
           {
             "작품": "MHRSB",
@@ -11612,10 +11845,11 @@
         "seriesId": "a, b, c, d, e, f, j, k, l, m, n, o",
         "title": "",
         "titleId": "",
-        "element": "번개",
-        "ailment": "번개, 마비",
+        "element": "번개[뇌속성]",
+        "ailment": "번개속성 피해[뇌속성 피해], 마비",
         "small": "371.4",
         "large": "989.64",
+        "relate": "키린 아종",
         "weak": [
           {
             "작품": "MH",
@@ -11729,10 +11963,11 @@
         "seriesId": "j, k",
         "title": "",
         "titleId": "",
-        "element": "얼음",
-        "ailment": "얼음, 눈사람",
+        "element": "얼음[빙속성]",
+        "ailment": "얼음속성 피해[빙속성 피해], 눈사람상태",
         "small": "483.82",
         "large": "989.64",
+        "relate": "키린",
         "weak": [
           {
             "작품": "MH4",
@@ -11766,10 +12001,11 @@
         "seriesId": "d, e, f, j, k, l, m, n, o, p, q",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 폭파, 기절",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 폭파, 기절",
         "small": "483.82",
         "large": "989.64",
+        "relate": "주인 테오 테스카토르, 나나 테스카토리",
         "weak": [
           {
             "작품": "MH2",
@@ -11875,10 +12111,11 @@
         "seriesId": "q",
         "title": "",
         "titleId": "",
-        "element": "불",
-        "ailment": "불, 폭파",
+        "element": "불[화속성]",
+        "ailment": "불속성 피해[화속성 피해], 폭파",
         "small": "1700.64",
         "large": "2237.69",
+        "relate": "테오 테스카토르, 나나 테스카토리",
         "weak": [
           {
             "작품": "MHRSB",
