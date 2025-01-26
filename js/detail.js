@@ -7,6 +7,7 @@ class DetailPage {
     this.searchList = header.querySelector(".searchList");
 
     const main = document.querySelector("main");
+    this.monsterWrap = main.querySelector(".monsterWrap")
     this.monsterImg = main.querySelector(".monsterImgWrap");
     this.monsterInfo = main.querySelector(".monsterInfoWrap ul");
     this.monsterWeak = main.querySelector(".monsterWeakWrap table tbody");
@@ -108,6 +109,40 @@ class DetailPage {
       ${monster.eco}
     `;
     this.monsterEco.innerHTML = monsterEcoContents;
+
+    // monsterRelateWrap
+    if(monster.relate) {
+      const relateWrap = document.createElement("div");
+      const relateContent = `
+        <h2>연관 몬스터</h2>
+        <ul>
+        </ul>
+      `
+      relateWrap.classList.add("monsterRelateWrap");
+      relateWrap.innerHTML = relateContent;
+      this.monsterWrap.appendChild(relateWrap);
+
+      const relateList = monster.relate.split(", ");
+      
+      for(let i = 0; i < relateList.length; i++) {
+        data.filter((monster) => {
+          if(monster.name === relateList[i]) {
+            const relateItem = document.createElement("li");
+            const relateItemContent = `
+            <a href="/detail.html?monster=${monster.name}">
+              <img src="${monster.icon}" alt="${monster.name}">
+              ${monster.name}
+              </a>
+            `
+            relateItem.innerHTML = relateItemContent;
+            const relateUl = relateWrap.querySelector("ul");
+            relateUl.appendChild(relateItem)
+          }
+        });
+      }
+    } else {
+      return;
+    }
   }
 
   DetailPageEvent() {
