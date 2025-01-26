@@ -186,6 +186,12 @@ main .monsterWrap .monsterInfoWrap .detail {
 }
 
 /* !main monsterWrap monsterWeakWrap */
+main .monsterWrap .monsterWeakWrap strong {
+  display: block;
+  text-align: right;
+  font-size: var(--font-sz);
+}
+
 main .monsterWrap .monsterWeakWrap table {
   width: 100%;
   text-align: center;
@@ -331,6 +337,10 @@ footer p {
   }
   
   /* !main monsterWrap monsterWeakWrap */
+  main .monsterWrap .monsterWeakWrap strong {
+    font-size: var(--font-smz);
+  }
+
   main .monsterWrap .monsterWeakWrap table tr th img {
     width: 16px;
   }
@@ -467,6 +477,10 @@ footer p {
   /* !main monsterWrap monsterWeakWrap */
   main .monsterWrap .monsterWeakWrap {
     grid-area: monsterWeakWrap;
+  }
+
+  main .monsterWrap .monsterWeakWrap strong {
+    font-size: var(--font-mz);
   }
 
   main .monsterWrap .monsterWeakWrap table tr th img {
@@ -620,6 +634,10 @@ footer p {
     grid-area: monsterWeakWrap;
   }
 
+  main .monsterWrap .monsterWeakWrap strong {
+    font-size: var(--font-mlz);
+  }
+
   main .monsterWrap .monsterWeakWrap table tr th img {
     width: 20px;
   }
@@ -770,6 +788,10 @@ footer p {
   /* !main monsterWrap monsterWeakWrap */
   main .monsterWrap .monsterWeakWrap {
     grid-area: monsterWeakWrap;
+  }
+
+  main .monsterWrap .monsterWeakWrap strong {
+    font-size: var(--font-lz);
   }
 
   main .monsterWrap .monsterWeakWrap table tr th img {
