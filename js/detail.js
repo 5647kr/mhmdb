@@ -33,7 +33,7 @@ class DetailPage {
     const monster = data.find(monster => monster.name === targetMonster);
 
     // title
-    document.title = "몬헌 몬스터 DB - " + `${monster.name}` + " 상세 정보"
+    document.title = "몬헌 도감 - " + `${monster.name}` + " 상세 정보"
 
     // monsterImgWrap
     const monsterImgContents = `
@@ -47,6 +47,8 @@ class DetailPage {
     const nickname1Detail = monster.nickname1.split("/")[1] || "";
     const nickname2Main = monster.nickname2.split("/")[0] || "";
     const nickname2Detail = monster.nickname2.split("/")[1] || "";
+    const typeMain = monster.type.split("/")[0]
+    const typeDetail = monster.type.split("/")[1]
 
     const monsterInfoContents = `
       <li>
@@ -59,7 +61,8 @@ class DetailPage {
       </li>
       <li>
         <h3>종별</h3>
-        <p>${monster.type || "없음"}</p>
+        <p>${typeMain || "없음"}</p>
+        <p class="detail">${typeDetail}</p>
       </li>
       <li>
         <h3>상태이상</h3>
@@ -228,15 +231,6 @@ class DetailPage {
       window.location.href = newUrl;
     }
   }
-
-  UpdateMetaDesc(monster) {
-    if (this.metaDesc) {
-      const description = `몬헌(몬스터 헌터)시리즈 ${monster.name} 상세 정보 - 몬헌(몬스터 헌터)시리즈에 나오는 ${monster.name}의 정보를 제공합니다. 몬헌(몬스터 헌터)부터 몬헌 선브레이크(몬스터 헌터 라이즈: 선브레이크)까지 모든 걸 확인할 수 있습니다.`;
-      this.metaDesc.setAttribute('content', description);
-    } else {
-      console.warn('메타 디스크립션이 없습니다.');
-    }
-}  
 }
 
 export default DetailPage;

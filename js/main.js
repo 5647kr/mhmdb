@@ -143,8 +143,8 @@ class MainPage {
 
         checked ? this.seriesCheckId.add(e.target.value) : this.seriesCheckId.delete(e.target.value);
 
-        this.FilterCardEvent();
         this.saveCheckList(seriesCheck, "seriesCheckId");
+        this.FilterCardEvent();
       });
     });
 
@@ -187,7 +187,7 @@ class MainPage {
 
   getFilteredMonsters() {
     return this.monsterDataList.filter(monster => {
-      const typeFilter = this.typeCheckId.size === 0 || this.typeCheckId.has(monster.type);
+      const typeFilter = this.typeCheckId.size === 0 || this.typeCheckId.has(monster.type.split("/")[0]);
       const monsterSeriesIds = monster.seriesId.split(',').map(id => id.trim());
       const seriesFilter = this.seriesCheckId.size === 0 || monsterSeriesIds.some(id => this.seriesCheckId.has(id));
       return typeFilter && seriesFilter;
@@ -200,6 +200,7 @@ class MainPage {
     monsters.forEach(monster => {
       const monsterItem = document.createElement("li");
       const monsterTitleId = monster.titleId.split(",").map(id => id.trim());
+      const monsterType = monster.type.split("/")[0];
       const hasTitle = monster.title && (
         this.seriesCheckId.size === 0 || 
         monsterTitleId.some(id => this.seriesCheckId.has(id))
@@ -215,7 +216,7 @@ class MainPage {
         <a href="./detail.html?monster=${monster.name}">
           <article class="${hasTitle ? "hasTitle" : ""}">
             ${isTitle}
-            <p>${monster.type}</p>
+            <p>${monsterType}</p>
             <img src="${monster.icon}" alt="${monster.name}">
             <h3>${monster.name}</h3>
             <p class="a11y-hidden">${monster.seriesId}</p>
