@@ -178,6 +178,7 @@ main .monsterWrap .monsterInfoWrap h3 {
 main .monsterWrap .monsterInfoWrap p {
   font-size: var(--font-mz);
   font-weight: var(--font-ebw);
+  word-break: keep-all;
 }
 
 main .monsterWrap .monsterInfoWrap .detail {
