@@ -132,7 +132,7 @@ class DetailPage {
           if(monster.name === relateList[i]) {
             const relateItem = document.createElement("li");
             const relateItemContent = `
-            <a href="/detail.html?monster=${monster.name}">
+            <a href="./detail.html?monster=${monster.name}">
               <img src="${monster.icon}" alt="${monster.name}">
               ${monster.name}
               </a>
@@ -207,7 +207,7 @@ class DetailPage {
         const searchItem = document.createElement("li");
     
         const searchContents = `
-          <a href="/detail.html?monster=${search.name}">
+          <a href="./detail.html?monster=${search.name}">
             <img src="${search.icon}" alt="${search.name}">
             <p>${search.name}</p>
           </a>
@@ -227,7 +227,7 @@ class DetailPage {
 
     if (searchMonster.length > 0) {
       const firstMonster = searchMonster[0];
-      const newUrl = `/detail.html?monster=${encodeURIComponent(firstMonster.name)}`;
+      const newUrl = `./detail.html?monster=${encodeURIComponent(firstMonster.name)}`;
       window.location.href = newUrl;
     }
   }

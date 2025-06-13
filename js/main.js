@@ -296,7 +296,7 @@ class MainPage {
         const searchItem = document.createElement("li");
     
         const searchContents = `
-          <a href="/detail.html?monster=${search.name}">
+          <a href="./detail.html?monster=${search.name}">
             <img src="${search.icon}" alt="${search.name}">
             <p>${search.name}</p>
           </a>
