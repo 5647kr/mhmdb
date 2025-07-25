@@ -1,0 +1,168 @@
+{
+  "monster": [
+    {
+      "icon": "url",
+      "img": "나무위키 선브 이미지",
+      "title": "다이묘자자미",
+      "type": "갑각종 / 원종",
+      "nickname": "순해 / 방패게",
+      "element": "물",
+      "ailment": "물속성 피해",
+      "size": [450.45, 1451.2],
+      "relate": ["다이묘자자미 아종", "모쇄 다이묘자자미"],
+      "series": ["d", "e", "f", "k", "l", "m", "q"],
+      "weak": [{}],
+      "eco": "갑각종의 대형 몬스터. 커다란 개체답게 등에는 거대한 몬스터의 두개골을 얹고 다닌다. 양손의 큰 집게를 휘두르거나 입에서 강력한 거품을 내뿜는다. 또 '방패게'라는 이름대로, 딱딱한 갑각으로 덮인 집게를 방패로 사용해 적의 공격으로부터 몸을 보호한다. 야오자미의 성체, 부드러운 모래에서 살기 때문에 해변이 있는 밀림이나 사막맵의 모래가 있는 지형에 등장한다. 덩치가 커졌기 때문인지 등껍질로 소라껍데기가 아닌 모노블로스의 두개골을 사용한다. 이 두개골은 보통 후방에서 오는 공격을 막는 데에도 쓰이지만 뿔을 앞세워 돌진하거나 땅 속에서 찔러 공격하는 데에도 쓰인다. 커다란 두개골을 짊어진 데 비해서 다리는 가늘어보이지만 움직임도 제법 빠르고, 높게 뛰어올라 내리찍는 공격을 하기도 한다."
+    }
+  ],
+  "series": [
+    {
+      "id": "a",
+      "title": "MH",
+      "generation": 1
+    },
+    {
+      "id": "b",
+      "title": "MHG",
+      "generation": 1
+    },
+    {
+      "id": "c",
+      "title": "MHP",
+      "generation": 1
+    },
+    {
+      "id": "d",
+      "title": "MH2",
+      "generation": 2
+    },
+    {
+      "id": "e",
+      "title": "MHP2",
+      "generation": 2
+    },
+    {
+      "id": "f",
+      "title": "MHP2G",
+      "generation": 2
+    },
+    {
+      "id": "g",
+      "title": "MH3",
+      "generation": 3
+    },
+    {
+      "id": "h",
+      "title": "MH3G",
+      "generation": 3
+    },
+    {
+      "id": "i",
+      "title": "MHP3",
+      "generation": 3
+    },
+    {
+      "id": "j",
+      "title": "MH4",
+      "generation": 4
+    },
+    {
+      "id": "k",
+      "title": "MH4G",
+      "generation": 4
+    },
+    {
+      "id": "l",
+      "title": "MHX",
+      "generation": 4
+    },
+    {
+      "id": "m",
+      "title": "MHXX",
+      "generation": 4
+    },
+    {
+      "id": "n",
+      "title": "MHW",
+      "generation": 5
+    },
+    {
+      "id": "o",
+      "title": "MHWIB",
+      "generation": 5
+    },
+    {
+      "id": "p",
+      "title": "MHR",
+      "generation": 5
+    },
+    {
+      "id": "q",
+      "title": "MHRSB",
+      "generation": 5
+    },
+    {
+      "id": "r",
+      "title": "MHWs",
+      "generation": 6
+    }
+  ],
+  "type": [
+    {
+      "id": 1,
+      "name": "갑각종"
+    },
+    {
+      "id": 2,
+      "name": "갑충종"
+    },
+    {
+      "id": 3,
+      "name": "두족종"
+    },
+    {
+      "id": 4,
+      "name": "비룡종"
+    },
+    {
+      "id": 5,
+      "name": "사룡종"
+    },
+    {
+      "id": 6,
+      "name": "수룡종"
+    },
+    {
+      "id": 7,
+      "name": "아룡종"
+    },
+    {
+      "id": 8,
+      "name": "아수종"
+    },
+    {
+      "id": 9,
+      "name": "양서종"
+    },
+    {
+      "id": 10,
+      "name": "어룡종"
+    },
+    {
+      "id": 11,
+      "name": "조룡종"
+    },
+    {
+      "id": 12,
+      "name": "해룡종"
+    },
+    {
+      "id": 13,
+      "name": "협각종"
+    },
+    {
+      "id": 14,
+      "name": "고룡종"
+    }
+  ]
+}
