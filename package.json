@@ -4,12 +4,15 @@
   "private": true,
   "dependencies": {
     "cra-template-basic-react": "1.0.1",
+    "json-server": "^1.0.0-beta.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-scripts": "5.0.1"
+    "react-router-dom": "^7.7.1",
+    "react-scripts": "5.0.1",
+    "styled-components": "^6.1.19"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start | json-server --watch data/db.json --port 3001",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
