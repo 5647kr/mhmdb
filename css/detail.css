@@ -442,8 +442,8 @@ footer p {
     grid-template-areas:
       "monsterImgWrap monsterInfoWrap"
       "monsterWeakWrap monsterWeakWrap"
-      "monsterWeakDetailWrap monsterWeakDetailWrap"
-      "monsterWeakDetailWrap monsterWeakDetailWrap"
+      "monsterLiquidWeak monsterLiquidWeak"
+      "monsterDriedWeak monsterDriedWeak"
       "monsterEcoWrap monsterEcoWrap"
       "monsterRelateWrap monsterRelateWrap";
     column-gap: 40px;
@@ -504,8 +504,12 @@ footer p {
   }
 
   /* !main monsterWrap monsterWeakWrap */
-  main .monsterWrap .detail {
-    grid-area: monsterLiquidWeakWrap
+  main .monsterWrap .liquid {
+    grid-area: monsterLiquidWeak;
+  }
+
+  main .monsterWrap .dried {
+    grid-area: monsterDriedWeak;
   }
 
   main .monsterWrap .detail table tr th {
@@ -612,8 +616,8 @@ footer p {
     grid-template-areas:
       "monsterImgWrap monsterInfoWrap"
       "monsterWeakWrap monsterWeakWrap"
-      "monsterWeakDetailWrap monsterWeakDetailWrap"
-      "monsterWeakDetailWrap monsterWeakDetailWrap"
+      "monsterLiquidWeak monsterLiquidWeak"
+      "monsterDriedWeak monsterDriedWeak"
       "monsterEcoWrap monsterEcoWrap"
       "monsterRelateWrap monsterRelateWrap";
     column-gap: 40px;
@@ -674,8 +678,12 @@ footer p {
   }
 
   /* !main monsterWrap monsterWeakWrap */
-  main .monsterWrap .detail {
-    grid-area: monsterWeakDetailWrap;
+  main .monsterWrap .liquid {
+    grid-area: monsterLiquidWeak;
+  }
+
+  main .monsterWrap .dried {
+    grid-area: monsterDriedWeak;
   }
 
   main .monsterWrap .detail table tr th {
@@ -782,8 +790,8 @@ footer p {
     grid-template-areas:
       "monsterImgWrap monsterInfoWrap"
       "monsterWeakWrap monsterWeakWrap"
-      "monsterWeakDetailWrap monsterWeakDetailWrap"
-      "monsterWeakDetailWrap monsterWeakDetailWrap"
+      "monsterLiquidWeak monsterLiquidWeak"
+      "monsterDriedWeak monsterDriedWeak"
       "monsterEcoWrap monsterEcoWrap"
       "monsterRelateWrap monsterRelateWrap";
     column-gap: 40px;
@@ -829,6 +837,14 @@ footer p {
   /* !main monsterWrap monsterWeakWrap */
   main .monsterWrap .monsterWeakWrap {
     grid-area: monsterWeakWrap;
+  }
+
+  main .monsterWrap .liquid {
+    grid-area: monsterLiquidWeak;
+  }
+
+  main .monsterWrap .dried {
+    grid-area: monsterDriedWeak;
   }
 
   main .monsterWrap .detail table tr th {
