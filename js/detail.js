@@ -7,16 +7,20 @@ class DetailPage {
     this.searchList = header.querySelector(".searchList");
 
     const main = document.querySelector("main");
-    this.monsterWrap = main.querySelector(".monsterWrap")
+    this.monsterWrap = main.querySelector(".monsterWrap");
     this.monsterImg = main.querySelector(".monsterImgWrap");
     this.monsterInfo = main.querySelector(".monsterInfoWrap ul");
     this.monsterWeak = main.querySelector(".monsterWeakWrap table tbody");
+
+    this.liquidWrap = main.querySelector(".liquid");
+    this.driedWrap = main.querySelector(".dried");
+    this.liquidWeak = main.querySelector(".liquid table tbody");
+    this.driedWeak = main.querySelector(".dried table tbody");
     this.monsterEco = main.querySelector(".monsterEcoWrap div");
 
     this.monsterDataList = [];
 
     this.metaDesc = document.querySelector('meta[name="description"]');
-
   }
 
   // 데이터 받는 함수
@@ -30,10 +34,10 @@ class DetailPage {
     const urlRoute = new URLSearchParams(route);
     const targetMonster = urlRoute.get("monster");
 
-    const monster = data.find(monster => monster.name === targetMonster);
+    const monster = data.find((monster) => monster.name === targetMonster);
 
     // title
-    document.title = "몬헌 도감 - " + `${monster.name}` + " 상세 정보"
+    document.title = "몬헌 도감 - " + `${monster.name}` + " 상세 정보";
 
     // monsterImgWrap
     const monsterImgContents = `
@@ -47,8 +51,8 @@ class DetailPage {
     const nickname1Detail = monster.nickname1.split("/")[1] || "";
     const nickname2Main = monster.nickname2.split("/")[0] || "";
     const nickname2Detail = monster.nickname2.split("/")[1] || "";
-    const typeMain = monster.type.split("/")[0]
-    const typeDetail = monster.type.split("/")[1]
+    const typeMain = monster.type.split("/")[0];
+    const typeDetail = monster.type.split("/")[1];
 
     const monsterInfoContents = `
       <li>
@@ -93,7 +97,7 @@ class DetailPage {
     // monsterWeakWrap
     const monsterWeak = monster.weak;
 
-    this.monsterWeak.innerHTML = ''; 
+    this.monsterWeak.innerHTML = "";
 
     monsterWeak.forEach((weak) => {
       const tr = document.createElement("tr");
@@ -103,9 +107,43 @@ class DetailPage {
         td.textContent = weak[key] || "없음";
         tr.appendChild(td);
       }
-    
+
       this.monsterWeak.appendChild(tr);
     });
+
+    // monsterWeakDetail
+    const liquidWeak = monster.liquidWeak;
+    const driedWeak = monster.driedWeak;
+    if (!liquidWeak) {
+      this.liquidWrap.innerHTML = "상세 약점을 제공하지 않습니다.";
+    } else {
+      liquidWeak.forEach((weak) => {
+        const tr = document.createElement("tr");
+
+        for (const key in weak) {
+          const td = document.createElement("td");
+          td.textContent = weak[key] || "없음";
+          tr.appendChild(td);
+        }
+
+        this.liquidWeak.appendChild(tr);
+      });
+    }
+    if (!driedWeak) {
+      this.driedWrap.innerHTML = "상세 약점을 제공하지 않습니다.";
+    } else {
+      driedWeak.forEach((weak) => {
+        const tr = document.createElement("tr");
+
+        for (const key in weak) {
+          const td = document.createElement("td");
+          td.textContent = weak[key] || "없음";
+          tr.appendChild(td);
+        }
+
+        this.driedWeak.appendChild(tr);
+      });
+    }
 
     // monsterEcoWrap
     const monsterEcoContents = `
@@ -114,32 +152,32 @@ class DetailPage {
     this.monsterEco.innerHTML = monsterEcoContents;
 
     // monsterRelateWrap
-    if(monster.relate) {
+    if (monster.relate) {
       const relateWrap = document.createElement("div");
       const relateContent = `
         <h2>연관 몬스터</h2>
         <ul>
         </ul>
-      `
+      `;
       relateWrap.classList.add("monsterRelateWrap");
       relateWrap.innerHTML = relateContent;
       this.monsterWrap.appendChild(relateWrap);
 
       const relateList = monster.relate.split(", ");
-      
-      for(let i = 0; i < relateList.length; i++) {
+
+      for (let i = 0; i < relateList.length; i++) {
         data.filter((monster) => {
-          if(monster.name === relateList[i]) {
+          if (monster.name === relateList[i]) {
             const relateItem = document.createElement("li");
             const relateItemContent = `
             <a href="./detail.html?monster=${monster.name}">
               <img src="${monster.icon}" alt="${monster.name}">
               ${monster.name}
               </a>
-            `
+            `;
             relateItem.innerHTML = relateItemContent;
             const relateUl = relateWrap.querySelector("ul");
-            relateUl.appendChild(relateItem)
+            relateUl.appendChild(relateItem);
           }
         });
       }
@@ -153,9 +191,9 @@ class DetailPage {
     this.searchBtn.addEventListener("click", () => {
       const isActive = this.searchWrap.classList.contains("active");
       const searchBtnImg = this.searchBtn.querySelector("img");
-  
+
       this.searchWrap.classList.toggle("active");
-  
+
       if (isActive) {
         searchBtnImg.src = "../img/common/search.svg";
         searchBtnImg.alt = "검색 버튼";
@@ -170,7 +208,7 @@ class DetailPage {
       const searchInputValue = e.target.value;
 
       this.SearchMonster(searchInputValue);
-    })
+    });
 
     // Enter 키 이벤트
     this.searchInput.addEventListener("keydown", (e) => {
@@ -179,33 +217,32 @@ class DetailPage {
         const firstResult = this.searchList.querySelector("li a");
 
         if (firstResult) {
-          window.location.href = firstResult.href; 
+          window.location.href = firstResult.href;
         }
       }
     });
-
   }
 
   SearchMonster(searchInputValue) {
     this.searchList.innerHTML = "";
-  
-    const searchMonster = this.monsterDataList.filter(monster => {
+
+    const searchMonster = this.monsterDataList.filter((monster) => {
       const monsterName = monster.name;
       const searchTerms = searchInputValue.trim().split(" ");
-  
-      return searchTerms.every(term => monsterName.includes(term));
+
+      return searchTerms.every((term) => monsterName.includes(term));
     });
-  
+
     this.searchResult = searchMonster;
-  
+
     if (this.searchInput.value === "") {
       this.searchList.innerHTML = "";
     } else {
       const docFrag = document.createDocumentFragment();
-    
-      searchMonster.forEach(search => {
+
+      searchMonster.forEach((search) => {
         const searchItem = document.createElement("li");
-    
+
         const searchContents = `
           <a href="./detail.html?monster=${search.name}">
             <img src="${search.icon}" alt="${search.name}">
@@ -218,16 +255,19 @@ class DetailPage {
       this.searchList.append(docFrag);
     }
   }
-  
 
   HandleSearchMonster(searchInputValue) {
-    const searchMonster = this.monsterDataList.filter(monster => 
-      monster.name.startsWith(searchInputValue) || monster.name.includes(searchInputValue)
+    const searchMonster = this.monsterDataList.filter(
+      (monster) =>
+        monster.name.startsWith(searchInputValue) ||
+        monster.name.includes(searchInputValue)
     );
 
     if (searchMonster.length > 0) {
       const firstMonster = searchMonster[0];
-      const newUrl = `./detail.html?monster=${encodeURIComponent(firstMonster.name)}`;
+      const newUrl = `./detail.html?monster=${encodeURIComponent(
+        firstMonster.name
+      )}`;
       window.location.href = newUrl;
     }
   }

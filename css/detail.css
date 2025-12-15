@@ -205,6 +205,14 @@ main .monsterWrap .monsterWeakWrap table tr th {
   border: 1px solid var(--border-color);
 }
 
+main .monsterWrap .detail table tr th {
+  width: calc(100% / 9);
+}
+
+main .monsterWrap .detail table tr td {
+  width: calc(100% / 9);
+}
+
 main .monsterWrap .monsterWeakWrap table tr th img {
   width: 16px;
   aspect-ratio: 1 / 1;
@@ -217,7 +225,6 @@ main .monsterWrap .monsterWeakWrap table tr td {
   font-weight: var(--font-ebw);
   border: 1px solid var(--border-color);
 }
-
 
 /* !main monsterWrap monsterEcoWrap */
 main .monsterWrap .monsterEcoWrap p {
@@ -253,12 +260,6 @@ footer p {
   line-height: 80px;
 }
 
-
-
-
-
-
-
 /* !mediaQuery */
 /* 태블릿 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -266,7 +267,7 @@ footer p {
   header .headerWrap h1 {
     font-size: 30px;
   }
-  
+
   header .headerWrap .backLink img,
   header .headerWrap button img {
     width: 24px;
@@ -314,29 +315,29 @@ footer p {
     font-size: var(--font-mz);
     top: -6px;
   }
-  
+
   /* !main monsterWrap monsterImgWrap */
   main .monsterWrap .monsterImgWrap {
     max-height: 300px;
   }
-  
+
   main .monsterWrap .monsterImgWrap img {
     height: 300px;
   }
-  
-  /* !main monsterWrap monsterInfoWrap */  
+
+  /* !main monsterWrap monsterInfoWrap */
   main .monsterWrap .monsterInfoWrap h3 {
     font-size: var(--font-mz);
   }
-  
+
   main .monsterWrap .monsterInfoWrap p {
     font-size: var(--font-mlz);
   }
-  
+
   main .monsterWrap .monsterInfoWrap .detail {
     font-size: var(--font-smz);
   }
-  
+
   /* !main monsterWrap monsterWeakWrap */
   main .monsterWrap .monsterWeakWrap strong {
     font-size: var(--font-smz);
@@ -349,12 +350,20 @@ footer p {
   main .monsterWrap .monsterWeakWrap table tr td {
     font-size: var(--font-mlz);
   }
-  
+
+  main .monsterWrap .detail table tr th {
+    width: calc(100% / 9);
+  }
+
+  main .monsterWrap .detail table tr td {
+    width: calc(100% / 9);
+  }
+
   /* !main monsterWrap monsterEcoWrap */
   main .monsterWrap .monsterEcoWrap p {
     font-size: var(--font-mlz);
   }
-  
+
   main .monsterWrap .monsterEcoWrap p:not(:last-child) {
     margin-bottom: 14px;
   }
@@ -367,7 +376,7 @@ footer p {
     width: 16px;
     height: 16px;
   }
-  
+
   main .monsterWrap .monsterRelateWrap a {
     font-size: var(--font-mlz);
   }
@@ -391,7 +400,7 @@ footer p {
   header .headerWrap button {
     display: none;
   }
-  
+
   /* !header searchWrap */
   header .searchWrap {
     flex-grow: 1;
@@ -430,11 +439,13 @@ footer p {
   /* !main monsterWrap */
   main section .monsterWrap {
     display: grid;
-    grid-template-areas: 
-    "monsterImgWrap monsterInfoWrap"
-    "monsterWeakWrap monsterWeakWrap"
-    "monsterEcoWrap monsterEcoWrap"
-    "monsterRelateWrap monsterRelateWrap";
+    grid-template-areas:
+      "monsterImgWrap monsterInfoWrap"
+      "monsterWeakWrap monsterWeakWrap"
+      "monsterWeakDetailWrap monsterWeakDetailWrap"
+      "monsterWeakDetailWrap monsterWeakDetailWrap"
+      "monsterEcoWrap monsterEcoWrap"
+      "monsterRelateWrap monsterRelateWrap";
     column-gap: 40px;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -447,17 +458,17 @@ footer p {
     font-size: var(--font-mlz);
     top: -7px;
   }
-  
+
   /* !main monsterWrap monsterImgWrap */
   main .monsterWrap .monsterImgWrap {
     max-height: 400px;
     grid-area: monsterImgWrap;
   }
-  
+
   main .monsterWrap .monsterImgWrap img {
     height: 400px;
   }
-  
+
   /* !main monsterWrap monsterInfoWrap */
   main .monsterWrap .monsterInfoWrap {
     grid-area: monsterInfoWrap;
@@ -466,15 +477,15 @@ footer p {
   main .monsterWrap .monsterInfoWrap h3 {
     font-size: var(--font-mlz);
   }
-  
+
   main .monsterWrap .monsterInfoWrap p {
     font-size: var(--font-lz);
   }
-  
+
   main .monsterWrap .monsterInfoWrap .detail {
     font-size: var(--font-mz);
   }
-  
+
   /* !main monsterWrap monsterWeakWrap */
   main .monsterWrap .monsterWeakWrap {
     grid-area: monsterWeakWrap;
@@ -491,7 +502,20 @@ footer p {
   main .monsterWrap .monsterWeakWrap table tr td {
     font-size: var(--font-lz);
   }
-  
+
+  /* !main monsterWrap monsterWeakWrap */
+  main .monsterWrap .detail {
+    grid-area: monsterLiquidWeakWrap
+  }
+
+  main .monsterWrap .detail table tr th {
+    width: calc(100% / 9);
+  }
+
+  main .monsterWrap .detail table tr td {
+    width: calc(100% / 9);
+  }
+
   /* !main monsterWrap monsterEcoWrap */
   main .monsterWrap .monsterEcoWrap {
     grid-area: monsterEcoWrap;
@@ -500,24 +524,24 @@ footer p {
   main .monsterWrap .monsterEcoWrap p {
     font-size: var(--font-lz);
   }
-  
+
   main .monsterWrap .monsterEcoWrap p:not(:last-child) {
     margin-bottom: 16px;
   }
 
   main .monsterWrap .monsterRelateWrap {
-    grid-area: monsterRelateWrap
+    grid-area: monsterRelateWrap;
   }
 
   main .monsterWrap .monsterRelateWrap ul {
     grid-template-columns: repeat(4, 1fr);
   }
-  
+
   main .monsterWrap .monsterRelateWrap img {
     width: 18px;
     height: 18px;
   }
-  
+
   main .monsterWrap .monsterRelateWrap a {
     font-size: var(--font-lz);
   }
@@ -546,7 +570,7 @@ footer p {
   header .headerWrap button {
     display: none;
   }
-  
+
   /* !header searchWrap */
   header .searchWrap {
     flex-grow: 1;
@@ -585,11 +609,13 @@ footer p {
   /* !main monsterWrap */
   main section .monsterWrap {
     display: grid;
-    grid-template-areas: 
-    "monsterImgWrap monsterInfoWrap"
-    "monsterWeakWrap monsterWeakWrap"
-    "monsterEcoWrap monsterEcoWrap"
-    "monsterRelateWrap monsterRelateWrap";
+    grid-template-areas:
+      "monsterImgWrap monsterInfoWrap"
+      "monsterWeakWrap monsterWeakWrap"
+      "monsterWeakDetailWrap monsterWeakDetailWrap"
+      "monsterWeakDetailWrap monsterWeakDetailWrap"
+      "monsterEcoWrap monsterEcoWrap"
+      "monsterRelateWrap monsterRelateWrap";
     column-gap: 40px;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -602,17 +628,17 @@ footer p {
     font-size: var(--font-lz);
     top: -7px;
   }
-  
+
   /* !main monsterWrap monsterImgWrap */
   main .monsterWrap .monsterImgWrap {
     max-height: 400px;
     grid-area: monsterImgWrap;
   }
-  
+
   main .monsterWrap .monsterImgWrap img {
     height: 400px;
   }
-  
+
   /* !main monsterWrap monsterInfoWrap */
   main .monsterWrap .monsterInfoWrap {
     grid-area: monsterInfoWrap;
@@ -621,15 +647,15 @@ footer p {
   main .monsterWrap .monsterInfoWrap h3 {
     font-size: var(--font-lz);
   }
-  
+
   main .monsterWrap .monsterInfoWrap p {
     font-size: var(--font-xlz);
   }
-  
+
   main .monsterWrap .monsterInfoWrap .detail {
     font-size: var(--font-mlz);
   }
-  
+
   /* !main monsterWrap monsterWeakWrap */
   main .monsterWrap .monsterWeakWrap {
     grid-area: monsterWeakWrap;
@@ -646,7 +672,20 @@ footer p {
   main .monsterWrap .monsterWeakWrap table tr td {
     font-size: var(--font-xlz);
   }
-  
+
+  /* !main monsterWrap monsterWeakWrap */
+  main .monsterWrap .detail {
+    grid-area: monsterWeakDetailWrap;
+  }
+
+  main .monsterWrap .detail table tr th {
+    width: calc(100% / 9);
+  }
+
+  main .monsterWrap .detail table tr td {
+    width: calc(100% / 9);
+  }
+
   /* !main monsterWrap monsterEcoWrap */
   main .monsterWrap .monsterEcoWrap {
     grid-area: monsterEcoWrap;
@@ -655,25 +694,24 @@ footer p {
   main .monsterWrap .monsterEcoWrap p {
     font-size: var(--font-xlz);
   }
-  
+
   main .monsterWrap .monsterEcoWrap p:not(:last-child) {
     margin-bottom: 18px;
   }
 
   main .monsterWrap .monsterRelateWrap {
-    grid-area: monsterRelateWrap
+    grid-area: monsterRelateWrap;
   }
 
-  
   main .monsterWrap .monsterRelateWrap ul {
     grid-template-columns: repeat(5, 1fr);
   }
-  
+
   main .monsterWrap .monsterRelateWrap img {
     width: 20px;
     height: 20px;
   }
-  
+
   main .monsterWrap .monsterRelateWrap a {
     font-size: var(--font-xlz);
   }
@@ -702,7 +740,7 @@ footer p {
   header .headerWrap button {
     display: none;
   }
-  
+
   /* !header searchWrap */
   header .searchWrap {
     flex-grow: 1;
@@ -741,11 +779,13 @@ footer p {
   /* !main monsterWrap */
   main section .monsterWrap {
     display: grid;
-    grid-template-areas: 
-    "monsterImgWrap monsterInfoWrap"
-    "monsterWeakWrap monsterWeakWrap"
-    "monsterEcoWrap monsterEcoWrap"
-    "monsterRelateWrap monsterRelateWrap";
+    grid-template-areas:
+      "monsterImgWrap monsterInfoWrap"
+      "monsterWeakWrap monsterWeakWrap"
+      "monsterWeakDetailWrap monsterWeakDetailWrap"
+      "monsterWeakDetailWrap monsterWeakDetailWrap"
+      "monsterEcoWrap monsterEcoWrap"
+      "monsterRelateWrap monsterRelateWrap";
     column-gap: 40px;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -758,17 +798,17 @@ footer p {
     font-size: var(--font-xlz);
     top: -10px;
   }
-  
+
   /* !main monsterWrap monsterImgWrap */
   main .monsterWrap .monsterImgWrap {
     max-height: 400px;
     grid-area: monsterImgWrap;
   }
-  
+
   main .monsterWrap .monsterImgWrap img {
     height: 400px;
   }
-  
+
   /* !main monsterWrap monsterInfoWrap */
   main .monsterWrap .monsterInfoWrap {
     grid-area: monsterInfoWrap;
@@ -777,18 +817,26 @@ footer p {
   main .monsterWrap .monsterInfoWrap h3 {
     font-size: var(--font-xxlz);
   }
-  
+
   main .monsterWrap .monsterInfoWrap p {
     font-size: var(--font-xxlz);
   }
-  
+
   main .monsterWrap .monsterInfoWrap .detail {
     font-size: var(--font-xlz);
   }
-  
+
   /* !main monsterWrap monsterWeakWrap */
   main .monsterWrap .monsterWeakWrap {
     grid-area: monsterWeakWrap;
+  }
+
+  main .monsterWrap .detail table tr th {
+    width: calc(100% / 9);
+  }
+
+  main .monsterWrap .detail table tr td {
+    width: calc(100% / 9);
   }
 
   main .monsterWrap .monsterWeakWrap strong {
@@ -802,7 +850,7 @@ footer p {
   main .monsterWrap .monsterWeakWrap table tr td {
     font-size: var(--font-xxxlz);
   }
-  
+
   /* !main monsterWrap monsterEcoWrap */
   main .monsterWrap .monsterEcoWrap {
     grid-area: monsterEcoWrap;
@@ -811,24 +859,24 @@ footer p {
   main .monsterWrap .monsterEcoWrap p {
     font-size: var(--font-xxxlz);
   }
-  
+
   main .monsterWrap .monsterEcoWrap p:not(:last-child) {
     margin-bottom: 18px;
   }
 
   main .monsterWrap .monsterRelateWrap {
-    grid-area: monsterRelateWrap
+    grid-area: monsterRelateWrap;
   }
 
   main .monsterWrap .monsterRelateWrap ul {
     grid-template-columns: repeat(6, 1fr);
   }
-  
+
   main .monsterWrap .monsterRelateWrap img {
     width: 22px;
     height: 22px;
   }
-  
+
   main .monsterWrap .monsterRelateWrap a {
     font-size: var(--font-xxlz);
   }
