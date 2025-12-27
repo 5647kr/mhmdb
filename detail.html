@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/detail.css" />
+    <link rel="stylesheet" href="/css/query.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>MHMWIKI</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1>
+        <a href="/">MHMWIKI</a>
+      </h1>
+
+      <div id="search">
+        <form>
+          <div class="searchWrap">
+            <input
+              type="text"
+              placeholder="몬스터의 별명 또는 이름을 입력하세요. (ex.화룡 or 리오레우스)"
+            />
+            <button>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </header>
+    <main id="main">
+      <!-- 네비게이션 -->
+      <section id="navigate">
+        <nav></nav>
+      </section>
+
+      <section id="title">
+        <h2></h2>
+      </section>
+
+      <!-- 이미지 섹션 -->
+      <section id="image"></section>
+
+      <!-- 기본정보 섹션 -->
+      <section id="basicInfo">
+        <h2>기본 정보</h2>
+
+        <ul class="infoList"></ul>
+      </section>
+
+      <section id="seriesInfo">
+        <h2>등장 작품</h2>
+        <ul></ul>
+      </section>
+
+      <!-- 약점정보 섹션 -->
+      <section id="weakInfo">
+        <h2>약점 정보</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>부위</th>
+              <th>참격</th>
+              <th>타격</th>
+              <th>탄, 활</th>
+              <th>불</th>
+              <th>물</th>
+              <th>번개</th>
+              <th>얼음</th>
+              <th>용</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <!-- 생태정보 섹션 -->
+      <section id="ecoInfo">
+        <h2>생태 정보</h2>
+        <div></div>
+      </section>
+
+      <section id="relate">
+        <h2>관련 몬스터</h2>
+        <ul></ul>
+      </section>
+
+      <!-- Top버튼 -->
+      <button class="topBtn">
+        <i class="fa-solid fa-chevron-up"></i>
+      </button>
+    </main>
+    <footer id="footer">
+      <p>COPYRIGHTⓒ by MHMWIKI. ALL RIGHTS RESERVED</p>
+    </footer>
+
+    <script type="module" src="/js/detail.js"></script>
+  </body>
+</html>
