@@ -134,7 +134,7 @@ function createContentItem(content) {
         : "";
 
     let liContent = `
-    <a href="/detail.html?id=${item.id}">
+    <a href="./detail.html?id=${item.id}">
       <div class="itemWrap ${isTitle ? "title" : ""}">
         <div class="itemBg">
           ${titleHTML}
