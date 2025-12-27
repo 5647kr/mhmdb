@@ -1,0 +1,272 @@
+#header {
+  width: 100%;
+  box-shadow: 0 2px 4px var(--shadow-color);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 30;
+  background-color: var(--white-color);
+
+  h1 {
+    text-align: center;
+  }
+  a {
+    height: 100%;
+    padding: 2rem;
+    font-weight: var(--font-ebw);
+  }
+
+  #search {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+main {
+  margin-top: 13.1rem;
+}
+
+main > section ~ section {
+  margin-top: 6rem;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: var(--font-ebw);
+  margin-bottom: 2rem;
+}
+
+#navigate,
+#title,
+#image,
+#basicInfo,
+#seriesInfo,
+#weakInfo,
+#ecoInfo,
+#relate {
+  grid-column: 1 / -1;
+}
+
+#title {
+  h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: var(--font-ebw);
+    margin-bottom: 0;
+  }
+}
+
+#navigate {
+  margin-top: 4rem;
+
+  & nav {
+    display: flex;
+    align-items: center;
+
+    a {
+      font-size: 1.4rem;
+      font-weight: var(--font-mw);
+    }
+  }
+
+  nav.first {
+    justify-content: flex-end;
+  }
+  nav.middle {
+    justify-content: space-between;
+  }
+  nav.last {
+    justify-content: flex-start;
+  }
+}
+
+#image {
+  background-color: var(--bg-color);
+  border-radius: 1rem;
+  & div {
+    width: 50%;
+    max-height: 50rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  & img {
+    width: 100%;
+    max-height: 45rem;
+    object-fit: contain;
+    vertical-align: top;
+  }
+  & p {
+    font-size: 1.6rem;
+    font-weight: var(--font-bw);
+    text-align: center;
+  }
+}
+
+#basicInfo {
+  & ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "type element"
+    "species ailment"
+    "nickname weakEl"
+    ;
+    gap: 2rem;
+  }
+
+  .infoList > li {
+    width: 100%;
+    text-align: center;
+
+    & h3 {
+      font-size: 1.6rem;
+      font-weight: var(--font-ebw);
+    }
+
+    & p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      font-weight: var(--font-mw);
+      color: var(--sub-color);
+    }
+
+    & span {
+      font-size: 1.4rem;
+      font-weight: var(--font-bw);
+    }
+  }
+
+  .type {
+    grid-area: type;
+  }
+  .species {
+    grid-area: species;
+  }
+  .nickname {
+    grid-area: nickname;
+  }
+  .element {
+    grid-area: element;
+  }
+  .ailment {
+    grid-area: ailment;
+  }
+  .weakEl {
+    grid-area: weakEl;
+  }
+}
+
+#seriesInfo {
+  & ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+
+    & li {
+      & h3 {
+        font-size: 1.6rem;
+        font-weight: var(--font-ebw);
+        text-align: center;
+      }
+
+      & div {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+
+        & strong {
+          font-size: 1.4rem;
+          color: var(--shadow-color);
+          text-decoration: line-through;
+        }
+  
+        & strong.title {
+          color: var(--content-color);
+          font-weight: var(--font-ebw);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+#weakInfo {
+  & table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+
+    & thead tr,
+    tbody tr:not(:last-child) {
+      border-bottom: 1px solid var(--sub-color);
+    }
+    
+    th,
+    td {
+      text-align: center;
+      padding-block: 1rem;
+      font-weight: var(--font-bw);
+      border: 1px solid var(--sub-color);
+    }
+    
+    & thead th {
+      font-size: 1.6rem;
+    }
+    
+    & tbody td {
+      font-size: 1.4rem;
+      word-break: keep-all;
+    }
+
+    & span {
+      font-size: 1.2rem;
+      color: var(--sub-color);
+    }
+  }
+}
+
+#ecoInfo {
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+#relate {
+  & ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  li {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}
+
+
+@media screen and (min-width: 769px) {
+  #header {
+    height: 8rem;
+    display: flex;
+    align-items: center;
+
+    h1 {
+      text-align: center;
+      display: inline-block;
+    }
+    a {
+      display: flex;
+    }
+
+    #search {
+      display: inline-block;
+    }
+  }
+
+  main {
+    margin-top: 8rem;
+  }
+}

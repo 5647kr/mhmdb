@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/query.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>MHMWIKI-홈페이지</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1>
+        <a href="/">MHMWIKI</a>
+      </h1>
+    </header>
+    <main>
+      <!-- 공지사항 -->
+      <section id="notice">
+        <div class="noticeWrap">
+          <a href="https://discord.com/invite/rBVg4XbAmq">
+            <picture>
+              <source srcset="/img/4k.webp" media="(min-width: 1440px)" />
+              <source srcset="/img/pc.webp" media="(min-width: 1025px)" />
+              <source srcset="/img/notebook.webp" media="(min-width: 769px)" />
+              <source srcset="/img/tablet.webp" media="(min-width: 481px)" />
+              <img src="/img/mobile.webp" alt="정보, 오류 제보 받아요 배너" />
+            </picture>
+          </a>
+        </div>
+      </section>
+
+      <!-- 검색창 -->
+      <section id="search">
+        <form>
+          <div class="searchWrap">
+            <input
+              type="text"
+              placeholder="몬스터의 별명 또는 이름을 입력하세요. (ex.화룡 or 리오레우스)"
+            />
+            <button>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </form>
+
+        <button class="filterBtn"><i class="fa-solid fa-filter"></i></button>
+      </section>
+
+      <!-- 컨텐츠 -->
+      <section id="content">
+        <p class="contentLength"></p>
+        <ul></ul>
+      </section>
+
+      <!-- 필터링 -->
+      <article id="filter">
+        <div class="filterWrap">
+          <h2>Filter</h2>
+
+          <div class="type">
+            <h3>Type</h3>
+            <ul></ul>
+          </div>
+
+          <div class="series">
+            <h3>Series</h3>
+            <ul></ul>
+          </div>
+
+          <button class="closeBtn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+      </article>
+
+      <!-- Top버튼 -->
+      <button class="topBtn">
+        <i class="fa-solid fa-chevron-up"></i>
+      </button>
+    </main>
+    <footer id="footer">
+      <p>COPYRIGHTⓒ by MHMWIKI. ALL RIGHTS RESERVED</p>
+    </footer>
+
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
