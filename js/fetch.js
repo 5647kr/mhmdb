@@ -1,6 +1,6 @@
 export async function fetchData() {
   try {
-    const response = await fetch("/js/db.json");
+    const response = await fetch("./db.json");
 
     if (!response.ok) {
       throw new Error("Fetch 실패");
