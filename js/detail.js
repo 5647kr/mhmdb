@@ -17,6 +17,10 @@ const topBtn = main.querySelector(".topBtn");
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
+// 이미지URL
+const BASE_URL =
+  "https://res.cloudinary.com/dx71aeltq/image/upload/f_auto,q_auto:eco,dpr_auto,c_scale/";
+
 // 데이터 저장 변수
 let contentArr = [];
 let seriesArr = [];
@@ -104,9 +108,6 @@ function createContent() {
   title.textContent = content.name;
 
   // 이미지 섹션
-  const BASE_URL =
-    "https://res.cloudinary.com/dx71aeltq/image/upload/f_auto,q_auto:eco,dpr_auto,c_scale/";
-
   const imgContent = `
     <div>
       <img src="${BASE_URL}${content.img}" alt=${content.name} loading="lazy" >
@@ -163,6 +164,7 @@ function createContent() {
   // 등장정보 섹션
   const lastSeries = seriesArr[seriesArr.length - 1].series;
   const seriesList = seriesInfoWrap.querySelector("ul");
+  const seriesFragment = document.createDocumentFragment();
 
   for (let i = 0; i < lastSeries; i++) {
     const li = document.createElement("li");
@@ -190,24 +192,26 @@ function createContent() {
     });
 
     li.appendChild(titleWrap);
-    seriesList.appendChild(li);
+    seriesFragment.appendChild(li)
   }
+  seriesList.innerHTML = ""
+  seriesList.appendChild(seriesFragment);
 
   // 약점정보 섹션
   const weakTable = weakWrap.querySelector("tbody");
-  {
-    content.weak.forEach((item) => {
-      const tr = document.createElement("tr");
+  const weakFragment = document.createDocumentFragment();
+  content.weak.forEach((item) => {
+    const tr = document.createElement("tr");
 
-      for (const key in item) {
-        const td = document.createElement("td");
-        td.innerHTML = item[key];
-        tr.appendChild(td);
-      }
+    for (const key in item) {
+      const td = document.createElement("td");
+      td.innerHTML = item[key];
+      tr.appendChild(td);
+    }
+    weakFragment.appendChild(tr)
+  });
+  weakTable.appendChild(weakFragment);
 
-      weakTable.appendChild(tr);
-    });
-  }
 
   // 생태정보 섹션
   const ecoContent = ecoWrap.querySelector("div");
@@ -220,6 +224,7 @@ function createContent() {
   relateList.innerHTML = "";
 
   if (relateArr.length > 0) {
+    const fragment = document.createDocumentFragment()
     relateArr.forEach((relate) => {
       const item = document.createElement("li");
 
@@ -231,9 +236,9 @@ function createContent() {
       `;
 
       item.innerHTML = itemContent;
-
-      relateList.appendChild(item);
+      fragment.appendChild(item)
     });
+    relateList.appendChild(fragment);
   } else {
     const item = document.createElement("li");
 
@@ -281,6 +286,7 @@ searchInput.addEventListener("input", (e) => {
   const value = e.target.value;
 
   searchContent(value);
+  createSearchListItem(value);
 });
 
 function searchAction(e) {
@@ -314,6 +320,31 @@ function searchContent(value) {
   });
 
   return searchArr;
+}
+
+function createSearchListItem(value) {
+  const searchList = searchWrap.querySelector("ul");
+  const fragment = document.createDocumentFragment();
+  searchList.innerHTML = "";
+
+  if (value === "") {
+    searchArr = [];
+  }
+  searchArr.forEach((item) => {
+    const li = document.createElement("li");
+
+    const searchItem = `
+        <a href="./detail.html?id=${item.id}">
+          <img src="${BASE_URL}${item.icon}" alt="${item.name}" />
+          <span>${item.nickname1.split("/")[0]}</span>
+          <strong>${item.name}</strong>
+        </a>
+      `;
+
+    li.innerHTML = searchItem;
+    fragment.appendChild(li)
+  });
+  searchList.appendChild(fragment);
 }
 
 // top버튼 클릭시 최상단으로 이동
