@@ -53,6 +53,17 @@
     font-size: 2rem;
   }
 
+  #search {
+    .searchListWrap {
+      & ul {
+        & span,
+        strong {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+
   #navigate {
     & nav {
       a {
@@ -144,6 +155,17 @@
   #ecoInfo,
   #relate {
     grid-column: 3 / 11;
+  }
+
+  #search {
+    .searchListWrap {
+      & ul {
+        & span,
+        strong {
+          font-size: 1.6rem;
+        }
+      }
+    }
   }
 
   #navigate {

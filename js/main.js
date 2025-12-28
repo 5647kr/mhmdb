@@ -27,9 +27,12 @@ let isContentLoading = false;
 let filterTypeArr = JSON.parse(localStorage.getItem("typeFilter")) || [];
 let filterSeriesArr = JSON.parse(localStorage.getItem("seriesFilter")) || [];
 
+// 이미지URL
+const BASE_URL =
+  "https://res.cloudinary.com/dx71aeltq/image/upload/f_auto,q_auto:eco,dpr_auto,c_scale/";
+
 async function fetchInitialContent() {
   contentArr = await fetchContentData();
-
 
   contentFilterState();
   restoreScrollState();
@@ -112,9 +115,6 @@ function createContentItem(content) {
   const listElement = contentWrap.querySelector("ul");
   const fragment = document.createDocumentFragment();
 
-  const BASE_URL =
-    "https://res.cloudinary.com/dx71aeltq/image/upload/f_auto,q_auto:eco,dpr_auto,c_scale/";
-
   content.forEach((item) => {
     const li = document.createElement("li");
 
@@ -134,7 +134,7 @@ function createContentItem(content) {
         : "";
 
     let liContent = `
-    <a href="./detail.html?id=${item.id}">
+    <a href="/detail.html?id=${item.id}">
       <div class="itemWrap ${isTitle ? "title" : ""}">
         <div class="itemBg">
           ${titleHTML}
@@ -153,7 +153,7 @@ function createContentItem(content) {
     li.innerHTML = liContent;
 
     const itemBg = li.querySelector(".itemBg");
-    itemBg.style.setProperty("--bg", item.color)
+    itemBg.style.setProperty("--bg", item.color);
 
     fragment.appendChild(li);
   });
@@ -218,6 +218,7 @@ function filterRender(type, series) {
 
 // 필터링 아이템 생성함수
 function createFilterItem(listElement, data, category) {
+  const fragment = document.createDocumentFragment();
   data.forEach((item) => {
     const li = document.createElement("li");
     let liContent;
@@ -246,9 +247,9 @@ function createFilterItem(listElement, data, category) {
       `;
     }
     li.innerHTML = liContent;
-
-    listElement.appendChild(li);
+    fragment.appendChild(li);
   });
+  listElement.appendChild(fragment);
 }
 
 // 필터링 기능 함수
@@ -314,13 +315,13 @@ function contentFilter(userAction = true) {
 
     contentLength.innerHTML = `검색결과: <strong>0<strong>`;
   } else {
-    contentFilterState()
+    contentFilterState();
     displayContentItem();
   }
 
-  if(userAction) {
-    sessionStorage.clear()
-    moveTop()
+  if (userAction) {
+    sessionStorage.clear();
+    moveTop();
   }
 }
 
@@ -336,9 +337,10 @@ const searchInput = searchWrap.querySelector("input");
 searchInput.addEventListener("input", (e) => {
   const value = e.target.value;
 
+  console.log(value);
   searchContent(value);
+  createSearchListItem(value);
 });
-
 
 searchInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
@@ -347,12 +349,10 @@ searchInput.addEventListener("keydown", (e) => {
   }
 });
 
-
 searchBtn.addEventListener("click", (e) => {
   searchAction(e);
   searchInput.value = "";
 });
-
 
 function searchAction(e) {
   e.preventDefault();
@@ -366,7 +366,6 @@ function searchAction(e) {
     window.location.href = `detail.html?id=${searchArr[0].id}`;
   }
 }
-
 
 function searchContent(value) {
   const search = value.trim().replace(/\s/g, "");
@@ -383,6 +382,30 @@ function searchContent(value) {
   });
 }
 
+function createSearchListItem(value) {
+  const searchList = searchWrap.querySelector("ul");
+  const fragment = document.createDocumentFragment();
+  searchList.innerHTML = "";
+
+  if (value === "") {
+    searchArr = [];
+  }
+  searchArr.forEach((item) => {
+    const li = document.createElement("li");
+
+    const searchItem = `
+        <a href="./detail.html?id=${item.id}">
+          <img src="${BASE_URL}${item.icon}" alt="${item.name}" />
+          <span>${item.nickname1.split("/")[0]}</span>
+          <strong>${item.name}</strong>
+        </a>
+      `;
+
+    li.innerHTML = searchItem;
+    fragment.appendChild(li);
+  });
+  searchList.appendChild(fragment);
+}
 
 closeBtn.addEventListener("click", () => {
   contentFilter(true);

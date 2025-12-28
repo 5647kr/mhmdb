@@ -9,16 +9,41 @@
 
   h1 {
     text-align: center;
-  }
-  a {
-    height: 100%;
-    padding: 2rem;
-    font-weight: var(--font-ebw);
+    a {
+      height: 100%;
+      padding: 2rem;
+      font-weight: var(--font-ebw);
+    }
   }
 
   #search {
     width: 100%;
     margin: 0 auto;
+
+    .searchListWrap {
+      top: 62px;
+
+      & ul {
+        width: 50%;
+        max-height: 40rem;
+        & a {
+          padding-block: 2rem;
+          display: flex;
+          gap: 0.4rem;
+          align-items: center;
+        }
+
+        & img {
+          width: 4rem;
+          aspect-ratio: 1 / 1;
+        }
+
+        & span,
+        strong {
+          font-size: 1.2rem;
+        }
+      }
+    }
   }
 }
 
@@ -110,11 +135,10 @@ section h2 {
   & ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
-    "type element"
-    "species ailment"
-    "nickname weakEl"
-    ;
+    grid-template-areas:
+      "type element"
+      "species ailment"
+      "nickname weakEl";
     gap: 2rem;
   }
 
@@ -183,7 +207,7 @@ section h2 {
           color: var(--shadow-color);
           text-decoration: line-through;
         }
-  
+
         & strong.title {
           color: var(--content-color);
           font-weight: var(--font-ebw);
@@ -204,7 +228,7 @@ section h2 {
     tbody tr:not(:last-child) {
       border-bottom: 1px solid var(--sub-color);
     }
-    
+
     th,
     td {
       text-align: center;
@@ -212,11 +236,11 @@ section h2 {
       font-weight: var(--font-bw);
       border: 1px solid var(--sub-color);
     }
-    
+
     & thead th {
       font-size: 1.6rem;
     }
-    
+
     & tbody td {
       font-size: 1.4rem;
       word-break: keep-all;
@@ -246,7 +270,6 @@ section h2 {
   }
 }
 
-
 @media screen and (min-width: 769px) {
   #header {
     height: 8rem;
@@ -260,13 +283,49 @@ section h2 {
     a {
       display: flex;
     }
-
     #search {
       display: inline-block;
+      position: static;
+
+      .searchListWrap {
+        top: 80px;
+        left: 0;
+        padding-left: 134.48px;
+      }
     }
   }
 
   main {
     margin-top: 8rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  #header {
+    #search {
+      .searchListWrap {
+        & ul {
+          & span,
+          strong {
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  #header {
+    #search {
+      .searchListWrap {
+        & ul {
+          & span,
+          strong {
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
   }
 }

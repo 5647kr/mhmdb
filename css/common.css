@@ -76,6 +76,7 @@ i {
 
 #search {
   background-color: var(--white-color);
+  position: relative;
   & > form {
     width: 100%;
     height: 100%;
@@ -97,6 +98,41 @@ i {
       border: none;
       font-size: 1.4rem;
       width: 100%;
+    }
+  }
+
+  .searchListWrap {
+    position: absolute;
+    width: 100%;
+    top: 71px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--white-color);
+    box-shadow: 0 2px 4px var(--shadow-color);
+    overflow-y: auto;
+    
+    & ul {
+      width: 50%;
+      max-height: 40rem;
+
+      & li {
+        border-bottom: 1px solid var(--shadow-color);
+      }
+      & a {
+        padding-block: 2rem;
+        display: flex;
+        gap: 0.4rem;
+        align-items: center;
+      }
+
+      & img {
+        width: 4rem;
+        aspect-ratio: 1 / 1;
+      }
+
+      & span, strong {
+        font-size: 1.2rem;
+      }
     }
   }
 }
@@ -146,7 +182,7 @@ footer {
   justify-content: center;
   align-items: center;
   box-shadow: 0 -2px 4px var(--shadow-color);
-  margin-top: 2rem;
+  margin-top: 4rem;
   & p {
     text-align: center;
     font-size: 1.4rem;

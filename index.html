@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/query.css" />
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/query.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -18,7 +18,7 @@
   <body>
     <header id="header">
       <h1>
-        <a href="./">MHMWIKI</a>
+        <a href="/">MHMWIKI</a>
       </h1>
     </header>
     <main>
@@ -27,11 +27,11 @@
         <div class="noticeWrap">
           <a href="https://discord.com/invite/rBVg4XbAmq">
             <picture>
-              <source srcset="img/4k.webp" media="(min-width: 1440px)" />
-              <source srcset="img/pc.webp" media="(min-width: 1025px)" />
-              <source srcset="img/notebook.webp" media="(min-width: 769px)" />
-              <source srcset="img/tablet.webp" media="(min-width: 481px)" />
-              <img src="img/mobile.webp" alt="정보, 오류 제보 받아요 배너" />
+              <source srcset="/img/4k.webp" media="(min-width: 1440px)" />
+              <source srcset="/img/pc.webp" media="(min-width: 1025px)" />
+              <source srcset="/img/notebook.webp" media="(min-width: 769px)" />
+              <source srcset="/img/tablet.webp" media="(min-width: 481px)" />
+              <img src="/img/mobile.webp" alt="정보, 오류 제보 받아요 배너" />
             </picture>
           </a>
         </div>
@@ -50,7 +50,9 @@
             </button>
           </div>
         </form>
-
+        <div class="searchListWrap">
+          <ul class="searchList"></ul>
+        </div>
         <button class="filterBtn"><i class="fa-solid fa-filter"></i></button>
       </section>
 
@@ -88,6 +90,6 @@
       <p>COPYRIGHTⓒ by MHMWIKI. ALL RIGHTS RESERVED</p>
     </footer>
 
-    <script type="module" src="js/main.js"></script>
+    <script type="module" src="/js/main.js"></script>
   </body>
 </html>
