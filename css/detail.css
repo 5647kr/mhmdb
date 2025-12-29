@@ -202,6 +202,11 @@ section h2 {
         justify-content: center;
         gap: 1rem;
 
+        & abbr {
+          text-decoration: none;
+          cursor: default;
+        }
+
         & strong {
           font-size: 1.4rem;
           color: var(--shadow-color);
@@ -239,6 +244,7 @@ section h2 {
 
     & thead th {
       font-size: 1.6rem;
+      background-color: var(--bg-color);
     }
 
     & tbody td {

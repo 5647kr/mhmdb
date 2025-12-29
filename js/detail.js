@@ -42,6 +42,7 @@ async function fetchInitialContent() {
     findContentData();
 
     if (content) {
+      document.title = `MHMWIKI - ${content.name}`
       createContent();
     }
   } catch (error) {
@@ -178,6 +179,8 @@ function createContent() {
     seriesArr.forEach((item) => {
       if (i + 1 === parseInt(item.series)) {
         const strong = document.createElement("strong");
+        const abbr = document.createElement("abbr");
+        abbr.title = item.fullName;
         strong.textContent = item.title;
         strong.id = item.id;
 
@@ -187,7 +190,9 @@ function createContent() {
           strong.classList.add("title");
         }
 
-        titleWrap.appendChild(strong);
+        abbr.appendChild(strong);
+
+        titleWrap.appendChild(abbr);
       }
     });
 
