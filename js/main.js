@@ -4,12 +4,13 @@ const main = document.querySelector("main");
 // const noticeWrap = main.querySelector("#notice");
 const searchWrap = main.querySelector("#search");
 const contentWrap = main.querySelector("#content");
-const contentLength = contentWrap.querySelector(".contentLength");
 const filterWrap = main.querySelector("#filter");
 
+const contentLength = searchWrap.querySelector(".contentLength");
 const searchBtn = searchWrap.querySelector("button");
 const filterBtn = searchWrap.querySelector(".filterBtn");
 const closeBtn = filterWrap.querySelector(".closeBtn");
+const layoutBtns = searchWrap.querySelectorAll(".layoutBtn button");
 const topBtn = main.querySelector(".topBtn");
 
 // 데이터 배열
@@ -26,6 +27,7 @@ let isContentLoading = false;
 // 필터링 기능을 위한 변수
 let filterTypeArr = JSON.parse(localStorage.getItem("typeFilter")) || [];
 let filterSeriesArr = JSON.parse(localStorage.getItem("seriesFilter")) || [];
+let layoutState = localStorage.getItem("layoutState") || "grid";
 
 // 이미지URL
 const BASE_URL =
@@ -36,6 +38,7 @@ async function fetchInitialContent() {
 
   contentFilterState();
   restoreScrollState();
+  manageLayoutState();
 
   window.addEventListener("scroll", contentInfiniteScroll);
 }
@@ -133,27 +136,41 @@ function createContentItem(content) {
         ? `<strong data-content="${item.title}">${item.title}</strong>`
         : "";
 
-    let liContent = `
-    <a href="/detail.html?id=${item.id}">
-      <div class="itemWrap ${isTitle ? "title" : ""}">
-        <div class="itemBg">
-          ${titleHTML}
-          <img src="${BASE_URL}${item.icon}" alt="${
-      item.name
-    }" loading="lazy" />
+    if (layoutState === "grid") {
+      li.className = "gridItem";
+      li.innerHTML = `
+      <a href="/detail.html?id=${item.id}">
+        <div class="itemWrap ${isTitle ? "title" : ""}">
+          <div class="itemBg">
+            ${titleHTML}
+            <img src="${BASE_URL}${item.icon}" alt="${
+        item.name
+      }" loading="lazy" />
+          </div>
+          <div class="itemContent">
+            <h3>${item.name}</h3>
+            <p>${item.type.split("/")[0]}</p>
+          </div>
         </div>
-        <div class="itemContent">
-          <h3>${item.name}</h3>
-          <p>${item.type.split("/")[0]}</p>
-        </div>
-      </div>
-    </a>
-  `;
+      </a>
+    `;
 
-    li.innerHTML = liContent;
-
-    const itemBg = li.querySelector(".itemBg");
-    itemBg.style.setProperty("--bg", item.color);
+      const itemBg = li.querySelector(".itemBg");
+      itemBg.style.setProperty("--bg", item.color);
+    } else {
+      li.className = "listItem";
+      li.innerHTML = `
+        <a href="./detail.html?id=${item.id}">
+          <div class="itemWrap">
+            <img src="${BASE_URL}${item.icon}" alt="${item.name}" />
+            <div class="itemContent">
+              <p>${item.type.split("/")[0]}</p>
+              <h3>${item.name}</h3>
+            </div>
+          </div>
+        </a>
+      `;
+    }
 
     fragment.appendChild(li);
   });
@@ -321,7 +338,7 @@ function contentFilter(userAction = true) {
 
   if (userAction) {
     sessionStorage.clear();
-    moveTop();
+    moveTop(552.5);
   }
 }
 
@@ -409,16 +426,61 @@ function createSearchListItem(value) {
 
 closeBtn.addEventListener("click", () => {
   contentFilter(true);
-  moveTop();
+  moveTop(552.5);
   filterWrap.classList.remove("active");
   document.body.style.overflow = "visible";
 });
 
 // top버튼 클릭시 최상단으로 이동
 topBtn.addEventListener("click", () => {
-  moveTop();
+  moveTop(0);
 });
 
-function moveTop() {
-  window.scrollTo({ top: 0, behavior: "smooth" });
+function moveTop(yScale) {
+  window.scrollTo({ top: yScale, behavior: "smooth" });
+}
+
+const listBtn = searchWrap.querySelector(".list");
+const gridBtn = searchWrap.querySelector(".grid");
+
+[listBtn, gridBtn].forEach((btn) => {
+  btn.addEventListener("click", (e) => {
+    const selectedLayout = e.currentTarget.classList.contains("list")
+      ? "list"
+      : "grid";
+    if (layoutState === selectedLayout) return;
+
+    layoutState = selectedLayout;
+    updateLayout();
+
+    setTimeout(() => moveTop(552.5), 50);
+  });
+});
+
+function updateLayout() {
+  resetLayoutState();
+  manageLayoutState();
+
+  localStorage.setItem("layoutState", layoutState);
+
+  const listElement = contentWrap.querySelector("ul");
+  listElement.innerHTML = "";
+  loadedCount = 0;
+  isContentLast = false;
+
+  displayContentItem();
+}
+
+function resetLayoutState() {
+  layoutBtns.forEach((btn) => {
+    btn.classList.remove("active");
+  });
+}
+
+function manageLayoutState() {
+  if (layoutState === "grid") {
+    gridBtn.classList.add("active");
+  } else {
+    listBtn.classList.add("active");
+  }
 }
