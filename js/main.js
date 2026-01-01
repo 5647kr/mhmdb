@@ -41,7 +41,7 @@ async function fetchInitialContent() {
   contentFilterState();
   restoreScrollState();
   manageLayoutState();
-  initBanner()
+  initBanner();
 
   window.addEventListener("scroll", contentInfiniteScroll);
 }
@@ -455,7 +455,7 @@ const gridBtn = searchWrap.querySelector(".grid");
     layoutState = selectedLayout;
     updateLayout();
 
-    setTimeout(() => bannerState ? moveTop(592.5) : moveTop(120), 50);
+    setTimeout(() => (bannerState ? moveTop(592.5) : moveTop(120)), 50);
   });
 });
 
@@ -493,21 +493,20 @@ bannerBtn.addEventListener("click", () => {
   bannerState = String(bannerState) === "true" ? false : true;
 
   bannerWrap.classList.toggle("active", bannerState);
-
-  bannerBtn.textContent = bannerState ? "배너 닫기" : "배너 열기"
+  bannerBtn.textContent = bannerState ? "배너 닫기" : "배너 열기";
 
   localStorage.setItem("bannerActive", bannerState);
-  
 });
 
 function initBanner() {
   const bannerWrap = noticeWrap.querySelector(".noticeWrap");
-  
+
   if (localStorage.getItem("bannerActive") === "false") {
     bannerState = false;
   } else {
     bannerState = true;
   }
-
+  
+  bannerBtn.textContent = bannerState ? "배너 닫기" : "배너 열기";
   bannerWrap.classList.toggle("active", bannerState);
 }
