@@ -114,6 +114,15 @@ function displayContentItem() {
   contentLength.innerHTML = `검색결과: <strong>${displayArr.length}</strong>`;
 
   isContentLoading = false;
+
+  requestAnimationFrame(() => {
+    if (
+      !isContentLast &&
+      document.documentElement.scrollHeight <= window.innerHeight
+    ) {
+      displayContentItem();
+    }
+  });
 }
 
 // 컨텐츠 생성 함수
@@ -325,6 +334,8 @@ function contentFilter(userAction = true) {
   isContentLast = false;
   isContentLoading = false;
 
+  contentFilterState();
+
   if (displayArr.length === 0) {
     const warnItem = `
       <li class="warnItem">
@@ -335,7 +346,6 @@ function contentFilter(userAction = true) {
 
     contentLength.innerHTML = `검색결과: <strong>0<strong>`;
   } else {
-    contentFilterState();
     displayContentItem();
   }
 
@@ -506,7 +516,7 @@ function initBanner() {
   } else {
     bannerState = true;
   }
-  
+
   bannerBtn.textContent = bannerState ? "배너 닫기" : "배너 열기";
   bannerWrap.classList.toggle("active", bannerState);
 }
