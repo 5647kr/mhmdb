@@ -19,18 +19,48 @@
 
 #notice {
   margin-inline: -1.6rem;
+  position: relative;
 
   .noticeWrap {
     width: 100%;
-    height: 50vh;
-    max-height: 50vh;
+    height: 0;
+    max-height: 0;
     background-color: #191b1d;
 
     & img {
       width: 100%;
-      height: 50vh;
+      height: 0;
       max-height: 50vh;
       object-fit: contain;
+    }
+  }
+
+  .noticeWrap.active {
+    height: 50vh;
+    max-height: 50vh;
+
+    & img {
+      height: 50vh;
+    }
+  }
+
+  .noticeBtn {
+    position: absolute;
+    background-color: var(--sub-color);
+    height: 4rem;
+    bottom: -40px;
+    right: 0;
+    width: 100%;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    z-index: 30;
+
+    & i {
+      color: var(--white-color);
     }
   }
 }
@@ -42,8 +72,8 @@
   position: sticky;
   top: 0;
   z-index: 10;
-  /* box-shadow: 0 4px 6px var(--shadow-color); */
   border-bottom: 1px solid var(--shadow-color);
+  margin-top: 4rem;
 
   .filterBtn,
   .layoutBtn {
@@ -94,7 +124,7 @@
 
 #content {
   position: relative;
-  padding-block: 2rem;
+  padding-block: 4rem;
   & ul {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
