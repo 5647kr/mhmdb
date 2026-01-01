@@ -357,7 +357,6 @@ const searchInput = searchWrap.querySelector("input");
 searchInput.addEventListener("input", (e) => {
   const value = e.target.value;
 
-  console.log(value);
   searchContent(value);
   createSearchListItem(value);
 });
