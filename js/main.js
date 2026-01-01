@@ -351,7 +351,7 @@ function contentFilter(userAction = true) {
 
   if (userAction) {
     sessionStorage.clear();
-    bannerState ? moveTop(592.5) : moveTop(120);
+    bannerState ? moveTop(592.5) : moveTop(0);
   }
 }
 
@@ -438,7 +438,7 @@ function createSearchListItem(value) {
 
 closeBtn.addEventListener("click", () => {
   contentFilter(true);
-  bannerState ? moveTop(592.5) : moveTop(120);
+  bannerState ? moveTop(592.5) : moveTop(0);
   filterWrap.classList.remove("active");
   document.body.style.overflow = "visible";
 });
@@ -465,7 +465,7 @@ const gridBtn = searchWrap.querySelector(".grid");
     layoutState = selectedLayout;
     updateLayout();
 
-    setTimeout(() => (bannerState ? moveTop(592.5) : moveTop(120)), 50);
+    setTimeout(() => (bannerState ? moveTop(592.5) : moveTop(0)), 50);
   });
 });
 
