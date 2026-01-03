@@ -24,7 +24,7 @@
       top: 62px;
 
       & ul {
-        width: 50%;
+        width: 35%;
         max-height: 40rem;
         & a {
           padding-block: 2rem;
