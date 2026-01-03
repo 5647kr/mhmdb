@@ -23,43 +23,44 @@
 
   .noticeWrap {
     width: 100%;
-    height: 0;
-    max-height: 0;
+    height: 50vh;
+    max-height: 50vh;
+    position: relative;
 
     & img {
       width: 100%;
-      height: 0;
+      height: 50vh;
       max-height: 50vh;
       object-fit: cover;
     }
-  }
 
-  .noticeWrap.active {
-    height: 50vh;
-    max-height: 50vh;
-
-    & img {
+    & .noticeTitle {
+      position: absolute;
+      width: 100%;
       height: 50vh;
-    }
-  }
+      left: 0;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      box-shadow: inset 0 0 10px red;
 
-  .noticeBtn {
-    position: absolute;
-    background-color: var(--sub-color);
-    height: 4rem;
-    bottom: -40px;
-    right: 0;
-    width: 100%;
-    color: var(--white-color);
-    font-size: 1.6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    z-index: 20;
+      & h2 {
+        position: absolute;
+        bottom: 4rem;
+        left: 4rem;
+        font-weight: var(--font-ebw);
+        color: var(--white-color);
+        z-index: 0;
+      }
 
-    & i {
-      color: var(--white-color);
+      & h2::before {
+        z-index: -1;
+        content: attr(data-content);
+        position: absolute;
+        left: 0;
+        -webkit-text-stroke: 4px var(--sub-color);
+        white-space: pre-wrap;
+        width: 100%;
+      }
     }
   }
 }

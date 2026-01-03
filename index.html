@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/css/common.css" />
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/query.css" />
-    <link rel="icon" href="./img/조사단.webp">
+    <link rel="icon" href="./img/조사단.webp" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -26,17 +26,21 @@
       <!-- 공지사항 -->
       <section id="notice">
         <div class="noticeWrap">
-          <a href="https://discord.com/invite/rBVg4XbAmq" target="_blank">
-            <picture>
-              <source srcset="/img/4k.webp" media="(min-width: 1440px)" />
-              <source srcset="/img/pc.webp" media="(min-width: 1025px)" />
-              <source srcset="/img/notebook.webp" media="(min-width: 769px)" />
-              <source srcset="/img/tablet.webp" media="(min-width: 481px)" />
-              <img src="/img/mobile.webp" alt="정보, 오류 제보 받아요 배너" />
-            </picture>
-          </a>
+          <picture>
+            <source srcset="./img/4k.webp" media="(min-width: 1440px)" />
+            <source srcset="./img/pc.webp" media="(min-width: 1025px)" />
+            <source srcset="./img/notebook.webp" media="(min-width: 769px)" />
+            <source srcset="./img/tablet.webp" media="(min-width: 481px)" />
+            <img src="./img/mobile.webp" alt="정보, 오류 제보 받아요 배너" />
+          </picture>
+          <div class="noticeTitle">
+            <h2 data-content="MHMWIKI는&#10;몬스터 헌터부터 몬스터 헌터 와일즈까지&#10;모든 대형 몬스터의 최신 정보를 제공합니다.">
+              MHMWIKI는 <br />
+              몬스터 헌터부터 몬스터 헌터 와일즈까지 <br />
+              모든 대형 몬스터의 최신 정보를 제공합니다.
+            </h2>
+          </div>
         </div>
-        <button class="noticeBtn"></button>
       </section>
 
       <!-- 검색창 -->
