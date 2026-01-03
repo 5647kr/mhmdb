@@ -115,8 +115,8 @@ i {
       width: 35%;
       max-height: 40rem;
 
-      & li {
-        border-bottom: 1px solid var(--shadow-color);
+      & li:not(:first-child) {
+        border-top: 1px solid var(--shadow-color);
       }
       & a {
         padding-block: 2rem;
