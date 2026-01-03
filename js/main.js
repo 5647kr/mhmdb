@@ -1,14 +1,12 @@
 import { fetchContentData, fetchFilterData } from "./fetch.js";
 
 const main = document.querySelector("main");
-const noticeWrap = main.querySelector("#notice");
 const searchWrap = main.querySelector("#search");
 const contentWrap = main.querySelector("#content");
 const filterWrap = main.querySelector("#filter");
 
 const contentLength = searchWrap.querySelector(".contentLength");
 const searchBtn = searchWrap.querySelector("button");
-const bannerBtn = noticeWrap.querySelector("button");
 const filterBtn = searchWrap.querySelector(".filterBtn");
 const closeBtn = filterWrap.querySelector(".closeBtn");
 const layoutBtns = searchWrap.querySelectorAll(".layoutBtn button");
@@ -29,7 +27,6 @@ let isContentLoading = false;
 let filterTypeArr = JSON.parse(localStorage.getItem("typeFilter")) || [];
 let filterSeriesArr = JSON.parse(localStorage.getItem("seriesFilter")) || [];
 let layoutState = localStorage.getItem("layoutState") || "grid";
-let bannerState = localStorage.getItem("bannerActive") || "true";
 
 // 이미지URL
 const BASE_URL =
@@ -41,7 +38,6 @@ async function fetchInitialContent() {
   contentFilterState();
   restoreScrollState();
   manageLayoutState();
-  initBanner();
 
   window.addEventListener("scroll", contentInfiniteScroll);
 }
@@ -351,7 +347,7 @@ function contentFilter(userAction = true) {
 
   if (userAction) {
     sessionStorage.clear();
-    bannerState ? moveTop(592.5) : moveTop(0);
+    moveTop(552.5);
   }
 }
 
@@ -438,7 +434,7 @@ function createSearchListItem(value) {
 
 closeBtn.addEventListener("click", () => {
   contentFilter(true);
-  bannerState ? moveTop(592.5) : moveTop(0);
+  moveTop(552.5);
   filterWrap.classList.remove("active");
   document.body.style.overflow = "visible";
 });
@@ -465,7 +461,7 @@ const gridBtn = searchWrap.querySelector(".grid");
     layoutState = selectedLayout;
     updateLayout();
 
-    setTimeout(() => (bannerState ? moveTop(592.5) : moveTop(0)), 50);
+    setTimeout(() => moveTop(552.5), 50);
   });
 });
 
@@ -495,28 +491,4 @@ function manageLayoutState() {
   } else {
     listBtn.classList.add("active");
   }
-}
-
-bannerBtn.addEventListener("click", () => {
-  const bannerWrap = noticeWrap.querySelector(".noticeWrap");
-
-  bannerState = String(bannerState) === "true" ? false : true;
-
-  bannerWrap.classList.toggle("active", bannerState);
-  bannerBtn.textContent = bannerState ? "배너 닫기" : "배너 열기";
-
-  localStorage.setItem("bannerActive", bannerState);
-});
-
-function initBanner() {
-  const bannerWrap = noticeWrap.querySelector(".noticeWrap");
-
-  if (localStorage.getItem("bannerActive") === "false") {
-    bannerState = false;
-  } else {
-    bannerState = true;
-  }
-
-  bannerBtn.textContent = bannerState ? "배너 닫기" : "배너 열기";
-  bannerWrap.classList.toggle("active", bannerState);
 }
