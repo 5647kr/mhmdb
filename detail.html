@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/detail.css" />
     <link rel="stylesheet" href="css/query.css" />
-    <link rel="icon" href="./img/조사단.webp">
+    <link rel="icon" href="./img/조사단.webp" />
+    <link rel="modulepreload" href="./js/fetch.js" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -50,7 +51,9 @@
       </section>
 
       <!-- 이미지 섹션 -->
-      <section id="image"></section>
+      <section id="image">
+        <div></div>
+      </section>
 
       <!-- 기본정보 섹션 -->
       <section id="basicInfo">
@@ -71,14 +74,16 @@
           <thead>
             <tr>
               <th>부위</th>
-              <th>참격</th>
-              <th>타격</th>
-              <th>탄, 활</th>
-              <th>불</th>
-              <th>물</th>
-              <th>번개</th>
-              <th>얼음</th>
-              <th>용</th>
+              <th>
+                <img src="./img/icon/참격.webp" alt="참격" />
+              </th>
+              <th><img src="./img/icon/타격.webp" alt="타격" /></th>
+              <th><img src="./img/icon/탄활.webp" alt="탄활" /></th>
+              <th><img src="./img/icon/불.webp" alt="불" /></th>
+              <th><img src="./img/icon/물.webp" alt="물" /></th>
+              <th><img src="./img/icon/번개.webp" alt="번개" /></th>
+              <th><img src="./img/icon/얼음.webp" alt="얼음" /></th>
+              <th><img src="./img/icon/용.webp" alt="용" /></th>
             </tr>
           </thead>
           <tbody></tbody>
