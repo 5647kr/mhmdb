@@ -4,7 +4,7 @@ const main = document.querySelector("main");
 const searchWrap = document.querySelector("#search");
 const navigateWrap = main.querySelector("#navigate");
 const titleWrap = main.querySelector("#title");
-const imgWrap = main.querySelector("#image");
+const imgWrap = main.querySelector("#image div");
 const basicInfoWrap = main.querySelector("#basicInfo");
 const seriesInfoWrap = main.querySelector("#seriesInfo");
 const weakWrap = main.querySelector("#weakInfo");
@@ -42,7 +42,7 @@ async function fetchInitialContent() {
     findContentData();
 
     if (content) {
-      document.title = `MHMWIKI - ${content.name}`
+      document.title = `MHMWIKI - ${content.name}`;
       createContent();
     }
   } catch (error) {
@@ -103,6 +103,24 @@ function createNavElement(prev, next) {
   return navContent;
 }
 
+function createIconImg(dataString) {
+  if (!dataString || dataString === "-" || dataString === "없음")
+    return "<span>-</span>";
+
+  const items = dataString.split(", ");
+
+  return items
+    .map((item) => {
+      const fileName = item.trim();
+      return `
+      <abbr title="${fileName}">
+        <img src="./img/icon/${fileName}.webp" alt="${fileName}" />
+      </abbr>
+      `;
+    })
+    .join("");
+}
+
 function createContent() {
   // 타이틀 섹션
   const title = titleWrap.querySelector("h2");
@@ -110,15 +128,18 @@ function createContent() {
 
   // 이미지 섹션
   const imgContent = `
-    <div>
-      <img src="${BASE_URL}${content.img}" alt=${content.name} loading="lazy" >
-      <p>${content.small} ~ ${content.large}</p>
-    </div>
+    <img src="${BASE_URL}${content.img}" alt=${content.name} fetchpriority="high" 
+    decoding="async" />
+    <p>${content.small} ~ ${content.large}</p>
   `;
   imgWrap.innerHTML = imgContent;
 
   // 기본정보 섹션
   const infoList = basicInfoWrap.querySelector(".infoList");
+
+  const elementIcons = createIconImg(content.element);
+  const ailmentIcons = createIconImg(content.ailment);
+  const weakElIcons = createIconImg(content.weakEl);
 
   const infoContent = `
   <li class="type">
@@ -148,15 +169,15 @@ function createContent() {
   </li>
   <li class="element">
     <h3>속성</h3>
-    <p>${content.element}</p>
+    <div>${elementIcons}</div>
   </li>
   <li class="ailment">
     <h3>상태이상</h3>
-    <p>${content.ailment}</p>
+    <div>${ailmentIcons}</div>
   </li>
   <li class="weakEl">
     <h3>약점 속성</h3>
-    <p>${content.weakEl}</p>
+    <div>${weakElIcons}</div>
   </li>
   `;
 
@@ -197,9 +218,9 @@ function createContent() {
     });
 
     li.appendChild(titleWrap);
-    seriesFragment.appendChild(li)
+    seriesFragment.appendChild(li);
   }
-  seriesList.innerHTML = ""
+  seriesList.innerHTML = "";
   seriesList.appendChild(seriesFragment);
 
   // 약점정보 섹션
@@ -213,10 +234,9 @@ function createContent() {
       td.innerHTML = item[key];
       tr.appendChild(td);
     }
-    weakFragment.appendChild(tr)
+    weakFragment.appendChild(tr);
   });
   weakTable.appendChild(weakFragment);
-
 
   // 생태정보 섹션
   const ecoContent = ecoWrap.querySelector("div");
@@ -229,7 +249,7 @@ function createContent() {
   relateList.innerHTML = "";
 
   if (relateArr.length > 0) {
-    const fragment = document.createDocumentFragment()
+    const fragment = document.createDocumentFragment();
     relateArr.forEach((relate) => {
       const item = document.createElement("li");
 
@@ -241,7 +261,7 @@ function createContent() {
       `;
 
       item.innerHTML = itemContent;
-      fragment.appendChild(item)
+      fragment.appendChild(item);
     });
     relateList.appendChild(fragment);
   } else {
@@ -347,7 +367,7 @@ function createSearchListItem(value) {
       `;
 
     li.innerHTML = searchItem;
-    fragment.appendChild(li)
+    fragment.appendChild(li);
   });
   searchList.appendChild(fragment);
 }
